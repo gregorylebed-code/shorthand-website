@@ -126,10 +126,9 @@ export default function Home() {
         <div className="hero-canvas"><SplineHero /></div>
         <div className="hero-content">
           <div className="hero-eyebrow">No App Store &nbsp;·&nbsp; Works on Any Device</div>
-          <h1>The fastest way<br />to <em>know</em> your students</h1>
+          <h1>Stop drowning in paperwork.<br /><em>Start actually teaching.</em></h1>
           <p className="hero-sub">
-            Quick notes, AI-written reports, and parent emails — all in seconds.
-            Built by a 3rd-grade teacher who gets it.
+            Tap a student. Type a note. Done in 5 seconds — even on your busiest day. When it&apos;s time to reach out to parents, ShortHand turns your notes into polished, professional reports and emails instantly. No more forgetting. No more 4 PM paperwork. And when students know you&apos;re tracking? Behavior improves.
           </p>
           <div className="hero-ctas">
             <motion.a
