@@ -58,7 +58,7 @@ export default function HowItWorksPage() {
               <div key={v.id} className="video-card">
                 <div className="video-frame-wrap">
                   <iframe
-                    src={`https://www.youtube.com/embed/${v.id}`}
+                    src={`https://www.youtube.com/embed/${v.id}?enablejsapi=1`}
                     title={v.title}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

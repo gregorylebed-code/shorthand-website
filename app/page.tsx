@@ -109,7 +109,11 @@ export default function Home() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-<motion.a
+          <div className="nav-links">
+            <a href="#features" className="nav-link">Features</a>
+            <a href="/how-it-works" className="nav-link">How It Works</a>
+          </div>
+          <motion.a
             href="/install"
             className="btn-primary"
             whileHover={btnHover}
