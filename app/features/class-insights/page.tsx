@@ -40,13 +40,11 @@ export default function ClassInsightsPage() {
           any spare five minutes — built around what your specific class actually needs right now.
         </p>
 
-        <video
-          src="/ShortHand%20class%20insights.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          style={{ borderRadius: '20px', maxWidth: '360px', width: '100%', aspectRatio: '9/16', objectFit: 'cover', border: '1px solid var(--border-bright)' }}
+        <iframe
+          src="https://www.youtube.com/embed/FjKXfKskJWE?enablejsapi=1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          style={{ borderRadius: '20px', maxWidth: '360px', width: '100%', aspectRatio: '9/16', border: '1px solid var(--border-bright)' }}
         />
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
       </div>

@@ -38,13 +38,11 @@ export default function ParentEmailsPage() {
           every time.
         </p>
 
-        <video
-          src="/ShortHand%20parent%20email.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          style={{ borderRadius: '20px', maxWidth: '360px', width: '100%', aspectRatio: '9/16', objectFit: 'cover', border: '1px solid var(--border-bright)' }}
+        <iframe
+          src="https://www.youtube.com/embed/rmwQggu56Fo?enablejsapi=1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          style={{ borderRadius: '20px', maxWidth: '360px', width: '100%', aspectRatio: '9/16', border: '1px solid var(--border-bright)' }}
         />
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
       </div>

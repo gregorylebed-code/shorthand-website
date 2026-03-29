@@ -39,13 +39,11 @@ export default function ClassNotesPage() {
           patterns you&apos;d never notice day to day but can&apos;t unsee once you see them.
         </p>
 
-        <video
-          src="/ShortHand%20class%20note.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          style={{ borderRadius: '20px', maxWidth: '360px', width: '100%', aspectRatio: '9/16', objectFit: 'cover', border: '1px solid var(--border-bright)' }}
+        <iframe
+          src="https://www.youtube.com/embed/XCYl7TOolaQ?enablejsapi=1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          style={{ borderRadius: '20px', maxWidth: '360px', width: '100%', aspectRatio: '9/16', border: '1px solid var(--border-bright)' }}
         />
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
       </div>
