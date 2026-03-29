@@ -142,7 +142,7 @@ export default function Home() {
               Get ShortHand →
             </motion.a>
             <motion.a
-              href="#features"
+              href="/how-it-works"
               className="btn-ghost"
               whileHover={{ scale: 1.03, y: -1 }}
               whileTap={btnTap}

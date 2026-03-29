@@ -110,20 +110,14 @@ export default function InstallPage() {
       <div className="videos-section" style={{ paddingTop: '3rem' }}>
         <div className="section-inner">
           <div className="videos-header">
-            <div className="section-label">Getting Started</div>
-            <h2 className="section-heading">Watch How It Works</h2>
-            <p className="section-sub">Short videos to get you up and running in minutes.</p>
+            <div className="section-label">Install Walkthrough</div>
+            <h2 className="section-heading">Watch the Install</h2>
+            <p className="section-sub">Step-by-step video for iPhone and Android.</p>
           </div>
           <div className="videos-grid">
             {[
               { id: 'vxgDMU3qpn4', title: 'Install on iPhone' },
               { id: 'cJ-PlHk0diw', title: 'Install on Android' },
-              { id: 'p8xubsh52SM', title: 'Welcome — Part 1' },
-              { id: 'IEG8K4ivUjw', title: 'Welcome — Part 2' },
-              { id: 'Znn8IT0o6kM', title: 'Welcome — Part 3' },
-              { id: 'x0OfxlJ4p8E', title: 'Welcome — Part 4' },
-              { id: 'aA0yu7wpbVM', title: 'Welcome — Part 5' },
-              { id: 'sZYdBJ13GOw', title: 'Welcome — Part 6' },
             ].map((v) => (
               <div key={v.id} className="video-card">
                 <div className="video-frame-wrap">
