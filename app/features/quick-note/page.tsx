@@ -39,7 +39,7 @@ export default function QuickNotePage() {
         </p>
 
         <video
-          src="/ShortHand quick notes.mp4"
+          src="/ShortHand%20quick%20notes.mp4"
           autoPlay
           loop
           muted

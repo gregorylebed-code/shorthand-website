@@ -41,7 +41,7 @@ export default function ClassInsightsPage() {
         </p>
 
         <video
-          src="/ShortHand class insights.mp4"
+          src="/ShortHand%20class%20insights.mp4"
           autoPlay
           loop
           muted

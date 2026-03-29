@@ -39,7 +39,7 @@ export default function ParentEmailsPage() {
         </p>
 
         <video
-          src="/ShortHand parent email.mp4"
+          src="/ShortHand%20parent%20email.mp4"
           autoPlay
           loop
           muted

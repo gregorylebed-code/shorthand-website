@@ -39,7 +39,7 @@ export default function RefineWithAIPage() {
         </p>
 
         <video
-          src="/ShortHand refine summary .mp4"
+          src="/ShortHand%20refine%20summary%20.mp4"
           autoPlay
           loop
           muted

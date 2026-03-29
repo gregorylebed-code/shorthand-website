@@ -40,7 +40,7 @@ export default function ClassNotesPage() {
         </p>
 
         <video
-          src="/ShortHand class note.mp4"
+          src="/ShortHand%20class%20note.mp4"
           autoPlay
           loop
           muted

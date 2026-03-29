@@ -39,7 +39,7 @@ export default function AIReportsPage() {
         </p>
 
         <video
-          src="/ShortHand AI report.mp4"
+          src="/ShortHand%20AI%20report.mp4"
           autoPlay
           loop
           muted
