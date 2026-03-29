@@ -232,8 +232,13 @@ export default function Home() {
       <section className="creator-section">
         <div className="section-inner">
           <div ref={creatorRef} className="creator-card">
-            <div className="creator-eyebrow">BUILT BY A TEACHER. FOR TEACHERS.</div>
-            <h2 className="creator-heading">A Message from the Creator</h2>
+            <div className="creator-top">
+              <img src="/creator.jpg" alt="Gregory, creator of ShortHand" className="creator-photo" />
+              <div>
+                <div className="creator-eyebrow">BUILT BY A TEACHER. FOR TEACHERS.</div>
+                <h2 className="creator-heading">A Message from the Creator</h2>
+              </div>
+            </div>
             <p className="creator-body">
               I have spent over 20 years in the classroom. Before I became a 3rd grade teacher,
               I worked as a one-to-one aide and a Registered Behavior Technician. I know exactly
