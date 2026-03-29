@@ -8,17 +8,6 @@ import AnimatedLogo from '../components/AnimatedLogo';
 const SplineHero = dynamic(() => import('../components/SplineHero'), { ssr: false });
 const GlobeCanvas = dynamic(() => import('../components/GlobeCanvas'), { ssr: false });
 
-const videos = [
-  { id: 'vxgDMU3qpn4', title: 'Install on iPhone' },
-  { id: 'cJ-PlHk0diw', title: 'Install on Android' },
-  { id: 'p8xubsh52SM', title: 'Welcome — Part 1' },
-  { id: 'IEG8K4ivUjw', title: 'Welcome — Part 2' },
-  { id: 'Znn8IT0o6kM', title: 'Welcome — Part 3' },
-  { id: 'x0OfxlJ4p8E', title: 'Welcome — Part 4' },
-  { id: 'aA0yu7wpbVM', title: 'Welcome — Part 5' },
-  { id: 'sZYdBJ13GOw', title: 'Welcome — Part 6' },
-];
-
 const features = [
   { slug: 'quick-note',        icon: '✏️', title: 'Quick Note',         desc: 'Tap a student, type a note, done in 5 seconds. No menus, no friction — just fast.' },
   { slug: 'ai-reports',        icon: '📄', title: 'AI Reports',          desc: 'Turn weeks of notes into polished, professional behavior reports in one tap.' },
@@ -33,9 +22,7 @@ const btnHover = { scale: 1.04, y: -2 };
 
 export default function Home() {
   const featuresRef   = useRef<HTMLDivElement>(null);
-  const videosRef     = useRef<HTMLDivElement>(null);
   const statsRef      = useRef<HTMLDivElement>(null);
-  const testimonialRef = useRef<HTMLDivElement>(null);
   const ctaRef        = useRef<HTMLDivElement>(null);
   const creatorRef    = useRef<HTMLDivElement>(null);
 
@@ -70,20 +57,6 @@ export default function Home() {
           }
         }
 
-        // Videos — staggered fade in
-        if (videosRef.current) {
-          const cards = videosRef.current.querySelectorAll<HTMLElement>('.video-card');
-          gsap.fromTo(cards,
-            { opacity: 0, y: 36 },
-            {
-              opacity: 1, y: 0,
-              duration: 0.55, ease: 'power3.out',
-              stagger: 0.08,
-              scrollTrigger: { trigger: videosRef.current, start: 'top 82%' },
-            }
-          );
-        }
-
         // Stats — scale up from slightly small
         if (statsRef.current) {
           const items = statsRef.current.querySelectorAll<HTMLElement>('.stat-item');
@@ -95,15 +68,6 @@ export default function Home() {
               stagger: 0.12,
               scrollTrigger: { trigger: statsRef.current, start: 'top 82%' },
             }
-          );
-        }
-
-        // Testimonial — fade + slight scale
-        if (testimonialRef.current) {
-          gsap.fromTo(testimonialRef.current,
-            { opacity: 0, scale: 0.97, y: 28 },
-            { opacity: 1, scale: 1, y: 0, duration: 0.75, ease: 'power3.out',
-              scrollTrigger: { trigger: testimonialRef.current, start: 'top 82%' } }
           );
         }
 
@@ -145,8 +109,7 @@ export default function Home() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <a href="#getting-started" className="nav-link">Getting Started</a>
-          <motion.a
+<motion.a
             href="/install"
             className="btn-primary"
             whileHover={btnHover}
@@ -218,33 +181,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* GETTING STARTED VIDEOS */}
-      <section id="getting-started" className="videos-section">
-        <div className="section-inner">
-          <div className="videos-header">
-            <div className="section-label">Getting Started</div>
-            <h2 className="section-heading">Watch How It Works</h2>
-            <p className="section-sub">Short videos to get you up and running in minutes.</p>
-          </div>
-          <div className="videos-grid" ref={videosRef}>
-            {videos.map((v) => (
-              <div key={v.id} className="video-card">
-                <div className="video-frame-wrap">
-                  <iframe
-                    src={`https://www.youtube.com/embed/${v.id}`}
-                    title={v.title}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    loading="lazy"
-                  />
-                </div>
-                <div className="video-title">{v.title}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* STATS */}
       <section className="stats-section">
         <div className="section-inner">
@@ -260,24 +196,6 @@ export default function Home() {
             <div className="stat-item">
               <div className="stat-number"><span>Zero</span> install</div>
               <div className="stat-label">no app store required</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* TESTIMONIAL */}
-      <section className="testimonial-section">
-        <div className="section-inner">
-          <div ref={testimonialRef}>
-            <div className="testimonial-card">
-              <p className="testimonial-quote">
-                &ldquo;I used to spend Sunday nights writing behavior reports.
-                Now it takes 10 minutes.&rdquo;
-              </p>
-              <div className="testimonial-author">
-                <span className="status-dot" />
-                — A 3rd grade teacher
-              </div>
             </div>
           </div>
         </div>

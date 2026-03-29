@@ -107,6 +107,41 @@ export default function InstallPage() {
         </AnimatePresence>
       </div>
 
+      <div className="videos-section" style={{ paddingTop: '3rem' }}>
+        <div className="section-inner">
+          <div className="videos-header">
+            <div className="section-label">Getting Started</div>
+            <h2 className="section-heading">Watch How It Works</h2>
+            <p className="section-sub">Short videos to get you up and running in minutes.</p>
+          </div>
+          <div className="videos-grid">
+            {[
+              { id: 'vxgDMU3qpn4', title: 'Install on iPhone' },
+              { id: 'cJ-PlHk0diw', title: 'Install on Android' },
+              { id: 'p8xubsh52SM', title: 'Welcome — Part 1' },
+              { id: 'IEG8K4ivUjw', title: 'Welcome — Part 2' },
+              { id: 'Znn8IT0o6kM', title: 'Welcome — Part 3' },
+              { id: 'x0OfxlJ4p8E', title: 'Welcome — Part 4' },
+              { id: 'aA0yu7wpbVM', title: 'Welcome — Part 5' },
+              { id: 'sZYdBJ13GOw', title: 'Welcome — Part 6' },
+            ].map((v) => (
+              <div key={v.id} className="video-card">
+                <div className="video-frame-wrap">
+                  <iframe
+                    src={`https://www.youtube.com/embed/${v.id}`}
+                    title={v.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    loading="lazy"
+                  />
+                </div>
+                <div className="video-title">{v.title}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to open the app?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
