@@ -226,7 +226,10 @@ section { position: relative; z-index: 1; }
 .card-icon {
   width: 48px; height: 48px; border-radius: 12px;
   display: flex; align-items: center; justify-content: center;
-  font-size: 1.5rem; margin-bottom: 24px;
+  margin-bottom: 24px;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 1px solid var(--accent-border);
   background: var(--surface3); border: 1px solid var(--border);
 }
 .card-title {
@@ -456,7 +459,14 @@ section { position: relative; z-index: 1; }
   backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
 }
 .perspective-card--accent { border-color: var(--accent); }
-.perspective-icon { font-size: 2rem; margin-bottom: 16px; }
+.perspective-icon {
+  width: 52px; height: 52px; border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 16px;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 1px solid var(--accent-border);
+}
 .perspective-title { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 12px; }
 .perspective-desc { font-size: 0.92rem; line-height: 1.65; color: var(--text-dim); }
 

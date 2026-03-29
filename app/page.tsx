@@ -4,17 +4,18 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import AnimatedLogo from '../components/AnimatedLogo';
+import { Pencil, ClipboardList, Mail, Sparkles, School, BarChart2, CalendarDays, Brain, Timer } from 'lucide-react';
 
 const SplineHero = dynamic(() => import('../components/SplineHero'), { ssr: false });
 const GlobeCanvas = dynamic(() => import('../components/GlobeCanvas'), { ssr: false });
 
 const features = [
-  { slug: 'quick-note',        icon: '✏️', title: 'Quick Note',         desc: 'Tap a student, type a note, done in 5 seconds. No menus, no friction — just fast.' },
-  { slug: 'ai-reports',        icon: '📄', title: 'AI Reports',          desc: 'Turn weeks of notes into polished, professional behavior reports in one tap.' },
-  { slug: 'parent-emails',     icon: '✉️', title: 'Parent Emails',       desc: 'Draft a clear, empathetic parent email from your notes — reviewed and sent by you.' },
-  { slug: 'mood-checkins',     icon: '✨', title: 'Refine with AI',      desc: "Don't love the first draft? Ask AI to rewrite it — adjust the tone, length, or focus until it sounds right." },
-  { slug: 'behavior-tracking', icon: '🏫', title: 'Class Notes',          desc: 'Log a note for the whole class — how the energy felt, how a lesson landed, what to remember next time.' },
-  { slug: 'class-insights',    icon: '🧠', title: 'Class Insights',        desc: 'Get an AI summary of how your class has been — then let it suggest and provide SEL mini-lessons tailored to what they need.' },
+  { slug: 'quick-note',        Icon: Pencil,        title: 'Quick Note',      desc: 'Tap a student, type a note, done in 5 seconds. No menus, no friction — just fast.' },
+  { slug: 'ai-reports',        Icon: ClipboardList, title: 'AI Reports',       desc: 'Turn weeks of notes into polished, professional behavior reports in one tap.' },
+  { slug: 'parent-emails',     Icon: Mail,          title: 'Parent Emails',    desc: 'Draft a clear, empathetic parent email from your notes — reviewed and sent by you.' },
+  { slug: 'mood-checkins',     Icon: Sparkles,      title: 'Refine with AI',   desc: "Don't love the first draft? Ask AI to rewrite it — adjust the tone, length, or focus until it sounds right." },
+  { slug: 'behavior-tracking', Icon: School,        title: 'Class Notes',      desc: 'Log a note for the whole class — how the energy felt, how a lesson landed, what to remember next time.' },
+  { slug: 'class-insights',    Icon: BarChart2,     title: 'Class Insights',   desc: 'Get an AI summary of how your class has been — then let it suggest and provide SEL mini-lessons tailored to what they need.' },
 ];
 
 const btnTap   = { scale: 0.96 };
@@ -197,7 +198,7 @@ export default function Home() {
               <motion.div key={f.slug} whileHover={{ y: -6, scale: 1.02 }} whileTap={{ scale: 0.98 }}
                 transition={{ type: 'spring', stiffness: 300, damping: 22 }}>
                 <Link href={`/features/${f.slug}`} className="feature-card">
-                  <div className="card-icon">{f.icon}</div>
+                  <div className="card-icon"><f.Icon size={26} strokeWidth={1.75} /></div>
                   <div className="card-title">{f.title}</div>
                   <p className="card-desc">{f.desc}</p>
                   <span className="card-link">Learn more →</span>
@@ -323,17 +324,17 @@ export default function Home() {
           <h2 className="perspective-heading">Why My Perspective Matters</h2>
           <div className="perspective-grid">
             <div className="perspective-card perspective-card--accent">
-              <div className="perspective-icon">📅</div>
+              <div className="perspective-icon"><CalendarDays size={28} strokeWidth={1.75} /></div>
               <div className="perspective-title">20+ Years of Experience</div>
               <p className="perspective-desc">I&apos;ve seen every classroom trend and every type of paperwork. This app is the solution to problems that actually exist in a real school.</p>
             </div>
             <div className="perspective-card">
-              <div className="perspective-icon">🧠</div>
+              <div className="perspective-icon"><Brain size={28} strokeWidth={1.75} /></div>
               <div className="perspective-title">RBT &amp; Aide Background</div>
               <p className="perspective-desc">My experience in behavior intervention means this app captures the nuances of student behavior that standard gradebooks often miss.</p>
             </div>
             <div className="perspective-card">
-              <div className="perspective-icon">⏱️</div>
+              <div className="perspective-icon"><Timer size={28} strokeWidth={1.75} /></div>
               <div className="perspective-title">Classroom Reality</div>
               <p className="perspective-desc">I know you don&apos;t have ten minutes to log a note. That&apos;s why every feature in this app is built to be finished in seconds.</p>
             </div>
