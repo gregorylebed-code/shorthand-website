@@ -1,7 +1,7 @@
 'use client';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import AnimatedLogo from '../components/AnimatedLogo';
 
@@ -21,10 +21,25 @@ const btnTap   = { scale: 0.96 };
 const btnHover = { scale: 1.04, y: -2 };
 
 export default function Home() {
-  const featuresRef   = useRef<HTMLDivElement>(null);
-  const statsRef      = useRef<HTMLDivElement>(null);
-  const ctaRef        = useRef<HTMLDivElement>(null);
-  const creatorRef    = useRef<HTMLDivElement>(null);
+  const featuresRef      = useRef<HTMLDivElement>(null);
+  const statsRef         = useRef<HTMLDivElement>(null);
+  const ctaRef           = useRef<HTMLDivElement>(null);
+  const creatorRef       = useRef<HTMLDivElement>(null);
+  const comingSoonRef    = useRef<HTMLDivElement>(null);
+
+  const [email, setEmail]         = useState('');
+  const [submitted, setSubmitted] = useState(false);
+
+  async function handleEmailSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!email) return;
+    await fetch('https://formspree.io/f/mreopvek', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email }),
+    });
+    setSubmitted(true);
+  }
 
   useEffect(() => {
     let ctx: { revert: () => void } | null = null;
@@ -77,6 +92,15 @@ export default function Home() {
             { opacity: 0, y: 40 },
             { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out',
               scrollTrigger: { trigger: creatorRef.current, start: 'top 82%' } }
+          );
+        }
+
+        // Coming soon — fade + slide up
+        if (comingSoonRef.current) {
+          gsap.fromTo(comingSoonRef.current,
+            { opacity: 0, y: 40 },
+            { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out',
+              scrollTrigger: { trigger: comingSoonRef.current, start: 'top 82%' } }
           );
         }
 
@@ -226,6 +250,64 @@ export default function Home() {
               &ldquo;Good data shouldn&apos;t be a chore. It should be the bridge that connects a
               teacher&apos;s observation to a parent&apos;s understanding.&rdquo;
             </blockquote>
+          </div>
+        </div>
+      </section>
+
+      {/* COMING SOON */}
+      <section className="coming-soon-section">
+        <div className="section-inner">
+          <div ref={comingSoonRef} className="coming-soon-inner">
+            <div className="section-label">What&apos;s Next</div>
+            <h2 className="section-heading">Built by a teacher.<br /><em>Growing with teachers.</em></h2>
+            <p className="coming-soon-body">
+              ShortHand started as one teacher&apos;s answer to a real problem — too much paperwork,
+              not enough time to actually teach. Every feature was built from real classroom experience,
+              and I&apos;m just getting started. More tools are on the way, designed the same way: by a teacher, for teachers.
+            </p>
+            <div className="coming-soon-grid">
+              <div className="coming-soon-card">
+                <div className="coming-soon-card-icon">📊</div>
+                <div className="coming-soon-card-title">Behavior Patterns</div>
+                <p className="coming-soon-card-desc">Spot trends across weeks, not just days — see which students need extra support before small moments become big ones.</p>
+              </div>
+              <div className="coming-soon-card">
+                <div className="coming-soon-card-icon">📝</div>
+                <div className="coming-soon-card-title">More Report Styles</div>
+                <p className="coming-soon-card-desc">New templates for IEP documentation, RTI tracking, and custom formats that match your school&apos;s needs.</p>
+              </div>
+              <div className="coming-soon-card">
+                <div className="coming-soon-card-icon">👥</div>
+                <div className="coming-soon-card-title">Collaboration Tools</div>
+                <p className="coming-soon-card-desc">Share notes with co-teachers, aides, and specialists — so everyone working with a student stays on the same page.</p>
+              </div>
+            </div>
+            <div className="email-form-wrap">
+              <p className="email-form-label">Want to hear when new tools are ready? I&apos;ll only reach out when something worth your time is available.</p>
+              {submitted ? (
+                <p className="email-submitted">✓ You&apos;re on the list — I&apos;ll be in touch!</p>
+              ) : (
+                <form className="email-form" onSubmit={handleEmailSubmit}>
+                  <input
+                    className="email-input"
+                    type="email"
+                    required
+                    placeholder="Your email"
+                    value={email}
+                    onChange={e => setEmail(e.target.value)}
+                  />
+                  <motion.button
+                    type="submit"
+                    className="btn-primary"
+                    whileHover={btnHover}
+                    whileTap={btnTap}
+                    transition={{ type: 'spring', stiffness: 400, damping: 20 }}
+                  >
+                    Keep Me Posted →
+                  </motion.button>
+                </form>
+              )}
+            </div>
           </div>
         </div>
       </section>
