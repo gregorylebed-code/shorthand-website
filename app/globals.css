@@ -626,7 +626,7 @@ footer {
   border-top: 1px solid var(--border);
   padding-top: 40px;
 }
-.email-form-label { font-size: 0.95rem; color: var(--text-dim); margin-bottom: 20px; }
+.email-form-label { font-size: 1.15rem; color: #ffffff; margin-bottom: 20px; }
 .email-form {
   display: flex;
   gap: 12px;
