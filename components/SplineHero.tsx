@@ -116,20 +116,9 @@ export default function HeroBackground() {
   }, []);
 
   return (
-    <>
-      <canvas
-        ref={canvasRef}
-        style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}
-      />
-      <div style={{
-        position: 'absolute', bottom: 0, left: 0, right: 0, height: '80%',
-        background: 'linear-gradient(to bottom, transparent 0%, rgba(14,14,13,0.5) 50%, rgba(14,14,13,0.92) 75%, #0e0e0d 100%)',
-        pointerEvents: 'none',
-      }} />
-      <div style={{
-        position: 'absolute', bottom: 0, left: 0, right: 0, height: '18%',
-        background: '#0e0e0d', pointerEvents: 'none',
-      }} />
-    </>
+    <canvas
+      ref={canvasRef}
+      style={{ position: 'fixed', inset: 0, width: '100%', height: '100%' }}
+    />
   );
 }

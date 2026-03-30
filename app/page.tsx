@@ -122,6 +122,8 @@ export default function Home() {
 
   return (
     <>
+      <div className="site-canvas" aria-hidden><SplineHero /></div>
+
       <div className="glow-field" aria-hidden>
         <span className="g1" /><span className="g2" /><span className="g3" />
         <span className="g4" /><span className="g5" />
@@ -152,7 +154,6 @@ export default function Home() {
 
       {/* HERO */}
       <section className="hero">
-        <div className="hero-canvas"><SplineHero /></div>
         <div className="hero-content">
           <div className="hero-eyebrow">No App Store &nbsp;·&nbsp; Works on Any Device</div>
           <h1>Stop drowning in paperwork.<br /><em>Start actually teaching.</em></h1>

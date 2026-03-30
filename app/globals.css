@@ -136,6 +136,7 @@ nav {
   align-items: center; justify-content: center;
   text-align: center; padding: 120px 32px 80px; overflow: hidden;
 }
+.site-canvas { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
 .hero-canvas { position: absolute; inset: 0; z-index: 0; }
 .hero-content { position: relative; z-index: 1; max-width: 780px; }
 .hero-eyebrow {
