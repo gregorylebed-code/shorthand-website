@@ -332,11 +332,11 @@ section { position: relative; z-index: 1; }
   margin-bottom: 32px;
 }
 .creator-photo {
-  width: 96px;
-  height: 96px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 5%;
+  object-position: center 20%;
   border: 3px solid var(--accent-border);
   flex-shrink: 0;
   box-shadow: 0 0 0 6px var(--accent-dim);
