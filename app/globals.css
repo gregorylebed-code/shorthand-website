@@ -332,11 +332,11 @@ section { position: relative; z-index: 1; }
   margin-bottom: 32px;
 }
 .creator-photo {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 260px;
   border-radius: 16px;
   object-fit: cover;
-  object-position: center 25%;
+  object-position: center 10%;
   flex-shrink: 0;
 }
 .creator-card {
