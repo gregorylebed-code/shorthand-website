@@ -298,14 +298,14 @@ export default function Home() {
                 <p className="coming-soon-card-desc">Spot trends across weeks, not just days — see which students need extra support before small moments become big ones.</p>
               </div>
               <div className="coming-soon-card">
-                <div className="coming-soon-card-icon">📝</div>
-                <div className="coming-soon-card-title">More Report Styles</div>
-                <p className="coming-soon-card-desc">New templates for IEP documentation, RTI tracking, and custom formats that match your school&apos;s needs.</p>
+                <div className="coming-soon-card-icon">🔄</div>
+                <div className="coming-soon-card-title">Specials Rotation</div>
+                <p className="coming-soon-card-desc">Upload your school&apos;s rotation schedule and ShortHand figures out today&apos;s special automatically — Art, Gym, Music and more, always in sync.</p>
               </div>
               <div className="coming-soon-card">
-                <div className="coming-soon-card-icon">👥</div>
-                <div className="coming-soon-card-title">Collaboration Tools</div>
-                <p className="coming-soon-card-desc">Share notes with co-teachers, aides, and specialists — so everyone working with a student stays on the same page.</p>
+                <div className="coming-soon-card-icon">🎯</div>
+                <div className="coming-soon-card-title">Student Goal Tracking</div>
+                <p className="coming-soon-card-desc">Set AI-suggested goals for individual students and watch them grow — from Planted to Bloomed, with every step documented.</p>
               </div>
             </div>
             <div className="email-form-wrap">
