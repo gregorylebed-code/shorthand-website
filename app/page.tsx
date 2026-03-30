@@ -31,9 +31,21 @@ export default function Home() {
   const [email, setEmail]         = useState('');
   const [submitted, setSubmitted] = useState(false);
 
+  function trackCta(label: string, url: string) {
+    (window as Window & { gtag?: (...args: unknown[]) => void }).gtag?.('event', 'cta_click', {
+      event_category: 'engagement',
+      event_label: label,
+      link_url: url,
+    });
+  }
+
   async function handleEmailSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!email) return;
+    (window as Window & { gtag?: (...args: unknown[]) => void }).gtag?.('event', 'email_signup', {
+      event_category: 'engagement',
+      event_label: 'keep_me_posted',
+    });
     await fetch('https://formspree.io/f/mreopvek', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -144,6 +156,7 @@ export default function Home() {
             whileHover={btnHover}
             whileTap={btnTap}
             transition={{ type: 'spring', stiffness: 400, damping: 20 }}
+            onClick={() => trackCta('nav_get_shorthand', '/install')}
           >
             Get ShortHand
           </motion.a>
@@ -166,6 +179,7 @@ export default function Home() {
               whileHover={btnHover}
               whileTap={btnTap}
               transition={{ type: 'spring', stiffness: 400, damping: 20 }}
+              onClick={() => trackCta('hero_get_shorthand', '/install')}
             >
               Get ShortHand →
             </motion.a>
@@ -175,6 +189,7 @@ export default function Home() {
               whileHover={{ scale: 1.03, y: -1 }}
               whileTap={btnTap}
               transition={{ type: 'spring', stiffness: 400, damping: 20 }}
+              onClick={() => trackCta('hero_see_how_it_works', '/how-it-works')}
             >
               See How It Works
             </motion.a>
@@ -383,6 +398,7 @@ export default function Home() {
                   whileHover={btnHover}
                   whileTap={btnTap}
                   transition={{ type: 'spring', stiffness: 400, damping: 20 }}
+                  onClick={() => trackCta('cta_get_shorthand', '/install')}
                 >
                   Get ShortHand →
                 </motion.a>

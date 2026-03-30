@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import AnimatedLogo from '../../../components/AnimatedLogo';
+import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
   title: 'Refine with AI — ShortHand',
@@ -22,7 +23,7 @@ export default function RefineWithAIPage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <a href="https://getshorthand.app" className="btn-primary">Try Free</a>
+          <TrackedLink href="https://getshorthand.app" className="btn-primary" label="nav_try_free_mood-checkins">Try Free</TrackedLink>
         </div>
       </nav>
 
@@ -50,7 +51,7 @@ export default function RefineWithAIPage() {
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <a href="https://getshorthand.app" className="btn-primary">Get Started Free →</a>
+        <TrackedLink href="https://getshorthand.app" className="btn-primary" label="cta_get_started_mood-checkins">Get Started Free →</TrackedLink>
       </div>
 
       <footer>
