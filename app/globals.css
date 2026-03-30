@@ -332,8 +332,8 @@ section { position: relative; z-index: 1; }
   margin-bottom: 32px;
 }
 .creator-photo {
-  width: 130px;
-  height: 130px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center 25%;
