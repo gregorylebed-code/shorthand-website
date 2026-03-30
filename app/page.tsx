@@ -153,6 +153,7 @@ export default function Home() {
           <div className="nav-links">
             <a href="#features" className="nav-link">Features</a>
             <a href="/how-it-works" className="nav-link">How It Works</a>
+            <a href="/privacy" className="nav-link" style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>🔒 Privacy</a>
           </div>
           <motion.a
             href="/install"
@@ -369,7 +370,7 @@ export default function Home() {
           <p className="section-sub">You're trusting me with notes about real kids. Here's exactly how I protect that.</p>
           <div className="privacy-grid">
             {[
-              { icon: '🔒', title: 'Bank-Level Encryption', desc: 'Every note you shorthand is encrypted using SSL/TLS — the same tech banks use. If anyone tried to intercept it, it would just look like gibberish.' },
+              { icon: '🔒', title: 'Bank-Level Encryption', desc: 'All student data is stored with AES-256 encryption in a SOC 2 Type II certified data center — the same standard banks and hospitals use. Data in transit is protected by SSL/TLS.' },
               { icon: '🚫', title: 'No Data Selling. Ever.', desc: "I'm a teacher, not a data broker. Your notes and student information are never sold, shared, or used for advertising. Period." },
               { icon: '👤', title: 'The "First Name" Rule', desc: "The app doesn't require full legal names or student IDs. You can use initials or nicknames to keep your records even more private." },
               { icon: '🗑️', title: 'You Own the Data', desc: "If you decide to stop using ShortHand, you can delete your account and every single note instantly. We don't keep a copy." },
@@ -381,6 +382,11 @@ export default function Home() {
                 <p className="privacy-desc">{item.desc}</p>
               </div>
             ))}
+          </div>
+          <div style={{ textAlign: 'center', marginTop: '2.5rem' }}>
+            <Link href="/privacy" className="btn-ghost" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem' }}>
+              🔒 Read the Full Privacy Policy →
+            </Link>
           </div>
         </div>
       </section>
