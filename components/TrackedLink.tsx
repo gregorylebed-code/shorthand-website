@@ -15,12 +15,16 @@ interface TrackedLinkProps {
 }
 
 export default function TrackedLink({ href, label, className, children, style }: TrackedLinkProps) {
-  function handleClick() {
+  function handleClick(e: React.MouseEvent<HTMLAnchorElement>) {
+    e.preventDefault();
     window.gtag?.('event', 'cta_click', {
       event_category: 'engagement',
       event_label: label,
       link_url: href,
+      event_callback: () => { window.location.href = href; },
     });
+    // Fallback in case event_callback never fires
+    setTimeout(() => { window.location.href = href; }, 300);
   }
 
   return (

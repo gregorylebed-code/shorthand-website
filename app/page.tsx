@@ -31,12 +31,16 @@ export default function Home() {
   const [email, setEmail]         = useState('');
   const [submitted, setSubmitted] = useState(false);
 
-  function trackCta(label: string, url: string) {
+  function trackCta(label: string, url: string, e?: React.MouseEvent) {
+    e?.preventDefault();
+    const navigate = () => { window.location.href = url; };
     (window as Window & { gtag?: (...args: unknown[]) => void }).gtag?.('event', 'cta_click', {
       event_category: 'engagement',
       event_label: label,
       link_url: url,
+      event_callback: navigate,
     });
+    setTimeout(navigate, 300);
   }
 
   async function handleEmailSubmit(e: React.FormEvent) {
@@ -156,7 +160,7 @@ export default function Home() {
             whileHover={btnHover}
             whileTap={btnTap}
             transition={{ type: 'spring', stiffness: 400, damping: 20 }}
-            onClick={() => trackCta('nav_get_shorthand', '/install')}
+            onClick={(e) => trackCta('nav_get_shorthand', '/install', e)}
           >
             Get ShortHand
           </motion.a>
@@ -179,7 +183,7 @@ export default function Home() {
               whileHover={btnHover}
               whileTap={btnTap}
               transition={{ type: 'spring', stiffness: 400, damping: 20 }}
-              onClick={() => trackCta('hero_get_shorthand', '/install')}
+              onClick={(e) => trackCta('hero_get_shorthand', '/install', e)}
             >
               Get ShortHand →
             </motion.a>
@@ -189,7 +193,7 @@ export default function Home() {
               whileHover={{ scale: 1.03, y: -1 }}
               whileTap={btnTap}
               transition={{ type: 'spring', stiffness: 400, damping: 20 }}
-              onClick={() => trackCta('hero_see_how_it_works', '/how-it-works')}
+              onClick={(e) => trackCta('hero_see_how_it_works', '/how-it-works', e)}
             >
               See How It Works
             </motion.a>
@@ -398,7 +402,7 @@ export default function Home() {
                   whileHover={btnHover}
                   whileTap={btnTap}
                   transition={{ type: 'spring', stiffness: 400, damping: 20 }}
-                  onClick={() => trackCta('cta_get_shorthand', '/install')}
+                  onClick={(e) => trackCta('cta_get_shorthand', '/install', e)}
                 >
                   Get ShortHand →
                 </motion.a>
