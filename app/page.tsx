@@ -298,7 +298,7 @@ export default function Home() {
                     className="email-input"
                     type="email"
                     required
-                    placeholder="Your email"
+                    placeholder="Type your email"
                     value={email}
                     onChange={e => setEmail(e.target.value)}
                   />
