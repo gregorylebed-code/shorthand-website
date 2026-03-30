@@ -186,7 +186,7 @@ section { position: relative; z-index: 1; }
   line-height: 1.1; letter-spacing: -0.04em; color: var(--text); margin-bottom: 20px;
 }
 .section-heading em { font-style: normal; color: var(--accent); }
-.section-sub { font-size: 1rem; font-weight: 300; color: var(--text-dim); line-height: 1.8; max-width: 520px; }
+.section-sub { font-size: 1rem; font-weight: 300; color: var(--text-dim); line-height: 1.8; max-width: 520px; margin: 0 auto; }
 
 /* FEATURES */
 .features-section { padding: 120px 0; position: relative; }
