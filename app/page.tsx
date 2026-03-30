@@ -293,6 +293,11 @@ export default function Home() {
             </p>
             <div className="coming-soon-grid">
               <div className="coming-soon-card">
+                <div className="coming-soon-card-icon">🔍</div>
+                <div className="coming-soon-card-title">Ask Your Notes</div>
+                <p className="coming-soon-card-desc">Type a question like &quot;Who was struggling with focus this month?&quot; and get an instant answer — pulled only from notes you wrote.</p>
+              </div>
+              <div className="coming-soon-card">
                 <div className="coming-soon-card-icon">📊</div>
                 <div className="coming-soon-card-title">Behavior Patterns</div>
                 <p className="coming-soon-card-desc">Spot trends across weeks, not just days — see which students need extra support before small moments become big ones.</p>
