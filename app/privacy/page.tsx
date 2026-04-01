@@ -102,10 +102,10 @@ export default function PrivacyPage() {
             <div className="privacy-icon">🗑️</div>
             <div className="privacy-title">Your Rights</div>
             <div className="privacy-desc">
-              You can delete your data at any time from within the app (Settings → Factory Wipe).<br /><br />
-              You can disconnect Google Classroom at any time, which removes your stored Google tokens.<br /><br />
-              To request full account deletion or a copy of your data, email us at{' '}
-              <a href="mailto:hello@getshorthand.app" style={{ color: 'var(--accent)' }}>hello@getshorthand.app</a>.
+              You can delete all your data at any time from within the app (Settings → Danger Zone → Factory Wipe).<br /><br />
+              You can permanently delete your account and all associated data from within the app (Settings → Danger Zone → Delete My Account).<br /><br />
+              You can export a copy of all your data at any time (Settings → Your Data → Export My Data).<br /><br />
+              You can disconnect Google Classroom at any time, which removes your stored Google tokens.
             </div>
           </div>
 
