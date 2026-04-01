@@ -134,6 +134,15 @@ export default function PrivacyPage() {
           </div>
 
           <div className="privacy-card">
+            <div className="privacy-icon">🏫</div>
+            <div className="privacy-title">For Schools & Districts</div>
+            <div className="privacy-desc">
+              Need a Data Processing Agreement (DPA) for district approval?{' '}
+              <Link href="/dpa" style={{ color: 'var(--accent)' }}>View our DPA →</Link>
+            </div>
+          </div>
+
+          <div className="privacy-card">
             <div className="privacy-icon">✉️</div>
             <div className="privacy-title">Contact</div>
             <div className="privacy-desc">
