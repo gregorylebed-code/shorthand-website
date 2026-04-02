@@ -23,7 +23,7 @@ export default function QuickNotePage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <TrackedLink href="https://getshorthand.app" className="btn-primary" label="nav_try_free_quick-note">Try Free</TrackedLink>
+          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_quick-note">Try Free</TrackedLink>
         </div>
       </nav>
 
@@ -51,7 +51,7 @@ export default function QuickNotePage() {
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <TrackedLink href="https://getshorthand.app" className="btn-primary" label="cta_get_started_quick-note">Get Started Free →</TrackedLink>
+        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_quick-note">Get Started Free →</TrackedLink>
       </div>
 
       <footer>
