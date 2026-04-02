@@ -52,7 +52,7 @@ export default function InstallPage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <a href="https://classroom-pulse-public.vercel.app" className="btn-primary">Open App →</a>
+          <a href="https://app.getshorthandapp.com" className="btn-primary">Open App →</a>
         </div>
       </nav>
 
@@ -139,7 +139,7 @@ export default function InstallPage() {
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to open the app?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <a href="https://classroom-pulse-public.vercel.app" className="btn-primary">Open ShortHand →</a>
+        <a href="https://app.getshorthandapp.com" className="btn-primary">Open ShortHand →</a>
       </div>
 
       <footer>
