@@ -4,11 +4,11 @@ import AnimatedLogo from '../../../components/AnimatedLogo';
 import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
-  title: 'Class Insights — ShortHand',
-  description: 'Get an AI summary of how your class has been — and SEL mini-lesson ideas to match.',
+  title: 'Progress & Insights — ShortHand',
+  description: 'View behavior trends over weeks or months. Smart badges show who\'s improving and who needs attention.',
 };
 
-export default function ClassInsightsPage() {
+export default function ProgressInsightsPage() {
   return (
     <>
       <div className="glow-field" aria-hidden>
@@ -23,37 +23,36 @@ export default function ClassInsightsPage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_class-insights">Try Free</TrackedLink>
+          <TrackedLink href="/install" className="btn-primary" label="nav_try_free_class-insights">Get ShortHand</TrackedLink>
         </div>
       </nav>
 
       <Link href="/" className="detail-back">← Back to home</Link>
 
       <div className="detail-hero">
-        <span className="detail-icon">🧠</span>
-        <h1 className="detail-title">Class <em>Insights</em></h1>
+        <span className="detail-icon">📈</span>
+        <h1 className="detail-title">Progress <em>&amp; Insights</em></h1>
         <p className="detail-desc">
-          Pick a time window — yesterday, the past week, or the week before —
-          and ShortHand reads through your notes and gives you an honest summary
-          of how the class has been. Not just what happened, but what it means:
-          where the group struggled, where they shone, and what keeps coming up.
-          From there, the AI suggests targeted mini SEL lessons you can drop into
-          any spare five minutes — built around what your specific class actually needs right now.
+          A single bad day looks like a crisis. The same day inside 8 weeks of data
+          looks like a blip. ShortHand gives you the long view.
         </p>
-
-        <iframe
-          src="https://www.youtube.com/embed/FjKXfKskJWE?enablejsapi=1"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          style={{ borderRadius: '20px', maxWidth: '360px', width: '100%', aspectRatio: '9/16', border: '1px solid var(--border-bright)' }}
-        />
+        <p className="detail-desc">
+          Dynamic behavior charts let you zoom out to 4 weeks, 8 weeks, a semester, or
+          the full year. Smart trend badges tell you at a glance whether a student is
+          <strong> Trending Up</strong>, <strong>Needs Attention</strong>, or <strong>Stable</strong>
+          — compared to the previous period, not just last week.
+        </p>
+        <p className="detail-desc">
+          Walk into any meeting with a chart that tells the real story. Export as PNG
+          or PDF in one tap — ready to paste into a report or share on the spot.
+        </p>
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
       </div>
 
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_class-insights">Get Started Free →</TrackedLink>
+        <TrackedLink href="/install" className="btn-primary" label="cta_get_started_class-insights">Get Started Free →</TrackedLink>
       </div>
 
       <footer>

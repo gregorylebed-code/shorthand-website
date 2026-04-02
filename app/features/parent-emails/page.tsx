@@ -4,11 +4,11 @@ import AnimatedLogo from '../../../components/AnimatedLogo';
 import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
-  title: 'Parent Emails — ShortHand',
-  description: 'Draft professional parent emails with one tap.',
+  title: 'Parent Communication — ShortHand',
+  description: 'Log every call, email, and meeting. One tap exports the full history for IEP meetings.',
 };
 
-export default function ParentEmailsPage() {
+export default function ParentCommunicationPage() {
   return (
     <>
       <div className="glow-field" aria-hidden>
@@ -23,7 +23,7 @@ export default function ParentEmailsPage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_parent-emails">Try Free</TrackedLink>
+          <TrackedLink href="/install" className="btn-primary" label="nav_try_free_parent-emails">Get ShortHand</TrackedLink>
         </div>
       </nav>
 
@@ -31,27 +31,29 @@ export default function ParentEmailsPage() {
 
       <div className="detail-hero">
         <span className="detail-icon">✉️</span>
-        <h1 className="detail-title">Parent <em>Emails</em></h1>
+        <h1 className="detail-title">Parent <em>Communication</em></h1>
         <p className="detail-desc">
-          Communicating with parents is important — but finding the right words after a long
-          day is hard. ShortHand drafts clear, warm, and professional parent emails directly
-          from your notes. You review, adjust the tone, and send. The conversation starts right,
-          every time.
+          Every phone call, email, meeting, and ParentSquare message — logged in one place,
+          sorted by date, grouped by month. Mark entries as IEP Related or Urgent.
+          Set follow-up dates with overdue warnings so nothing gets dropped.
         </p>
-
-        <iframe
-          src="https://www.youtube.com/embed/rmwQggu56Fo?enablejsapi=1"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          style={{ borderRadius: '20px', maxWidth: '360px', width: '100%', aspectRatio: '9/16', border: '1px solid var(--border-bright)' }}
-        />
+        <p className="detail-desc">
+          When an IEP meeting comes up, hit <strong>IEP Copy</strong> and the app exports
+          the student&apos;s entire communication history, formatted and ready to paste into
+          official docs. No scrambling. No &quot;I think I emailed them in October.&quot;
+        </p>
+        <p className="detail-desc">
+          Need to reach out but don&apos;t know how to start? ShortHand drafts a clear,
+          professional message directly from your notes — you review it, adjust the tone,
+          and send.
+        </p>
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
       </div>
 
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_parent-emails">Get Started Free →</TrackedLink>
+        <TrackedLink href="/install" className="btn-primary" label="cta_get_started_parent-emails">Get Started Free →</TrackedLink>
       </div>
 
       <footer>

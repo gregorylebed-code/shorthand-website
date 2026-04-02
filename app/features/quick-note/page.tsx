@@ -5,7 +5,7 @@ import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
   title: 'Quick Note — ShortHand',
-  description: 'Tap a student, type a note, done in 3 seconds.',
+  description: 'Tap a student, speak or type a note, done in under 5 seconds.',
 };
 
 export default function QuickNotePage() {
@@ -23,7 +23,7 @@ export default function QuickNotePage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_quick-note">Try Free</TrackedLink>
+          <TrackedLink href="/install" className="btn-primary" label="nav_try_free_quick-note">Get ShortHand</TrackedLink>
         </div>
       </nav>
 
@@ -33,25 +33,28 @@ export default function QuickNotePage() {
         <span className="detail-icon">✏️</span>
         <h1 className="detail-title">Quick <em>Note</em></h1>
         <p className="detail-desc">
-          Tap a student&apos;s name, type what you observed, and you&apos;re done —
+          Tap a student&apos;s name, speak or type what you observed, and you&apos;re done —
           in under 5 seconds. No menus to navigate, no forms to fill out.
-          Every note is timestamped and stored, building a picture of each student over time.
+          Every note is timestamped and stored automatically, building a picture of
+          each student over time.
+        </p>
+        <p className="detail-desc">
+          Voice-to-text lets you log hands-free while you&apos;re still moving around the room.
+          Smart Shorthand lets you set custom abbreviations that expand instantly —
+          so &quot;ss&quot; becomes &quot;Social Studies&quot; before you even finish typing.
+          The AI reads your note and auto-tags it with behavior categories like
+          Kindness, Participation, or Growth — no manual sorting required.
+        </p>
+        <p className="detail-desc">
           The faster it is to log, the more you&apos;ll actually do it.
         </p>
-
-        <iframe
-          src="https://www.youtube.com/embed/rQTpmPwXx6I?enablejsapi=1"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          style={{ borderRadius: '20px', maxWidth: '360px', width: '100%', aspectRatio: '9/16', border: '1px solid var(--border-bright)' }}
-        />
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
       </div>
 
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_quick-note">Get Started Free →</TrackedLink>
+        <TrackedLink href="/install" className="btn-primary" label="cta_get_started_quick-note">Get Started Free →</TrackedLink>
       </div>
 
       <footer>

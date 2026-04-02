@@ -4,11 +4,11 @@ import AnimatedLogo from '../../../components/AnimatedLogo';
 import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
-  title: 'Refine with AI — ShortHand',
-  description: "Not happy with the first draft? Ask AI to rewrite it until it sounds exactly right.",
+  title: 'Shoutout Wall — ShortHand',
+  description: 'Celebrate student wins and get an alert when any student goes 14+ days without recognition.',
 };
 
-export default function RefineWithAIPage() {
+export default function ShoutoutWallPage() {
   return (
     <>
       <div className="glow-field" aria-hidden>
@@ -23,35 +23,36 @@ export default function RefineWithAIPage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_mood-checkins">Try Free</TrackedLink>
+          <TrackedLink href="/install" className="btn-primary" label="nav_try_free_mood-checkins">Get ShortHand</TrackedLink>
         </div>
       </nav>
 
       <Link href="/" className="detail-back">← Back to home</Link>
 
       <div className="detail-hero">
-        <span className="detail-icon">✨</span>
-        <h1 className="detail-title">Refine <em>with AI</em></h1>
+        <span className="detail-icon">🌟</span>
+        <h1 className="detail-title">The Shoutout <em>Wall</em></h1>
         <p className="detail-desc">
-          AI writes a solid first draft — but it doesn&apos;t always land the way you want it to.
-          Maybe the tone is too formal. Maybe it&apos;s too long. Maybe it just doesn&apos;t sound like you.
-          Hit Refine, tell the AI what to change, and it rewrites it on the spot.
-          You stay in control of every word that goes out.
+          Most teachers are great at catching problems. The hard part is being
+          just as consistent about catching the wins — especially for the quiet kids
+          who never cause trouble and rarely ask for attention.
         </p>
-
-        <iframe
-          src="https://www.youtube.com/embed/rmwQggu56Fo?enablejsapi=1"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          style={{ borderRadius: '20px', maxWidth: '360px', width: '100%', aspectRatio: '9/16', border: '1px solid var(--border-bright)' }}
-        />
+        <p className="detail-desc">
+          The Shoutout Wall is a dedicated feed for celebrating student moments:
+          Kindness, Leadership, Persistence, Teamwork, Growth, Creativity, and more.
+          Submit one with voice-to-text or quick-select chips — it takes three seconds.
+        </p>
+        <p className="detail-desc">
+          And if any student goes more than 14 days without receiving recognition,
+          ShortHand flags them automatically. No one gets overlooked on accident.
+        </p>
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
       </div>
 
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_mood-checkins">Get Started Free →</TrackedLink>
+        <TrackedLink href="/install" className="btn-primary" label="cta_get_started_mood-checkins">Get Started Free →</TrackedLink>
       </div>
 
       <footer>

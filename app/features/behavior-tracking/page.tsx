@@ -4,11 +4,11 @@ import AnimatedLogo from '../../../components/AnimatedLogo';
 import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
-  title: 'Class Notes — ShortHand',
-  description: 'Log a note for the whole class — track energy, lessons, and patterns over time.',
+  title: 'Never Miss a Student — ShortHand',
+  description: 'Color-coded status rings and automatic alerts so no student quietly slips through the cracks.',
 };
 
-export default function ClassNotesPage() {
+export default function NeverMissPage() {
   return (
     <>
       <div className="glow-field" aria-hidden>
@@ -23,36 +23,36 @@ export default function ClassNotesPage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_behavior-tracking">Try Free</TrackedLink>
+          <TrackedLink href="/install" className="btn-primary" label="nav_try_free_behavior-tracking">Get ShortHand</TrackedLink>
         </div>
       </nav>
 
       <Link href="/" className="detail-back">← Back to home</Link>
 
       <div className="detail-hero">
-        <span className="detail-icon">🏫</span>
-        <h1 className="detail-title">Class <em>Notes</em></h1>
+        <span className="detail-icon">🔴</span>
+        <h1 className="detail-title">Never Miss <em>a Student</em></h1>
         <p className="detail-desc">
-          Not every observation is about one student — sometimes it&apos;s the whole room.
-          Class Notes let you log how the group showed up: the energy before a holiday,
-          the lesson that actually clicked, the day everything went sideways.
-          Over time, those notes become a record of your class as a unit —
-          patterns you&apos;d never notice day to day but can&apos;t unsee once you see them.
+          Every teacher has a mental list of students they check in on regularly —
+          and a few others who quietly go weeks without a real conversation.
+          ShortHand makes that invisible problem visible.
         </p>
-
-        <iframe
-          src="https://www.youtube.com/embed/XCYl7TOolaQ?enablejsapi=1"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          style={{ borderRadius: '20px', maxWidth: '360px', width: '100%', aspectRatio: '9/16', border: '1px solid var(--border-bright)' }}
-        />
+        <p className="detail-desc">
+          Every student card on your roster glows <strong>Green</strong> if you logged today,
+          <strong> Amber</strong> if it&apos;s been 5–7 days, and <strong>Red</strong> if it&apos;s been
+          8 or more. The dashboard flags anyone you haven&apos;t documented in over 5 days —
+          automatically, every time you open the app.
+        </p>
+        <p className="detail-desc">
+          You don&apos;t have to remember who needs attention. The app tells you.
+        </p>
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
       </div>
 
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_behavior-tracking">Get Started Free →</TrackedLink>
+        <TrackedLink href="/install" className="btn-primary" label="cta_get_started_behavior-tracking">Get Started Free →</TrackedLink>
       </div>
 
       <footer>

@@ -3,15 +3,6 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import AnimatedLogo from '../../components/AnimatedLogo';
 
-const videos = [
-  { id: 'p8xubsh52SM', title: 'Welcome — Part 1' },
-  { id: 'IEG8K4ivUjw', title: 'Welcome — Part 2' },
-  { id: 'Znn8IT0o6kM', title: 'Welcome — Part 3' },
-  { id: 'x0OfxlJ4p8E', title: 'Welcome — Part 4' },
-  { id: 'aA0yu7wpbVM', title: 'Welcome — Part 5' },
-  { id: 'sZYdBJ13GOw', title: 'Welcome — Part 6' },
-];
-
 const btnHover = { scale: 1.04, y: -2 };
 const btnTap   = { scale: 0.96 };
 
@@ -47,33 +38,14 @@ export default function HowItWorksPage() {
         <div className="section-label">See It In Action</div>
         <h1 className="install-title">How ShortHand<br /><em>Works</em></h1>
         <p className="install-sub">
-          Watch these short videos to see exactly what ShortHand can do for you in the classroom.
+          ShortHand has grown a lot. New walkthroughs are coming soon — but the best way
+          to see it is to try it yourself. It&apos;s free, installs in seconds, and works
+          on any device.
         </p>
       </div>
 
-      <div className="videos-section" style={{ paddingTop: '2rem', paddingBottom: '4rem' }}>
-        <div className="section-inner">
-          <div className="videos-grid">
-            {videos.map((v) => (
-              <div key={v.id} className="video-card">
-                <div className="video-frame-wrap">
-                  <iframe
-                    src={`https://www.youtube.com/embed/${v.id}?enablejsapi=1`}
-                    title={v.title}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    loading="lazy"
-                  />
-                </div>
-                <div className="video-title">{v.title}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      <div className="detail-cta-section">
-        <h2 className="detail-cta-heading">Ready to try it?</h2>
+      <div className="detail-cta-section" style={{ paddingTop: '1rem' }}>
+        <h2 className="detail-cta-heading">Try it yourself.</h2>
         <p className="detail-cta-sub">Free to use. Works on any device. No app store needed.</p>
         <motion.a
           href="/install"

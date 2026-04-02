@@ -5,7 +5,7 @@ import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
   title: 'AI Reports — ShortHand',
-  description: 'Turn weeks of notes into polished reports instantly.',
+  description: 'Turn months of raw notes into polished, parent-ready progress reports in seconds.',
 };
 
 export default function AIReportsPage() {
@@ -23,7 +23,7 @@ export default function AIReportsPage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_ai-reports">Try Free</TrackedLink>
+          <TrackedLink href="/install" className="btn-primary" label="nav_try_free_ai-reports">Get ShortHand</TrackedLink>
         </div>
       </nav>
 
@@ -34,24 +34,25 @@ export default function AIReportsPage() {
         <h1 className="detail-title">AI <em>Reports</em></h1>
         <p className="detail-desc">
           Report writing used to eat entire Sunday evenings. With ShortHand, your notes
-          become the source material and AI does the drafting. Select a student, choose a
-          report type, and in seconds you have a polished, professional write-up you can
-          review, edit, and send. Your voice, your observations — just the hard part done for you.
+          become the source material and AI does the drafting. Select a student, pick a
+          format — Quick Note, Standard, or Detailed — and in seconds you have a polished,
+          professional write-up ready to review and send.
         </p>
-
-        <iframe
-          src="https://www.youtube.com/embed/rmwQggu56Fo?enablejsapi=1"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          style={{ borderRadius: '20px', maxWidth: '360px', width: '100%', aspectRatio: '9/16', border: '1px solid var(--border-bright)' }}
-        />
+        <p className="detail-desc">
+          The AI works only from what you actually logged. Your observations, your language —
+          just the hard part done for you. Not happy with the first draft? Tell it to adjust
+          the tone, shorten it, or shift the focus. It rewrites on the spot until it sounds right.
+        </p>
+        <p className="detail-desc">
+          Your voice. Your observations. No more Sunday paperwork.
+        </p>
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
       </div>
 
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_ai-reports">Get Started Free →</TrackedLink>
+        <TrackedLink href="/install" className="btn-primary" label="cta_get_started_ai-reports">Get Started Free →</TrackedLink>
       </div>
 
       <footer>

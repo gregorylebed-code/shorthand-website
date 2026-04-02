@@ -10,12 +10,12 @@ const SplineHero = dynamic(() => import('../components/SplineHero'), { ssr: fals
 const GlobeCanvas = dynamic(() => import('../components/GlobeCanvas'), { ssr: false });
 
 const features = [
-  { slug: 'quick-note',        Icon: Pencil,        title: 'Quick Note',      desc: 'Tap a student, type a note, done in 5 seconds. No menus, no friction — just fast.' },
-  { slug: 'ai-reports',        Icon: ClipboardList, title: 'AI Reports',       desc: 'Turn weeks of notes into polished, professional behavior reports in one tap.' },
-  { slug: 'parent-emails',     Icon: Mail,          title: 'Parent Emails',    desc: 'Draft a clear, empathetic parent email from your notes — reviewed and sent by you.' },
-  { slug: 'mood-checkins',     Icon: Sparkles,      title: 'Refine with AI',   desc: "Don't love the first draft? Ask AI to rewrite it — adjust the tone, length, or focus until it sounds right." },
-  { slug: 'behavior-tracking', Icon: School,        title: 'Class Notes',      desc: 'Log a note for the whole class — how the energy felt, how a lesson landed, what to remember next time.' },
-  { slug: 'class-insights',    Icon: BarChart2,     title: 'Class Insights',   desc: 'Get an AI summary of how your class has been — then let it suggest and provide SEL mini-lessons tailored to what they need.' },
+  { slug: 'quick-note',        Icon: Pencil,        title: 'Quick Note',            desc: 'Tap a student, speak or type a note, done in under 5 seconds. Voice-to-text, auto-tagging, and smart shortcuts built in.' },
+  { slug: 'behavior-tracking', Icon: School,        title: 'Never Miss a Student',  desc: 'Student status rings glow red when you haven\'t logged in 8+ days. Automatic alerts so no one quietly slips through the cracks.' },
+  { slug: 'parent-emails',     Icon: Mail,          title: 'Parent Communication',  desc: 'Log every call, email, and meeting. One tap exports the full history for IEP meetings. AI drafts your messages from your notes.' },
+  { slug: 'mood-checkins',     Icon: Sparkles,      title: 'Shoutout Wall',         desc: 'A dedicated feed for celebrating wins. Get an alert when any student hasn\'t received recognition in over 14 days.' },
+  { slug: 'ai-reports',        Icon: ClipboardList, title: 'AI Reports',            desc: 'Turn months of raw notes into polished, parent-ready progress reports in seconds. Quick Note, Standard, or Detailed.' },
+  { slug: 'class-insights',    Icon: BarChart2,     title: 'Progress & Insights',   desc: 'View behavior trends over 4 to 52 weeks. Smart trend badges show who\'s improving and who needs attention — at a glance.' },
 ];
 
 const btnTap   = { scale: 0.96 };
@@ -211,7 +211,7 @@ export default function Home() {
           <div className="features-header">
             <div className="section-label">What it does</div>
             <h2 className="section-heading">Every tool you need.<br /><em>Nothing you don&apos;t.</em></h2>
-            <p className="section-sub">Six focused features that save real time in real classrooms.</p>
+            <p className="section-sub">Six tools built around the problems teachers actually face every day.</p>
           </div>
           <div className="features-grid">
             {features.map((f) => (
@@ -280,37 +280,36 @@ export default function Home() {
         </div>
       </section>
 
-      {/* COMING SOON */}
+      {/* MORE INSIDE */}
       <section className="coming-soon-section">
         <div className="section-inner">
           <div ref={comingSoonRef} className="coming-soon-inner">
-            <div className="section-label">What&apos;s Next</div>
-            <h2 className="section-heading">Built by a teacher.<br /><em>Growing with teachers.</em></h2>
+            <div className="section-label">There&apos;s More Inside</div>
+            <h2 className="section-heading">The six features above are just<br /><em>the beginning.</em></h2>
             <p className="coming-soon-body">
-              ShortHand started as one teacher&apos;s answer to a real problem — too much paperwork,
-              not enough time to actually teach. Every feature was built from real classroom experience,
-              and I&apos;m just getting started. More tools are on the way, designed the same way: by a teacher, for teachers.
+              Once you&apos;re in, you&apos;ll find tools that go even deeper — built from real classroom
+              experience, for the moments that actually matter.
             </p>
             <div className="coming-soon-grid">
               <div className="coming-soon-card">
-                <div className="coming-soon-card-icon">🔍</div>
-                <div className="coming-soon-card-title">Ask Your Notes</div>
-                <p className="coming-soon-card-desc">Type a question like &quot;Who was struggling with focus this month?&quot; and get an instant answer — pulled only from notes you wrote.</p>
+                <div className="coming-soon-card-icon">🎯</div>
+                <div className="coming-soon-card-title">Student Goal Tracking</div>
+                <p className="coming-soon-card-desc">Set AI-suggested goals for individual students and track their growth — from Planted to Bloomed, with every step documented.</p>
               </div>
               <div className="coming-soon-card">
-                <div className="coming-soon-card-icon">📊</div>
-                <div className="coming-soon-card-title">Behavior Patterns</div>
-                <p className="coming-soon-card-desc">Spot trends across weeks, not just days — see which students need extra support before small moments become big ones.</p>
+                <div className="coming-soon-card-icon">🔍</div>
+                <div className="coming-soon-card-title">Ask Your Notes</div>
+                <p className="coming-soon-card-desc">Type a question like &quot;Who was struggling with focus this month?&quot; and get an instant, data-backed answer from your own notes.</p>
+              </div>
+              <div className="coming-soon-card">
+                <div className="coming-soon-card-icon">🧠</div>
+                <div className="coming-soon-card-title">SEL Micro-Lessons</div>
+                <p className="coming-soon-card-desc">AI generates Social-Emotional Learning plans tailored to the behavior patterns in your specific class — ready to drop into any spare five minutes.</p>
               </div>
               <div className="coming-soon-card">
                 <div className="coming-soon-card-icon">🔄</div>
                 <div className="coming-soon-card-title">Specials Rotation</div>
-                <p className="coming-soon-card-desc">Upload your school&apos;s rotation schedule and ShortHand figures out today&apos;s special automatically — Art, Gym, Music and more, always in sync.</p>
-              </div>
-              <div className="coming-soon-card">
-                <div className="coming-soon-card-icon">🎯</div>
-                <div className="coming-soon-card-title">Student Goal Tracking</div>
-                <p className="coming-soon-card-desc">Set AI-suggested goals for individual students and watch them grow — from Planted to Bloomed, with every step documented.</p>
+                <p className="coming-soon-card-desc">Upload your school&apos;s rotation schedule and ShortHand always knows what&apos;s today — Art, Gym, Music and more, right on your home screen.</p>
               </div>
             </div>
             <div className="email-form-wrap">
