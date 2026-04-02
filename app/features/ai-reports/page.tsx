@@ -23,7 +23,7 @@ export default function AIReportsPage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <TrackedLink href="/install" className="btn-primary" label="nav_try_free_ai-reports">Get ShortHand</TrackedLink>
+          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_ai-reports">Get ShortHand</TrackedLink>
         </div>
       </nav>
 
@@ -52,7 +52,7 @@ export default function AIReportsPage() {
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <TrackedLink href="/install" className="btn-primary" label="cta_get_started_ai-reports">Get Started Free →</TrackedLink>
+        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_ai-reports">Get Started Free →</TrackedLink>
       </div>
 
       <footer>

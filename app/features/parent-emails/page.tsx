@@ -23,7 +23,7 @@ export default function ParentCommunicationPage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <TrackedLink href="/install" className="btn-primary" label="nav_try_free_parent-emails">Get ShortHand</TrackedLink>
+          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_parent-emails">Get ShortHand</TrackedLink>
         </div>
       </nav>
 
@@ -53,7 +53,7 @@ export default function ParentCommunicationPage() {
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <TrackedLink href="/install" className="btn-primary" label="cta_get_started_parent-emails">Get Started Free →</TrackedLink>
+        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_parent-emails">Get Started Free →</TrackedLink>
       </div>
 
       <footer>
