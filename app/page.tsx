@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import AnimatedLogo from '../components/AnimatedLogo';
 import { Pencil, ClipboardList, Mail, Sparkles, School, BarChart2, CalendarDays, Brain, Timer } from 'lucide-react';
+import featuredPost from '../posts/featured.json';
 
 const SplineHero = dynamic(() => import('../components/SplineHero'), { ssr: false });
 const GlobeCanvas = dynamic(() => import('../components/GlobeCanvas'), { ssr: false });
@@ -279,6 +280,42 @@ export default function Home() {
               teacher&apos;s observation to a parent&apos;s understanding.&rdquo;
             </blockquote>
           </div>
+        </div>
+      </section>
+
+      {/* FROM THE BLOG */}
+      <section style={{ padding: '0 0 80px' }}>
+        <div className="section-inner">
+          <div className="section-label" style={{ marginBottom: '1.25rem' }}>From the Blog</div>
+          <Link href={`/blog/${featuredPost.slug}`} style={{ textDecoration: 'none', display: 'block', maxWidth: '680px' }}>
+            <div style={{
+              background: 'rgba(255,255,255,0.04)',
+              border: '1px solid rgba(255,255,255,0.08)',
+              borderRadius: '16px',
+              padding: '1.75rem 2rem',
+              transition: 'border-color 0.2s, background 0.2s',
+            }}
+              onMouseEnter={e => {
+                (e.currentTarget as HTMLElement).style.borderColor = 'rgba(255,255,255,0.18)';
+                (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.07)';
+              }}
+              onMouseLeave={e => {
+                (e.currentTarget as HTMLElement).style.borderColor = 'rgba(255,255,255,0.08)';
+                (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.04)';
+              }}
+            >
+              <div style={{ fontWeight: 700, fontSize: '1.2rem', marginBottom: '0.35rem', color: 'var(--text)' }}>
+                {featuredPost.title}
+              </div>
+              <div style={{ fontSize: '0.95rem', color: 'var(--text-dim)', marginBottom: '0.75rem' }}>
+                {featuredPost.subtitle}
+              </div>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-dim)', lineHeight: 1.6, margin: '0 0 1rem' }}>
+                {featuredPost.excerpt}
+              </p>
+              <span style={{ fontSize: '0.9rem', color: 'var(--accent, #a78bfa)' }}>Read the post →</span>
+            </div>
+          </Link>
         </div>
       </section>
 
