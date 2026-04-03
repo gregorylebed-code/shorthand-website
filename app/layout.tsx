@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     title: 'ShortHand — K-12 Teacher Productivity App',
     description: 'Tap a student. Type a note. Done in 5 seconds. Classroom management, behavior tracking, AI reports, and parent communication — built by a teacher, for teachers.',
     url: 'https://getshorthand.app',
-    images: [{ url: '/icon.png', width: 512, height: 512, alt: 'ShortHand — Teacher Productivity App' }],
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
   },
   twitter: {
     card: 'summary',
     title: 'ShortHand — K-12 Teacher Productivity App',
     description: 'Tap a student. Type a note. Done in 5 seconds. Built by a teacher, for teachers.',
-    images: ['/icon.png'],
+    images: ['/og-image.png'],
   },
   robots: {
     index: true,
