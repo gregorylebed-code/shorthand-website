@@ -3,8 +3,8 @@ import { Analytics } from '@vercel/analytics/react';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'ShortHand — Built by a Teacher, for Teachers',
-  description: 'Quick notes, AI-written reports, and parent emails — all in seconds. The fastest way to know your students.',
+  title: 'ShortHand — K-12 Teacher Productivity App for Classroom Management',
+  description: 'ShortHand is an education technology platform for K-12 teachers. Classroom management, student progress tracking, behavior documentation, and AI-generated reports — built by a teacher, for teachers.',
   icons: {
     icon: '/icon.png',
     apple: '/apple-icon.png',
