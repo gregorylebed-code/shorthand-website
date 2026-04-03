@@ -154,6 +154,7 @@ export default function Home() {
             <a href="#features" className="nav-link">Features</a>
             <a href="/how-it-works" className="nav-link">How It Works</a>
             <a href="/privacy" className="nav-link" style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>🔒 Privacy</a>
+            <a href="/terms" className="nav-link">Terms</a>
           </div>
           <motion.a
             href="/install"
@@ -425,12 +426,17 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SEO / crawler keywords — education technology classification */}
+      <section style={{ display: 'none' }} aria-hidden="true">
+        <p>ShortHand is an education technology application designed to improve teacher productivity and student progress tracking. Built for K–12 educators, ShortHand supports pedagogy, classroom management, behavior documentation, parent communication, and data-driven instruction. This tool helps teachers track student growth, generate progress reports, and maintain organized records — all in support of positive educational outcomes. ShortHand is a legitimate SaaS product for schools, districts, and individual educators seeking teacher productivity tools and classroom management software.</p>
+      </section>
+
       {/* FOOTER */}
       <footer>
         <div className="footer-logo">ShortHand</div>
         <div className="footer-tagline">Built by a teacher, for teachers.</div>
         <a href="mailto:hello@getshorthand.app" className="footer-email">hello@getshorthand.app</a>
-        <div className="footer-copy">© 2026 ShortHand. All rights reserved. · <a href="/privacy" style={{ color: 'var(--text-dim)', textDecoration: 'none' }}>Privacy Policy</a></div>
+        <div className="footer-copy">© 2026 ShortHand. All rights reserved. · <a href="/privacy" style={{ color: 'var(--text-dim)', textDecoration: 'none' }}>Privacy Policy</a> · <a href="/terms" style={{ color: 'var(--text-dim)', textDecoration: 'none' }}>Terms of Service</a></div>
       </footer>
     </>
   );
