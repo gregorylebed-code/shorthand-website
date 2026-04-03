@@ -287,23 +287,8 @@ export default function Home() {
       <section style={{ padding: '0 0 80px' }}>
         <div className="section-inner">
           <div className="section-label" style={{ marginBottom: '1.25rem' }}>From the Blog</div>
-          <Link href={`/blog/${featuredPost.slug}`} style={{ textDecoration: 'none', display: 'block', maxWidth: '680px' }}>
-            <div style={{
-              background: 'rgba(255,255,255,0.04)',
-              border: '1px solid rgba(255,255,255,0.08)',
-              borderRadius: '16px',
-              padding: '1.75rem 2rem',
-              transition: 'border-color 0.2s, background 0.2s',
-            }}
-              onMouseEnter={e => {
-                (e.currentTarget as HTMLElement).style.borderColor = 'rgba(255,255,255,0.18)';
-                (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.07)';
-              }}
-              onMouseLeave={e => {
-                (e.currentTarget as HTMLElement).style.borderColor = 'rgba(255,255,255,0.08)';
-                (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.04)';
-              }}
-            >
+          <Link href={`/blog/${featuredPost.slug}`} className="blog-card-link" style={{ maxWidth: '680px' }}>
+            <div className="blog-card" style={{ padding: '1.75rem 2rem' }}>
               <div style={{ fontWeight: 700, fontSize: '1.2rem', marginBottom: '0.35rem', color: 'var(--text)' }}>
                 {featuredPost.title}
               </div>

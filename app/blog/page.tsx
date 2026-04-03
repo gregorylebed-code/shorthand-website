@@ -50,23 +50,8 @@ export default function BlogIndex() {
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           {posts.map((post) => (
-            <Link key={post.slug} href={`/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
-              <article style={{
-                background: 'rgba(255,255,255,0.04)',
-                border: '1px solid rgba(255,255,255,0.08)',
-                borderRadius: '16px',
-                padding: '1.75rem',
-                transition: 'border-color 0.2s, background 0.2s',
-              }}
-                onMouseEnter={e => {
-                  (e.currentTarget as HTMLElement).style.borderColor = 'rgba(255,255,255,0.18)';
-                  (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.07)';
-                }}
-                onMouseLeave={e => {
-                  (e.currentTarget as HTMLElement).style.borderColor = 'rgba(255,255,255,0.08)';
-                  (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.04)';
-                }}
-              >
+            <Link key={post.slug} href={`/blog/${post.slug}`} className="blog-card-link">
+              <article className="blog-card">
                 <div style={{ fontSize: '0.8rem', color: 'var(--text-dim)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
                   {new Date(post.date + 'T12:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} · {post.author}
                 </div>
