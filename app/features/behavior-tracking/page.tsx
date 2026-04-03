@@ -5,7 +5,13 @@ import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
   title: 'Never Miss a Student — ShortHand',
-  description: 'Color-coded status rings and automatic alerts so no student quietly slips through the cracks.',
+  description: 'Color-coded status rings and automatic alerts so no student quietly slips through the cracks. Built for K-12 teachers.',
+  openGraph: {
+    title: 'Never Miss a Student — ShortHand',
+    description: 'Color-coded status rings and automatic alerts so no student quietly slips through the cracks. Built for K-12 teachers.',
+    url: 'https://getshorthand.app/features/behavior-tracking',
+    type: 'website',
+  },
 };
 
 export default function NeverMissPage() {

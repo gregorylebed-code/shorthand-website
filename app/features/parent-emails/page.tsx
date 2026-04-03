@@ -5,7 +5,13 @@ import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
   title: 'Parent Communication — ShortHand',
-  description: 'Log every call, email, and meeting. One tap exports the full history for IEP meetings.',
+  description: 'Log every parent call, email, and meeting. One tap exports the full communication history for IEP meetings. AI drafts messages from your notes.',
+  openGraph: {
+    title: 'Parent Communication — ShortHand',
+    description: 'Log every parent call, email, and meeting. One tap exports the full communication history for IEP meetings. AI drafts messages from your notes.',
+    url: 'https://getshorthand.app/features/parent-emails',
+    type: 'website',
+  },
 };
 
 export default function ParentCommunicationPage() {

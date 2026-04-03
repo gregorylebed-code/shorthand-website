@@ -3,6 +3,7 @@ import { Analytics } from '@vercel/analytics/react';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://getshorthand.app'),
   title: 'ShortHand — K-12 Teacher Productivity App for Classroom Management',
   description: 'ShortHand is an education technology platform for K-12 teachers. Classroom management, student progress tracking, behavior documentation, and AI-generated reports — built by a teacher, for teachers.',
   icons: {
@@ -10,6 +11,24 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png',
   },
   manifest: '/manifest.json',
+  openGraph: {
+    type: 'website',
+    siteName: 'ShortHand',
+    title: 'ShortHand — K-12 Teacher Productivity App',
+    description: 'Tap a student. Type a note. Done in 5 seconds. Classroom management, behavior tracking, AI reports, and parent communication — built by a teacher, for teachers.',
+    url: 'https://getshorthand.app',
+    images: [{ url: '/icon.png', width: 512, height: 512, alt: 'ShortHand — Teacher Productivity App' }],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'ShortHand — K-12 Teacher Productivity App',
+    description: 'Tap a student. Type a note. Done in 5 seconds. Built by a teacher, for teachers.',
+    images: ['/icon.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

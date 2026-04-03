@@ -5,7 +5,13 @@ import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
   title: 'Quick Note — ShortHand',
-  description: 'Tap a student, speak or type a note, done in under 5 seconds.',
+  description: 'Tap a student, speak or type a note, done in under 5 seconds. Voice-to-text, auto-tagging, and smart shortcuts built in.',
+  openGraph: {
+    title: 'Quick Note — ShortHand',
+    description: 'Tap a student, speak or type a note, done in under 5 seconds. Voice-to-text, auto-tagging, and smart shortcuts built in.',
+    url: 'https://getshorthand.app/features/quick-note',
+    type: 'website',
+  },
 };
 
 export default function QuickNotePage() {

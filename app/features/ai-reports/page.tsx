@@ -5,7 +5,13 @@ import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
   title: 'AI Reports — ShortHand',
-  description: 'Turn months of raw notes into polished, parent-ready progress reports in seconds.',
+  description: 'Turn months of raw classroom notes into polished, parent-ready progress reports in seconds. Your voice, your observations — the hard part done for you.',
+  openGraph: {
+    title: 'AI Reports — ShortHand',
+    description: 'Turn months of raw classroom notes into polished, parent-ready progress reports in seconds. Your voice, your observations — the hard part done for you.',
+    url: 'https://getshorthand.app/features/ai-reports',
+    type: 'website',
+  },
 };
 
 export default function AIReportsPage() {

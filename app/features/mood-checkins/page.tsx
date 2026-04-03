@@ -5,7 +5,13 @@ import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
   title: 'Shoutout Wall — ShortHand',
-  description: 'Celebrate student wins and get an alert when any student goes 14+ days without recognition.',
+  description: 'A dedicated feed for celebrating student wins. Get an alert when any student goes 14+ days without recognition so no one gets overlooked.',
+  openGraph: {
+    title: 'Shoutout Wall — ShortHand',
+    description: 'A dedicated feed for celebrating student wins. Get an alert when any student goes 14+ days without recognition so no one gets overlooked.',
+    url: 'https://getshorthand.app/features/mood-checkins',
+    type: 'website',
+  },
 };
 
 export default function ShoutoutWallPage() {

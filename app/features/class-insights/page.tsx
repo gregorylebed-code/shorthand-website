@@ -5,7 +5,13 @@ import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
   title: 'Progress & Insights — ShortHand',
-  description: 'View behavior trends over weeks or months. Smart badges show who\'s improving and who needs attention.',
+  description: 'View student behavior trends over 4 to 52 weeks. Smart trend badges show who\'s improving and who needs attention — at a glance.',
+  openGraph: {
+    title: 'Progress & Insights — ShortHand',
+    description: 'View student behavior trends over 4 to 52 weeks. Smart trend badges show who\'s improving and who needs attention — at a glance.',
+    url: 'https://getshorthand.app/features/class-insights',
+    type: 'website',
+  },
 };
 
 export default function ProgressInsightsPage() {
