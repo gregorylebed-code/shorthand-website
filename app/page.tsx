@@ -153,6 +153,7 @@ export default function Home() {
           <div className="nav-links">
             <a href="#features" className="nav-link">Features</a>
             <a href="/how-it-works" className="nav-link">How It Works</a>
+            <a href="/blog" className="nav-link">Blog</a>
             <a href="/privacy" className="nav-link" style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>🔒 Privacy</a>
             <a href="/terms" className="nav-link">Terms</a>
           </div>
