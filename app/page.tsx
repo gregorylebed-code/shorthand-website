@@ -435,6 +435,7 @@ export default function Home() {
       <footer>
         <div className="footer-logo">ShortHand</div>
         <div className="footer-tagline">Built by a teacher, for teachers.</div>
+        <div className="footer-tagline" style={{ fontSize: '0.75rem', opacity: 0.5, marginTop: '0.25rem' }}>ShortHand: An Education Technology Platform for K-12 Teachers</div>
         <a href="mailto:hello@getshorthand.app" className="footer-email">hello@getshorthand.app</a>
         <div className="footer-copy">© 2026 ShortHand. All rights reserved. · <a href="/privacy" style={{ color: 'var(--text-dim)', textDecoration: 'none' }}>Privacy Policy</a> · <a href="/terms" style={{ color: 'var(--text-dim)', textDecoration: 'none' }}>Terms of Service</a></div>
       </footer>
