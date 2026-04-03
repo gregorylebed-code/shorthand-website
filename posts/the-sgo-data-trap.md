@@ -21,7 +21,7 @@ This week was my SGO deadline. As a 3rd-grade math teacher, I had to:
 - Use a calculator to find my percentages (Yes, I know I am a math teacher using a calculator!)
 - Stare at the screen so long I forgot if 8+7 was 15 or 16.
 
-An experienced teacher told me they finished theirs in 20 minutes. Me? It took four hours. Why? Because the data lives in silos, and teachers are the ones stuck building the bridges between them.
+An experienced teacher told me they finished theirs in 20 minutes. Me? It took four hours. Why? because the data lives in silos, and teachers are the ones stuck building the bridges between them.
 
 I didn't build ShortHand to replace the diagnostic tests. I built it to replace the copy-pasting. Teachers shouldn't have to be data scientists; we should be educators.
 
@@ -31,4 +31,4 @@ One of the core features I'm refining in ShortHand right now is a Reporting Engi
 
 If you've spent your week cross-referencing spreadsheets instead of planning lessons, I'd love to hear your "SGO Horror Story." I'm currently looking for beta testers to help me make sure the ShortHand reporting tool hits the mark for next season.
 
-[Check it out at getshorthand.app](https://getshorthand.app)
+[Check it out at classroom-pulse-public.vercel.app](https://classroom-pulse-public.vercel.app)
