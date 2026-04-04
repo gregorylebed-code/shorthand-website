@@ -3,7 +3,7 @@ import { Analytics } from '@vercel/analytics/react';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://getshorthand.app'),
+  metadataBase: new URL('https://getshorthandapp.com'),
   title: 'ShortHand — K-12 Teacher Productivity App for Classroom Management',
   description: 'ShortHand is an education technology platform for K-12 teachers. Classroom management, student progress tracking, behavior documentation, and AI-generated reports — built by a teacher, for teachers.',
   icons: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: 'ShortHand',
     title: 'ShortHand — K-12 Teacher Productivity App',
     description: 'Tap a student. Type a note. Done in 5 seconds. Classroom management, behavior tracking, AI reports, and parent communication — built by a teacher, for teachers.',
-    url: 'https://getshorthand.app',
+    url: 'https://getshorthandapp.com',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
   },
   twitter: {
