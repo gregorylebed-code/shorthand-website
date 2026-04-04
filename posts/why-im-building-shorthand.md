@@ -2,7 +2,7 @@
 title: "Why I'm Building an App While Teaching Full-Time (Because My Memory is Shot)"
 subtitle: "Why I'm Building an App While Teaching Full-Time (Because My Memory is Shot)"
 date: "2026-04-03"
-author: "Gregory"
+author: "Greg"
 excerpt: "Let's be real for a second: To be a good teacher you need a good memory. You need to be good at staying organized. I stink at both!"
 ---
 

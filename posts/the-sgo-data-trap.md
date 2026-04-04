@@ -2,7 +2,7 @@
 title: "The SGO Data Trap"
 subtitle: "Why My Second SGO Took 4 Hours (And Why It Shouldn't Have)"
 date: "2026-04-02"
-author: "Gregory"
+author: "Greg"
 excerpt: "It's 4:30 PM on a Tuesday. The classroom is empty, the janitor is down the hall, and I'm staring at two different i-Ready spreadsheets. If you're a teacher in New Jersey, you know exactly where I was: SGO Hell."
 ---
 
