@@ -41,4 +41,4 @@ ShortHand isn't built by a tech company in Silicon Valley. It's built in a 1-bed
 
 If you're a teacher who feels like you're constantly dropping the ball on documentation, I'm building this for us.
 
-[Try ShortHand at getshorthandapp.com](https://getshorthandapp.com)
+[Try ShortHand for free](https://getshorthandapp.com/install)

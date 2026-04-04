@@ -31,4 +31,4 @@ One of the core features I'm refining in ShortHand right now is a Reporting Engi
 
 If you've spent your week cross-referencing spreadsheets instead of planning lessons, I'd love to hear your "SGO Horror Story." I'm currently looking for beta testers to help me make sure the ShortHand reporting tool hits the mark for next season.
 
-[Check it out at classroom-pulse-public.vercel.app](https://classroom-pulse-public.vercel.app)
+[Try ShortHand for free](https://getshorthandapp.com/install)
