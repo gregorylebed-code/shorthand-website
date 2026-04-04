@@ -27,7 +27,7 @@ I was so frustrated with myself. I knew I could do better.  I knew the well-beha
 
 ## Why I Didn't Just Use a Notebook
 
-I tried the sticky notes. The students would ask me why I had sticky notes all over my desk. I rarely wrote what I actually needed to write so later they were of little help.  I tried the "teacher planner." But those things don't live in my pocket.  I needed something better. I needed something that worked at the speed of a 9-year-old's meltdown.
+I tried the sticky notes. The students would ask me why I had sticky notes all over my desk. I rarely wrote what I actually needed to write so later they were little help.  I tried the "teacher planner." But those things don't live in my pocket.  I needed something better. I needed something that worked at the speed of a 9-year-old's meltdown.
 
 So, I started building ShortHand.
 
