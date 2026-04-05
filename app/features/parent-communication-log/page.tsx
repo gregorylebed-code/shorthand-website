@@ -4,17 +4,17 @@ import AnimatedLogo from '../../../components/AnimatedLogo';
 import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
-  title: 'Quick Note — ShortHand',
-  description: 'Tap a student, speak or type a note, done in under 5 seconds. Voice-to-text, auto-tagging, and smart shortcuts built in.',
+  title: 'Parent Communication Log — ShortHand',
+  description: 'Log every parent call, email, and meeting in seconds. Your full communication history is always ready — so if admin asks, you\'re covered.',
   openGraph: {
-    title: 'Quick Note — ShortHand',
-    description: 'Tap a student, speak or type a note, done in under 5 seconds. Voice-to-text, auto-tagging, and smart shortcuts built in.',
-    url: 'https://getshorthand.app/features/quick-note',
+    title: 'Parent Communication Log — ShortHand',
+    description: 'Log every parent call, email, and meeting in seconds. Your full communication history is always ready — so if admin asks, you\'re covered.',
+    url: 'https://getshorthandapp.com/features/parent-communication-log',
     type: 'website',
   },
 };
 
-export default function QuickNotePage() {
+export default function ParentCommunicationLogPage() {
   return (
     <>
       <div className="glow-field" aria-hidden>
@@ -29,36 +29,35 @@ export default function QuickNotePage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_quick-note">Get ShortHand</TrackedLink>
+          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_parent-communication-log">Get ShortHand</TrackedLink>
         </div>
       </nav>
 
       <Link href="/" className="detail-back">← Back to home</Link>
 
       <div className="detail-hero">
-        <span className="detail-icon">✏️</span>
-        <h1 className="detail-title">Quick <em>Note</em></h1>
+        <span className="detail-icon">📋</span>
+        <h1 className="detail-title">Parent Communication <em>Log</em></h1>
         <p className="detail-desc">
-          Tap a student&apos;s name, speak or type what you observed, and you&apos;re done —
-          in under 5 seconds. No menus to navigate, no forms to fill out.
-          Every note is timestamped and stored automatically, building a picture of
-          each student over time.
+          Every phone call, email, and meeting — logged in seconds, timestamped, and
+          organized by student. No more searching through sent emails or trying to
+          remember when you last reached out.
         </p>
         <p className="detail-desc">
-          Voice-to-text lets you log hands-free while you&apos;re still moving around the room.
-          Smart Shorthand lets you set custom abbreviations that expand instantly —
-          so &quot;ss&quot; becomes &quot;Social Studies&quot; before you even finish typing.
-          The AI reads your note and auto-tags it with behavior categories like
-          Kindness, Participation, or Growth — no manual sorting required.
+          If admin ever questions whether you contacted a family, you pull up the log
+          and show them exactly what happened, when it happened, and what was discussed.
+          Your paper trail is always ready.
         </p>
         <p className="detail-desc">
-          The faster it is to log, the more you&apos;ll actually do it.
+          Mark entries as IEP-related or urgent. Set follow-up reminders with overdue
+          warnings. When an IEP meeting comes up, export the full communication history
+          formatted and ready to paste into official documents.
         </p>
 
         <div className="video-frame-wrap" style={{ maxWidth: 360, marginBottom: 80 }}>
           <iframe
-            src="https://www.youtube.com/embed/6-wrVnpMLiA?enablejsapi=1"
-            title="Quick Note walkthrough"
+            src="https://www.youtube.com/embed/2U0MZjwbHSE?enablejsapi=1"
+            title="Parent Communication Log walkthrough"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
@@ -70,7 +69,7 @@ export default function QuickNotePage() {
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_quick-note">Get Started Free →</TrackedLink>
+        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_parent-communication-log">Get Started Free →</TrackedLink>
       </div>
 
       <footer>

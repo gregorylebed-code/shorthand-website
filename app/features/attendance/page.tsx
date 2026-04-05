@@ -4,17 +4,17 @@ import AnimatedLogo from '../../../components/AnimatedLogo';
 import TrackedLink from '../../../components/TrackedLink';
 
 export const metadata: Metadata = {
-  title: 'Quick Note — ShortHand',
-  description: 'Tap a student, speak or type a note, done in under 5 seconds. Voice-to-text, auto-tagging, and smart shortcuts built in.',
+  title: 'Attendance — ShortHand',
+  description: 'Track student attendance fast. See patterns over time and catch chronic absenteeism before it becomes a bigger problem.',
   openGraph: {
-    title: 'Quick Note — ShortHand',
-    description: 'Tap a student, speak or type a note, done in under 5 seconds. Voice-to-text, auto-tagging, and smart shortcuts built in.',
-    url: 'https://getshorthand.app/features/quick-note',
+    title: 'Attendance — ShortHand',
+    description: 'Track student attendance fast. See patterns over time and catch chronic absenteeism before it becomes a bigger problem.',
+    url: 'https://getshorthandapp.com/features/attendance',
     type: 'website',
   },
 };
 
-export default function QuickNotePage() {
+export default function AttendancePage() {
   return (
     <>
       <div className="glow-field" aria-hidden>
@@ -29,36 +29,34 @@ export default function QuickNotePage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_quick-note">Get ShortHand</TrackedLink>
+          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_attendance">Get ShortHand</TrackedLink>
         </div>
       </nav>
 
       <Link href="/" className="detail-back">← Back to home</Link>
 
       <div className="detail-hero">
-        <span className="detail-icon">✏️</span>
-        <h1 className="detail-title">Quick <em>Note</em></h1>
+        <span className="detail-icon">📅</span>
+        <h1 className="detail-title">Attendance <em>Tracking</em></h1>
         <p className="detail-desc">
-          Tap a student&apos;s name, speak or type what you observed, and you&apos;re done —
-          in under 5 seconds. No menus to navigate, no forms to fill out.
-          Every note is timestamped and stored automatically, building a picture of
-          each student over time.
+          Take attendance in seconds and build a running record for every student.
+          No paper, no separate system — it lives right alongside your notes and
+          communication logs in ShortHand.
         </p>
         <p className="detail-desc">
-          Voice-to-text lets you log hands-free while you&apos;re still moving around the room.
-          Smart Shorthand lets you set custom abbreviations that expand instantly —
-          so &quot;ss&quot; becomes &quot;Social Studies&quot; before you even finish typing.
-          The AI reads your note and auto-tags it with behavior categories like
-          Kindness, Participation, or Growth — no manual sorting required.
+          See attendance patterns over time so you can spot chronic absenteeism early,
+          have informed conversations with families, and back up every discussion
+          with a clear record.
         </p>
         <p className="detail-desc">
-          The faster it is to log, the more you&apos;ll actually do it.
+          When it&apos;s all in one place, following up is easy — and nothing falls
+          through the cracks.
         </p>
 
         <div className="video-frame-wrap" style={{ maxWidth: 360, marginBottom: 80 }}>
           <iframe
-            src="https://www.youtube.com/embed/6-wrVnpMLiA?enablejsapi=1"
-            title="Quick Note walkthrough"
+            src="https://www.youtube.com/embed/O7ungB3f0JI?enablejsapi=1"
+            title="Attendance tracking walkthrough"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
@@ -70,7 +68,7 @@ export default function QuickNotePage() {
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_quick-note">Get Started Free →</TrackedLink>
+        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_attendance">Get Started Free →</TrackedLink>
       </div>
 
       <footer>
