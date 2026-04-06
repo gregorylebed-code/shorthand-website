@@ -55,7 +55,7 @@ export default function AIReportsPage() {
 
         <div className="video-frame-wrap" style={{ maxWidth: 360, marginBottom: 80 }}>
           <iframe
-            src="https://www.youtube.com/embed/9ozikmVkHn4?enablejsapi=1"
+            src="https://www.youtube.com/embed/V6Y6tIFrglc?enablejsapi=1"
             title="AI Reports walkthrough"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
