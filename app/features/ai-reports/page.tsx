@@ -52,6 +52,16 @@ export default function AIReportsPage() {
         <p className="detail-desc">
           Your voice. Your observations. No more Sunday paperwork.
         </p>
+
+        <div className="video-frame-wrap" style={{ maxWidth: 360, marginBottom: 80 }}>
+          <iframe
+            src="https://www.youtube.com/embed/9ozikmVkHn4?enablejsapi=1"
+            title="AI Reports walkthrough"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
       </div>
 
