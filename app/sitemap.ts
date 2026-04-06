@@ -12,7 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/features/behavior-tracking`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/features/ai-reports`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/features/class-insights`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/features/mood-checkins`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/features/parent-emails`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${base}/blog/the-sgo-data-trap`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
