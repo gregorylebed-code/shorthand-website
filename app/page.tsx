@@ -269,6 +269,9 @@ export default function Home() {
                 />
               </div>
             </div>
+            <div style={{ textAlign: 'center', marginTop: '1.25rem' }}>
+              <a href="#features" className="card-link">See it in action →</a>
+            </div>
           </div>
         </div>
       </section>
