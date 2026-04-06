@@ -254,6 +254,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* TESTIMONIAL VIDEO */}
+      <section style={{ padding: '80px 0' }}>
+        <div className="section-inner">
+          <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
+            <div className="section-label">What Teachers Are Saying</div>
+            <h2 className="section-heading">Hear it from a<br /><em>real teacher.</em></h2>
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div className="video-card" style={{ maxWidth: '340px', width: '100%' }}>
+              <div className="video-frame-wrap">
+                <iframe
+                  src="https://www.youtube.com/embed/9GuH8sl1Dkg?enablejsapi=1"
+                  title="Teacher testimonial — ShortHand"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CREATOR */}
       <section className="creator-section">
         <div className="section-inner">
