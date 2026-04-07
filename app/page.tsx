@@ -416,7 +416,7 @@ export default function Home() {
       {/* TESTIMONIAL VIDEO */}
       <section style={{ padding: '80px 0' }}>
         <div className="section-inner">
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem' }}>
             <div className="video-card" style={{ maxWidth: '340px', width: '100%' }}>
               <div className="video-frame-wrap">
                 <iframe
@@ -428,9 +428,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div style={{ textAlign: 'center', marginTop: '1.25rem' }}>
-              <a href="#features" className="card-link">See it in action →</a>
-            </div>
+            <a href="#features" style={{ fontSize: '1.1rem', fontWeight: 700, color: '#f97316', letterSpacing: '0.08em', textTransform: 'uppercase', textDecoration: 'none' }}>See it in action →</a>
           </div>
         </div>
       </section>
