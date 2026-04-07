@@ -240,6 +240,18 @@ export default function Home() {
                   <div className="card-icon"><f.Icon size={26} strokeWidth={1.75} /></div>
                   <div className="card-title">{f.title}</div>
                   <p className="card-desc">{f.desc}</p>
+                  {f.slug === 'quick-note' && (
+                    <div className="card-mini-demo">
+                      <div className="qn-note-row">
+                        <div className="qn-avatar" style={{ borderColor: '#22c55e', boxShadow: '0 0 8px rgba(34,197,94,0.5)' }}>MR</div>
+                        <div className="qn-bubble">
+                          <span className="qn-tag">#behavior</span> Stayed on task entire period — big improvement
+                          <div className="qn-meta">🎤 voice · just now</div>
+                        </div>
+                      </div>
+                      <div className="qn-badge">⚡ logged in 4 sec</div>
+                    </div>
+                  )}
                   {f.slug === 'behavior-tracking' && (
                     <div className="status-ring-demo">
                       {[
@@ -259,6 +271,77 @@ export default function Home() {
                           <span className="status-ring-label">{s.label}</span>
                         </div>
                       ))}
+                    </div>
+                  )}
+                  {f.slug === 'parent-emails' && (
+                    <div className="card-mini-demo">
+                      <div className="ai-report-row">
+                        <div className="ai-report-raw">
+                          <span className="ai-label">Your notes</span>
+                          "talked back, struggled w/ fractions, better end of week"
+                        </div>
+                        <div className="ai-arrow">✦</div>
+                        <div className="ai-report-polished">
+                          <span className="ai-label" style={{ color: '#a78bfa' }}>AI draft</span>
+                          Marcus has shown growth in self-regulation and is making steady progress in math.
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                  {f.slug === 'ai-reports' && (
+                    <div className="card-mini-demo">
+                      <div className="ai-report-types">
+                        {[
+                          { label: 'Quick Note', color: '#22c55e', desc: '2 sentences' },
+                          { label: 'Standard',   color: '#f97316', desc: '1 paragraph' },
+                          { label: 'Detailed',   color: '#a78bfa', desc: 'Full report' },
+                        ].map(r => (
+                          <div key={r.label} className="ai-type-pill" style={{ borderColor: r.color, boxShadow: `0 0 8px ${r.color}44` }}>
+                            <span style={{ color: r.color, fontWeight: 700, fontSize: '0.65rem' }}>{r.label}</span>
+                            <span style={{ color: 'var(--text-dim)', fontSize: '0.6rem' }}>{r.desc}</span>
+                          </div>
+                        ))}
+                      </div>
+                      <div className="ai-spark-badge">✦ months of notes → 30 seconds</div>
+                    </div>
+                  )}
+                  {f.slug === 'class-insights' && (
+                    <div className="card-mini-demo">
+                      <div className="insights-bars">
+                        {[
+                          { label: 'Sep', h: 30, color: '#ef4444' },
+                          { label: 'Nov', h: 45, color: '#f97316' },
+                          { label: 'Jan', h: 60, color: '#f97316' },
+                          { label: 'Mar', h: 82, color: '#22c55e', badge: '↑' },
+                        ].map(b => (
+                          <div key={b.label} className="insights-bar-col">
+                            <div className="insights-bar-wrap">
+                              {b.badge && <span className="insights-badge" style={{ color: '#22c55e' }}>{b.badge}</span>}
+                              <div className="insights-bar" style={{ height: b.h, background: b.color, boxShadow: `0 0 8px ${b.color}88` }} />
+                            </div>
+                            <span className="insights-bar-label">{b.label}</span>
+                          </div>
+                        ))}
+                      </div>
+                      <div className="ai-spark-badge" style={{ color: '#22c55e' }}>↑ Improving · 52-week view</div>
+                    </div>
+                  )}
+                  {f.slug === 'parent-communication-log' && (
+                    <div className="card-mini-demo">
+                      <div className="commlog-list">
+                        {[
+                          { icon: '📞', type: 'Phone call',  date: 'Mar 28', color: '#22c55e' },
+                          { icon: '✉️', type: 'Email sent',  date: 'Apr 1',  color: '#22c55e' },
+                          { icon: '🤝', type: 'IEP meeting', date: 'Apr 4',  color: '#a78bfa' },
+                        ].map(e => (
+                          <div key={e.type} className="commlog-row">
+                            <span className="commlog-icon">{e.icon}</span>
+                            <span className="commlog-type" style={{ color: e.color }}>{e.type}</span>
+                            <span className="commlog-date">{e.date}</span>
+                          </div>
+                        ))}
+                      </div>
+                      <div className="ai-spark-badge">📋 export ready for IEP</div>
                     </div>
                   )}
                   <span className="card-link">Learn more →</span>
