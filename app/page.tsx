@@ -166,41 +166,57 @@ export default function Home() {
             transition={{ type: 'spring', stiffness: 400, damping: 20 }}
             onClick={(e) => trackCta('nav_get_shorthand', '/install', e)}
           >
-            Get ShortHand
+            Join the Beta
           </motion.a>
         </div>
       </nav>
 
       {/* HERO */}
-      <section className="hero">
+      <section className="hero hero--split">
         <div className="hero-canvas"><SplineHero /></div>
-        <div className="hero-content">
-          <div className="hero-eyebrow">No App Store &nbsp;·&nbsp; Works on Any Device</div>
-          <h1>Stop drowning in paperwork.<br /><em>Start actually teaching.</em></h1>
-          <p className="hero-sub">
-            Tap a student. Type a note. Done in 5 seconds — even on your busiest day. When it&apos;s time to reach out to parents, ShortHand turns your notes into polished, professional reports and emails instantly. No more forgetting. No more 4 PM paperwork. And when students know you&apos;re tracking? Behavior improves.
-          </p>
-          <div className="hero-ctas">
-            <motion.a
-              href="/install"
-              className="btn-primary"
-              whileHover={btnHover}
-              whileTap={btnTap}
-              transition={{ type: 'spring', stiffness: 400, damping: 20 }}
-              onClick={(e) => trackCta('hero_get_shorthand', '/install', e)}
-            >
-              Get ShortHand →
-            </motion.a>
-            <motion.a
-              href="/how-it-works"
-              className="btn-ghost"
-              whileHover={{ scale: 1.03, y: -1 }}
-              whileTap={btnTap}
-              transition={{ type: 'spring', stiffness: 400, damping: 20 }}
-              onClick={(e) => trackCta('hero_see_how_it_works', '/how-it-works', e)}
-            >
-              See How It Works
-            </motion.a>
+        <div className="hero-split-inner">
+          <div className="hero-content hero-content--left">
+            <div className="hero-eyebrow">No App Store &nbsp;·&nbsp; Works on Any Device</div>
+            <h1>Stop drowning in paperwork.<br /><em>Start actually teaching.</em></h1>
+            <p className="hero-sub">
+              Tap a student. Speak a note. Done in 5 seconds — even on your busiest day. ShortHand turns your voice into polished reports and parent emails instantly.
+            </p>
+            <div className="hero-ctas">
+              <motion.a
+                href="/install"
+                className="btn-primary"
+                whileHover={btnHover}
+                whileTap={btnTap}
+                transition={{ type: 'spring', stiffness: 400, damping: 20 }}
+                onClick={(e) => trackCta('hero_get_shorthand', '/install', e)}
+              >
+                Join the Beta →
+              </motion.a>
+              <motion.a
+                href="/how-it-works"
+                className="btn-ghost"
+                whileHover={{ scale: 1.03, y: -1 }}
+                whileTap={btnTap}
+                transition={{ type: 'spring', stiffness: 400, damping: 20 }}
+                onClick={(e) => trackCta('hero_see_how_it_works', '/how-it-works', e)}
+              >
+                See How It Works
+              </motion.a>
+            </div>
+          </div>
+          <div className="hero-demo-wrap">
+            <div className="hero-phone-mockup">
+              <video
+                src="/dictate note.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="hero-demo-video"
+                ref={(el) => { if (el) el.playbackRate = 0.75; }}
+              />
+            </div>
+            <p className="hero-demo-caption">Voice-to-text note in under 5 seconds · slowed for clarity</p>
           </div>
         </div>
         <div className="hero-scroll">
@@ -213,8 +229,8 @@ export default function Home() {
         <div className="section-inner" ref={featuresRef}>
           <div className="features-header">
             <div className="section-label">What it does</div>
-            <h2 className="section-heading">Every tool you need.<br /><em>Nothing you don&apos;t.</em></h2>
-            <p className="section-sub">Six tools built around the problems teachers actually face every day.</p>
+            <h2 className="section-heading">Six tools to get you<br /><em>out by 4:00.</em></h2>
+            <p className="section-sub">Built around the problems teachers actually face every day — not the ones app developers imagine.</p>
           </div>
           <div className="features-grid">
             {features.map((f) => (
@@ -224,6 +240,27 @@ export default function Home() {
                   <div className="card-icon"><f.Icon size={26} strokeWidth={1.75} /></div>
                   <div className="card-title">{f.title}</div>
                   <p className="card-desc">{f.desc}</p>
+                  {f.slug === 'behavior-tracking' && (
+                    <div className="status-ring-demo">
+                      {[
+                        { initials: 'AJ', color: '#22c55e', glow: 'rgba(34,197,94,0.5)', label: 'Logged today' },
+                        { initials: 'MR', color: '#22c55e', glow: 'rgba(34,197,94,0.5)', label: '3 days ago' },
+                        { initials: 'SF', color: '#f97316', glow: 'rgba(249,115,22,0.6)', label: '9 days ago' },
+                        { initials: 'TK', color: '#ef4444', glow: 'rgba(239,68,68,0.65)', label: '14 days ago', pulse: true },
+                      ].map((s) => (
+                        <div key={s.initials} className="status-ring-item">
+                          <div className="status-ring-avatar" style={{
+                            borderColor: s.color,
+                            boxShadow: `0 0 10px ${s.glow}, 0 0 20px ${s.glow}`,
+                            animation: s.pulse ? 'ringPulse 2s ease-in-out infinite' : 'none',
+                          }}>
+                            {s.initials}
+                          </div>
+                          <span className="status-ring-label">{s.label}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                   <span className="card-link">Learn more →</span>
                 </Link>
               </motion.div>
@@ -247,6 +284,44 @@ export default function Home() {
             <div className="stat-item">
               <div className="stat-number"><span>Zero</span> install</div>
               <div className="stat-label">no app store required</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* BEFORE / AFTER */}
+      <section style={{ padding: '80px 0' }}>
+        <div className="section-inner">
+          <div className="section-label" style={{ marginBottom: '1rem' }}>Sound familiar?</div>
+          <h2 className="section-heading" style={{ marginBottom: '2.5rem' }}>Before &amp; After<br /><em>ShortHand.</em></h2>
+          <div className="before-after-grid">
+            <div className="before-card">
+              <div className="ba-label">Before</div>
+              {[
+                'Scraps of paper shoved in a pocket',
+                'Forgotten parent conversations',
+                '3 hours of SGO data entry on a Sunday',
+                '"Who was I going to follow up with?"',
+                'Writing the same report 25 times',
+              ].map(item => (
+                <div key={item} className="ba-item ba-item--before">
+                  <span className="ba-icon">✗</span> {item}
+                </div>
+              ))}
+            </div>
+            <div className="after-card">
+              <div className="ba-label">After</div>
+              {[
+                'Tap, speak, saved — in 5 seconds',
+                'Full communication log, ready for IEPs',
+                'Reports generated while you drink coffee',
+                'Red ring alerts you before anyone slips through',
+                'One button. Professional email to a parent.',
+              ].map(item => (
+                <div key={item} className="ba-item ba-item--after">
+                  <span className="ba-icon">✓</span> {item}
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -285,15 +360,30 @@ export default function Home() {
                 <h2 className="creator-heading">A Message from the Creator</h2>
               </div>
             </div>
+            <p className="creator-body" style={{ fontWeight: 600, fontSize: '1.05rem', color: 'var(--text)' }}>
+              I didn&apos;t build this app to give you more work. I built it because I was tired of
+              drowning in paperwork while trying to keep my head above water.
+            </p>
+            <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', margin: '1rem 0 1.25rem' }}>
+              {['20+ Years K–3 Experience', 'Certified RBT', 'Active 3rd Grade Teacher'].map(badge => (
+                <span key={badge} style={{
+                  background: 'rgba(167,139,250,0.12)',
+                  border: '1px solid rgba(167,139,250,0.3)',
+                  color: 'var(--accent, #a78bfa)',
+                  borderRadius: '999px',
+                  padding: '0.3rem 0.9rem',
+                  fontSize: '0.82rem',
+                  fontWeight: 600,
+                  letterSpacing: '0.02em',
+                }}>
+                  {badge}
+                </span>
+              ))}
+            </div>
             <p className="creator-body">
               I have spent over 20 years in the classroom. Before I became a 3rd grade teacher,
               I worked as a one-to-one aide and a Registered Behavior Technician. I know exactly
-              how loud, fast, and overwhelming a school day can be. I also know that high-quality,
-              data-backed insights are the only way to truly understand what a student needs.
-            </p>
-            <p className="creator-body">
-              I didn&apos;t build this app to give you more work. I built it because I was tired of
-              drowning in paperwork while trying to keep my head above water. This tool was created
+              how loud, fast, and overwhelming a school day can be. This tool was created
               with love to assist my fellow teachers who are looking for a better way to track
               progress and bridge the gap between school and home.
             </p>
@@ -460,7 +550,7 @@ export default function Home() {
                   transition={{ type: 'spring', stiffness: 400, damping: 20 }}
                   onClick={(e) => trackCta('cta_get_shorthand', '/install', e)}
                 >
-                  Get ShortHand →
+                  Join the Beta →
                 </motion.a>
               </div>
             </div>
