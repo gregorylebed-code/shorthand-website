@@ -330,13 +330,16 @@ export default function Home() {
                     <div className="card-mini-demo">
                       <div className="commlog-list">
                         {[
-                          { icon: '📞', type: 'Phone call',  date: 'Mar 28', color: '#22c55e' },
-                          { icon: '✉️', type: 'Email sent',  date: 'Apr 1',  color: '#22c55e' },
-                          { icon: '🤝', type: 'IEP meeting', date: 'Apr 4',  color: '#a78bfa' },
+                          { icon: '📞', type: 'Phone call',  detail: 'Discussed behavior',  date: 'Mar 28', color: '#22c55e' },
+                          { icon: '✉️', type: 'Email sent',  detail: 'Lunch money',          date: 'Apr 1',  color: '#22c55e' },
+                          { icon: '🤝', type: 'IEP meeting', detail: '',                      date: 'Apr 4',  color: '#a78bfa' },
                         ].map(e => (
                           <div key={e.type} className="commlog-row">
                             <span className="commlog-icon">{e.icon}</span>
-                            <span className="commlog-type" style={{ color: e.color }}>{e.type}</span>
+                            <div style={{ flex: 1 }}>
+                              <span className="commlog-type" style={{ color: e.color }}>{e.type}</span>
+                              {e.detail && <div className="commlog-detail">{e.detail}</div>}
+                            </div>
                             <span className="commlog-date">{e.date}</span>
                           </div>
                         ))}
