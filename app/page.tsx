@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import AnimatedLogo from '../components/AnimatedLogo';
-import { Pencil, ClipboardList, Mail, School, BarChart2, CalendarDays, Brain, Timer } from 'lucide-react';
+import { Pencil, ClipboardList, Mail, School, BarChart2, CalendarDays, Brain, Timer, Menu, X } from 'lucide-react';
 import featuredPost from '../posts/featured.json';
 
 const SplineHero = dynamic(() => import('../components/SplineHero'), { ssr: false });
@@ -30,6 +30,7 @@ export default function Home() {
 
   const [email, setEmail]         = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [menuOpen, setMenuOpen]   = useState(false);
 
   function trackCta(label: string, url: string, e?: React.MouseEvent) {
     e?.preventDefault();
@@ -157,17 +158,32 @@ export default function Home() {
             <a href="/privacy" className="nav-link" style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>🔒 Privacy</a>
             <a href="/terms" className="nav-link">Terms</a>
           </div>
-          <motion.a
-            href="/install"
-            className="btn-primary"
-            whileHover={btnHover}
-            whileTap={btnTap}
-            transition={{ type: 'spring', stiffness: 400, damping: 20 }}
-            onClick={(e) => trackCta('nav_get_shorthand', '/install', e)}
-          >
-            Join the Beta
-          </motion.a>
+          <div className="nav-right">
+            <motion.a
+              href="/install"
+              className="btn-primary"
+              whileHover={btnHover}
+              whileTap={btnTap}
+              transition={{ type: 'spring', stiffness: 400, damping: 20 }}
+              onClick={(e) => trackCta('nav_get_shorthand', '/install', e)}
+            >
+              Join the Beta
+            </motion.a>
+            <button className="nav-hamburger" onClick={() => setMenuOpen(o => !o)} aria-label="Menu">
+              {menuOpen ? <X size={22} /> : <Menu size={22} />}
+            </button>
+          </div>
         </div>
+        {menuOpen && (
+          <div className="nav-mobile-menu" onClick={() => setMenuOpen(false)}>
+            <a href="#features" className="nav-mobile-link">Features</a>
+            <a href="/how-it-works" className="nav-mobile-link">How It Works</a>
+            <a href="/blog" className="nav-mobile-link">Blog</a>
+            <a href="/privacy" className="nav-mobile-link">🔒 Privacy</a>
+            <a href="/terms" className="nav-mobile-link">Terms</a>
+            <a href="/install" className="nav-mobile-link nav-mobile-cta">Join the Beta →</a>
+          </div>
+        )}
       </nav>
 
       {/* HERO */}

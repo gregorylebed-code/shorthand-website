@@ -105,6 +105,37 @@ nav {
 }
 .nav-link:hover { color: var(--text); border-color: var(--border-bright); background: var(--surface); }
 
+.nav-right { display: flex; align-items: center; gap: 10px; }
+
+.nav-hamburger {
+  display: none;
+  background: none; border: 1px solid var(--border); border-radius: 8px;
+  color: var(--text-dim); cursor: pointer; padding: 6px 8px;
+  line-height: 0;
+}
+.nav-hamburger:hover { color: var(--text); border-color: var(--border-bright); }
+
+.nav-mobile-menu {
+  display: flex; flex-direction: column;
+  background: rgba(14,14,13,0.97);
+  border-top: 1px solid var(--border);
+  padding: 12px 16px 20px;
+  gap: 4px;
+}
+.nav-mobile-link {
+  font-size: 1rem; font-weight: 500; color: var(--text-dim);
+  text-decoration: none; padding: 12px 8px;
+  border-bottom: 1px solid var(--border);
+}
+.nav-mobile-link:last-child { border-bottom: none; }
+.nav-mobile-link:hover { color: var(--text); }
+.nav-mobile-cta {
+  margin-top: 8px; text-align: center;
+  background: var(--accent); color: #0e0e0d;
+  border-radius: 99px; font-weight: 700; padding: 14px 8px;
+  border-bottom: none;
+}
+
 .btn-primary {
   display: inline-flex; align-items: center; gap: 7px;
   padding: 10px 24px; border-radius: 99px;
@@ -902,6 +933,7 @@ footer {
   .nav-inner { padding: 0 16px; }
   .nav-logo { font-size: 1.8rem; }
   .btn-primary { padding: 8px 14px; font-size: 0.78rem; }
+  .nav-hamburger { display: flex; }
   /* Hero: shorter on mobile so Spline blank time is less painful */
   .hero { min-height: 85svh; padding: 90px 24px 80px; }
   .hero--split { text-align: center; }
