@@ -202,6 +202,15 @@ export default function Home() {
                 See How It Works
               </motion.a>
             </div>
+            <p className="hero-demo-nudge">
+              Curious?{' '}
+              <a
+                href="https://classroom-pulse-public.vercel.app"
+                onClick={() => (window as Window & { gtag?: (...args: unknown[]) => void }).gtag?.('event', 'cta_click', { event_category: 'engagement', event_label: 'hero_try_demo' })}
+              >
+                Try the demo — no account needed →
+              </a>
+            </p>
           </div>
           <div className="hero-demo-wrap">
             <div className="hero-phone-mockup">
