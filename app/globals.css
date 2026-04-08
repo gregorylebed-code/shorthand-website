@@ -932,8 +932,8 @@ footer {
   .nav-link { display: none; }
   .nav-inner { padding: 0 16px; }
   .nav-logo { font-size: 1.8rem; }
-  .btn-primary { padding: 8px 14px; font-size: 0.78rem; }
-  .nav-hamburger { display: flex; margin-right: -4px; }
+  .nav-right .btn-primary { display: none; }
+  .nav-hamburger { display: flex; }
   /* Hero: shorter on mobile so Spline blank time is less painful */
   .hero { min-height: 85svh; padding: 90px 24px 80px; }
   .hero--split { text-align: center; }
