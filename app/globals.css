@@ -899,6 +899,9 @@ footer {
   .email-form { flex-direction: column; }
   .nav-badge { display: none; }
   .nav-link { display: none; }
+  .nav-inner { padding: 0 16px; }
+  .nav-logo { font-size: 1.8rem; }
+  .btn-primary { padding: 8px 14px; font-size: 0.78rem; }
   /* Hero: shorter on mobile so Spline blank time is less painful */
   .hero { min-height: 85svh; padding: 90px 24px 80px; }
   .hero--split { text-align: center; }
