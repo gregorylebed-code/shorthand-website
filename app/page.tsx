@@ -4,19 +4,18 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import AnimatedLogo from '../components/AnimatedLogo';
-import { Pencil, ClipboardList, Mail, School, BarChart2, CalendarDays, Brain, Timer, Phone } from 'lucide-react';
+import { Pencil, ClipboardList, Mail, School, BarChart2, CalendarDays, Brain, Timer } from 'lucide-react';
 import featuredPost from '../posts/featured.json';
 
 const SplineHero = dynamic(() => import('../components/SplineHero'), { ssr: false });
 const GlobeCanvas = dynamic(() => import('../components/GlobeCanvas'), { ssr: false });
 
 const features = [
-  { slug: 'quick-note',        Icon: Pencil,        title: 'Quick Note',            desc: 'Tap a student, speak or type a note, done in under 5 seconds. Voice-to-text, auto-tagging, and smart shortcuts built in.' },
+  { slug: 'quick-note',        Icon: Pencil,        title: 'Quick Note',            desc: 'Tap a student, speak or type a note, done in under 5 seconds. Student photos appear right in the suggestions so you\'re always logging the right kid. Voice-to-text, auto-tagging, and smart shortcuts built in.' },
   { slug: 'behavior-tracking', Icon: School,        title: 'Never Miss a Student',  desc: 'Student status rings glow red when you haven\'t logged in 8+ days. Automatic alerts so no one quietly slips through the cracks.' },
   { slug: 'parent-emails',     Icon: Mail,          title: 'Parent Communication',  desc: 'Log every call, email, and meeting. One tap exports the full history for IEP meetings. AI drafts your messages from your notes.' },
   { slug: 'ai-reports',        Icon: ClipboardList, title: 'AI Reports',            desc: 'Turn months of raw notes into polished, parent-ready progress reports in seconds. Quick Note, Standard, or Detailed.' },
   { slug: 'class-insights',    Icon: BarChart2,     title: 'Progress & Insights',   desc: 'View behavior trends over 4 to 52 weeks. Smart trend badges show who\'s improving and who needs attention — at a glance.' },
-  { slug: 'parent-communication-log', Icon: Phone, title: 'Communication Log',      desc: 'Log every parent call, email, and meeting in seconds. If admin ever asks, your full history is right there — ready to show.' },
 ];
 
 const btnTap   = { scale: 0.96 };

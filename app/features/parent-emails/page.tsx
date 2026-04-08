@@ -40,19 +40,35 @@ export default function ParentCommunicationPage() {
         <h1 className="detail-title">Parent <em>Communication</em></h1>
         <p className="detail-desc">
           Every phone call, email, meeting, and ParentSquare message — logged in one place,
-          sorted by date, grouped by month. Mark entries as IEP Related or Urgent.
-          Set follow-up dates with overdue warnings so nothing gets dropped.
+          timestamped, and organized by student. No more searching through sent emails or
+          trying to remember when you last reached out.
         </p>
         <p className="detail-desc">
-          When an IEP meeting comes up, hit <strong>IEP Copy</strong> and the app exports
-          the student&apos;s entire communication history, formatted and ready to paste into
-          official docs. No scrambling. No &quot;I think I emailed them in October.&quot;
+          If admin ever questions whether you contacted a family, you pull up the log and
+          show them exactly what happened, when it happened, and what was discussed.
+          Your paper trail is always ready.
+        </p>
+        <p className="detail-desc">
+          Mark entries as IEP-related or urgent. Set follow-up reminders with overdue
+          warnings. When an IEP meeting comes up, hit <strong>IEP Copy</strong> and the app
+          exports the full communication history — formatted and ready to paste into official
+          documents. No scrambling. No &quot;I think I emailed them in October.&quot;
         </p>
         <p className="detail-desc">
           Need to reach out but don&apos;t know how to start? ShortHand drafts a clear,
           professional message directly from your notes — you review it, adjust the tone,
           and send.
         </p>
+
+        <div className="video-frame-wrap" style={{ maxWidth: 360, marginBottom: 80 }}>
+          <iframe
+            src="https://www.youtube.com/embed/2U0MZjwbHSE?enablejsapi=1"
+            title="Parent Communication walkthrough"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
       </div>
 
