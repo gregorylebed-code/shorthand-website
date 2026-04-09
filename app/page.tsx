@@ -14,7 +14,7 @@ const GlobeCanvas = dynamic(() => import('../components/GlobeCanvas'), { ssr: fa
 const features = [
   { slug: 'quick-note',        Icon: Pencil,        title: 'Quick Note',            desc: 'Tap a student, speak or type a note, done in under 5 seconds. Student photos appear right in the suggestions so you\'re always logging the right kid. Voice-to-text, auto-tagging, and smart shortcuts built in.' },
   { slug: 'behavior-tracking', Icon: School,        title: 'Never Miss a Student',  desc: 'Student status rings glow red when you haven\'t logged in 8+ days. Automatic alerts so no one quietly slips through the cracks.' },
-  { slug: 'parent-emails',     Icon: Mail,          title: 'Parent Communication',  desc: 'Log every call, email, and meeting. One tap exports the full history for IEP meetings. AI drafts your messages from your notes.' },
+  { slug: 'parent-emails',     Icon: Mail,          title: 'AI Parent Messages',    desc: 'Log a behavior note. Tap "draft message." AI writes it instantly — ready to send or edit. No more staring at a blank email. Get parents in the loop fast, before small issues become big ones.' },
   { slug: 'ai-reports',        Icon: ClipboardList, title: 'AI Reports',            desc: 'Turn months of raw notes into polished, parent-ready progress reports in seconds. Quick Note, Standard, or Detailed.' },
   { slug: 'class-insights',    Icon: BarChart2,     title: 'Progress & Insights',   desc: 'View behavior trends over 4 to 52 weeks. Smart trend badges show who\'s improving and who needs attention — at a glance.' },
 ];
@@ -249,9 +249,9 @@ export default function Home() {
         <div className="hero-split-inner">
           <div className="hero-content hero-content--left">
             <div className="hero-eyebrow">No App Store &nbsp;·&nbsp; Works on Any Device</div>
-            <h1>Stop drowning in paperwork.<br /><em>Start actually teaching.</em></h1>
+            <h1>Stop behavior from spiraling.<br /><em>Keep parents in the loop.</em></h1>
             <p className="hero-sub">
-              Tap a student. Speak a note. Done in 5 seconds — even on your busiest day. ShortHand turns your voice into polished reports and parent emails instantly.
+              The moment a student starts acting up, parents need to know — not after detention, not in a report card, but right then. Tap a note. AI drafts a message. Parents know before small problems become big ones.
             </p>
             <div className="hero-ctas">
               <motion.a
