@@ -112,9 +112,9 @@ export default function Home() {
                 ease: 'power2.out',
                 scrollTrigger: {
                   trigger: showcaseRef.current,
-                  start: 'top 70%',
-                  end: 'bottom 30%',
-                  scrub: 1.2,
+                  start: 'top 75%',
+                  end: 'center 40%',
+                  scrub: 0.6,
                 },
               }
             );
