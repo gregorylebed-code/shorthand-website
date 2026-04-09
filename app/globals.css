@@ -215,7 +215,7 @@ nav {
   opacity: 0; animation: fadeUp 0.9s 0.6s ease forwards;
 }
 .hero-phone-mockup {
-  width: 240px;
+  width: 320px;
   border-radius: 28px;
   overflow: hidden;
   border: 2px solid rgba(167,139,250,0.25);
@@ -991,7 +991,7 @@ footer {
   .hero-content--left .hero-eyebrow { justify-content: center; }
   .hero-content--left .hero-sub { margin: 0 auto 44px; }
   .hero-content--left .hero-ctas { justify-content: center; }
-  .hero-phone-mockup { width: 200px; }
+  .hero-phone-mockup { width: 260px; }
   /* Tighten hero title on small screens */
   .hero h1 { font-size: clamp(2.4rem, 11vw, 5rem); }
   .section-inner { padding: 0 24px; }
