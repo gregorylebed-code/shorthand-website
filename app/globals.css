@@ -985,3 +985,21 @@ footer {
   border-color: rgba(255,255,255,0.18);
   background: rgba(255,255,255,0.07);
 }
+.feature-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 999px;
+  color: rgba(255,255,255,0.7);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.feature-nav-btn:hover {
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+}
