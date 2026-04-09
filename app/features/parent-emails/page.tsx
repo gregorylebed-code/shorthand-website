@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import AnimatedLogo from '../../../components/AnimatedLogo';
 import TrackedLink from '../../../components/TrackedLink';
+import FeatureNav from '../../../components/FeatureNav';
 
 export const metadata: Metadata = {
   title: 'Parent Communication — ShortHand',
@@ -72,6 +73,7 @@ export default function ParentCommunicationPage() {
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
       </div>
 
+      <FeatureNav current="parent-emails" />
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
