@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://getshorthand.app';
+  const base = 'https://getshorthandapp.com';
   const now = new Date();
 
   return [
