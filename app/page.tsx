@@ -288,7 +288,7 @@ export default function Home() {
           <div className="hero-demo-wrap">
             <div className="hero-phone-mockup">
               <video
-                src="/dictate-note.mp4"
+                src="/add-note-new.mp4"
                 autoPlay
                 loop
                 muted
