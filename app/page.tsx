@@ -135,7 +135,24 @@ export default function Home() {
     }
 
     initGSAP();
-    return () => ctx?.revert();
+
+    // Spotlight border — track mouse position per feature card
+    const cards = document.querySelectorAll<HTMLElement>('.feature-card');
+    const handlers: Array<{ el: HTMLElement; fn: (e: MouseEvent) => void }> = [];
+    cards.forEach(card => {
+      const fn = (e: MouseEvent) => {
+        const r = card.getBoundingClientRect();
+        card.style.setProperty('--mx', `${e.clientX - r.left}px`);
+        card.style.setProperty('--my', `${e.clientY - r.top}px`);
+      };
+      card.addEventListener('mousemove', fn);
+      handlers.push({ el: card, fn });
+    });
+
+    return () => {
+      ctx?.revert();
+      handlers.forEach(({ el, fn }) => el.removeEventListener('mousemove', fn));
+    };
   }, []);
 
   return (
