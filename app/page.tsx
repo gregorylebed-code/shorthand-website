@@ -1,6 +1,7 @@
 'use client';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import AnimatedLogo from '../components/AnimatedLogo';
@@ -462,7 +463,7 @@ export default function Home() {
         <div className="section-inner">
           <div ref={creatorRef} className="creator-card">
             <div className="creator-top">
-              <img src="/creator.jpg" alt="Gregory, creator of ShortHand" className="creator-photo" />
+              <Image src="/creator.jpg" alt="Gregory, creator of ShortHand" className="creator-photo" width={200} height={260} priority />
               <div>
                 <div className="creator-eyebrow">BUILT BY A TEACHER. FOR TEACHERS.</div>
                 <h2 className="creator-heading">A Message from the Creator</h2>
