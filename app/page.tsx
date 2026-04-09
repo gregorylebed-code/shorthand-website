@@ -318,10 +318,10 @@ export default function Home() {
               { src: '/mockup-report.png',     label: 'AI-written parent reports'    },
               { src: '/mockup-grid.png',       label: 'Your whole class at a glance' },
               { src: '/mockup-insights.png',   label: 'Track progress over time'     },
-              { src: '/mockup-quicknote.png',  label: 'Voice-to-text, hands free'    },
+              { src: '/mockup-parents.png',    label: 'Parent communication log'     },
             ].map((item, i) => (
               <div key={i} className={`showcase-phone showcase-phone--${i}`}>
-                <Image src={item.src} alt={item.label} width={260} height={530} className="showcase-img" />
+                <Image src={item.src} alt={item.label} width={320} height={650} className="showcase-img" />
                 <div className="showcase-label">{item.label}</div>
               </div>
             ))}
