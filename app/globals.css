@@ -298,17 +298,17 @@ section { position: relative; z-index: 1; }
   background: radial-gradient(ellipse at 30% 0%, rgba(249,115,22,0.06) 0%, transparent 65%);
   opacity: 0; transition: opacity 0.4s;
 }
-/* Spotlight border — illuminates under cursor */
+/* Spotlight — cursor-reactive glow on card surface */
 .feature-card::after {
-  content: ''; position: absolute; inset: -1px; border-radius: var(--radius);
-  background: radial-gradient(circle 200px at var(--mx, 50%) var(--my, 50%), rgba(249,115,22,0.35), transparent 70%);
-  opacity: 0; transition: opacity 0.3s; pointer-events: none; z-index: 0;
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: exclude; -webkit-mask-composite: xor;
-  padding: 1px;
+  content: ''; position: absolute; inset: 0; border-radius: var(--radius);
+  background: radial-gradient(circle 250px at var(--mx, 50%) var(--my, 50%), rgba(249,115,22,0.12), transparent 70%);
+  opacity: 0; transition: opacity 0.3s; pointer-events: none;
 }
 .feature-card:hover::after { opacity: 1; }
-.feature-card:hover { box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
+.feature-card:hover {
+  border-color: rgba(249,115,22,0.5);
+  box-shadow: 0 0 0 1px rgba(249,115,22,0.2), 0 20px 60px rgba(0,0,0,0.4);
+}
 .feature-card:hover::before { opacity: 1; }
 .card-icon {
   width: 48px; height: 48px; border-radius: 12px;
