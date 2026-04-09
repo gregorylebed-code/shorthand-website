@@ -55,7 +55,7 @@ export default function AttendancePage() {
 
         <div className="video-frame-wrap" style={{ maxWidth: 360, marginBottom: 80 }}>
           <iframe
-            src="https://www.youtube.com/embed/O7ungB3f0JI?enablejsapi=1"
+            src="https://www.youtube-nocookie.com/embed/O7ungB3f0JI?enablejsapi=1"
             title="Attendance tracking walkthrough"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

@@ -445,7 +445,7 @@ export default function Home() {
             <div className="video-card" style={{ maxWidth: '340px', width: '100%' }}>
               <div className="video-frame-wrap">
                 <iframe
-                  src="https://www.youtube.com/embed/9GuH8sl1Dkg?enablejsapi=1"
+                  src="https://www.youtube-nocookie.com/embed/9GuH8sl1Dkg?enablejsapi=1"
                   title="ShortHand in action"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen

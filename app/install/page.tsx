@@ -122,7 +122,7 @@ export default function InstallPage() {
               <div key={v.id} className="video-card">
                 <div className="video-frame-wrap">
                   <iframe
-                    src={`https://www.youtube.com/embed/${v.id}?enablejsapi=1`}
+                    src={`https://www.youtube-nocookie.com/embed/${v.id}?enablejsapi=1`}
                     title={v.title}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
