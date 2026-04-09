@@ -24,6 +24,7 @@ const btnHover = { scale: 1.04, y: -2 };
 
 export default function Home() {
   const featuresRef      = useRef<HTMLDivElement>(null);
+  const showcaseRef      = useRef<HTMLDivElement>(null);
   const statsRef         = useRef<HTMLDivElement>(null);
   const ctaRef           = useRef<HTMLDivElement>(null);
   const creatorRef       = useRef<HTMLDivElement>(null);
@@ -89,6 +90,44 @@ export default function Home() {
                 scrollTrigger: { trigger: header, start: 'top 85%' } }
             );
           }
+        }
+
+        // Showcase — phones fan out from center on scroll
+        if (showcaseRef.current) {
+          const phones = showcaseRef.current.querySelectorAll<HTMLElement>('.showcase-phone');
+          // phones order: left-far, left-near, center, right-near, right-far
+          const configs = [
+            { x: -340, y: 60,  rotate: -18, scale: 0.72 },
+            { x: -175, y: 24,  rotate: -9,  scale: 0.84 },
+            { x: 0,    y: 0,   rotate: 0,   scale: 1    },
+            { x: 175,  y: 24,  rotate: 9,   scale: 0.84 },
+            { x: 340,  y: 60,  rotate: 18,  scale: 0.72 },
+          ];
+          phones.forEach((phone, i) => {
+            const cfg = configs[i];
+            gsap.fromTo(phone,
+              { x: 0, y: 0, rotate: 0, scale: i === 2 ? 1 : 0.6, opacity: i === 2 ? 1 : 0 },
+              {
+                x: cfg.x, y: cfg.y, rotate: cfg.rotate, scale: cfg.scale, opacity: 1,
+                ease: 'power2.out',
+                scrollTrigger: {
+                  trigger: showcaseRef.current,
+                  start: 'top 70%',
+                  end: 'bottom 30%',
+                  scrub: 1.2,
+                },
+              }
+            );
+          });
+          // Labels fade in after phones spread
+          const labels = showcaseRef.current.querySelectorAll<HTMLElement>('.showcase-label');
+          gsap.fromTo(labels,
+            { opacity: 0, y: 16 },
+            {
+              opacity: 1, y: 0, stagger: 0.08, ease: 'power2.out',
+              scrollTrigger: { trigger: showcaseRef.current, start: 'center 60%', end: 'bottom 20%', scrub: 1 },
+            }
+          );
         }
 
         // Stats — scale up from slightly small
@@ -263,6 +302,30 @@ export default function Home() {
         </div>
         <div className="hero-scroll">
           <div className="scroll-line" />
+        </div>
+      </section>
+
+      {/* SHOWCASE — phones fan out on scroll */}
+      <section className="showcase-section">
+        <div className="section-inner">
+          <div className="showcase-header">
+            <div className="section-label">Everything in one place</div>
+            <h2 className="section-heading">Five seconds to log.<br /><em>Hours saved every week.</em></h2>
+          </div>
+          <div className="showcase-stage" ref={showcaseRef}>
+            {[
+              { src: '/mockup-grid.png',       label: 'Your whole class at a glance' },
+              { src: '/mockup-quicknote.png',  label: 'Log a note in 5 seconds'      },
+              { src: '/mockup-report.png',     label: 'AI-written parent reports'    },
+              { src: '/mockup-insights.png',   label: 'Track progress over time'     },
+              { src: '/mockup-grid.png',       label: 'Never miss a student'         },
+            ].map((item, i) => (
+              <div key={i} className={`showcase-phone showcase-phone--${i}`}>
+                <Image src={item.src} alt={item.label} width={260} height={530} className="showcase-img" />
+                <div className="showcase-label">{item.label}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
