@@ -119,13 +119,13 @@ export default function Home() {
               }
             );
           });
-          // Labels fade in after phones spread
+          // Labels fade in alongside the spread
           const labels = showcaseRef.current.querySelectorAll<HTMLElement>('.showcase-label');
           gsap.fromTo(labels,
-            { opacity: 0, y: 16 },
+            { opacity: 0, y: 12 },
             {
               opacity: 1, y: 0, stagger: 0.08, ease: 'power2.out',
-              scrollTrigger: { trigger: showcaseRef.current, start: 'center 60%', end: 'bottom 20%', scrub: 1 },
+              scrollTrigger: { trigger: showcaseRef.current, start: 'top 65%', end: 'center 40%', scrub: 1 },
             }
           );
         }
@@ -314,11 +314,11 @@ export default function Home() {
           </div>
           <div className="showcase-stage" ref={showcaseRef}>
             {[
-              { src: '/mockup-grid.png',       label: 'Your whole class at a glance' },
               { src: '/mockup-quicknote.png',  label: 'Log a note in 5 seconds'      },
               { src: '/mockup-report.png',     label: 'AI-written parent reports'    },
+              { src: '/mockup-grid.png',       label: 'Your whole class at a glance' },
               { src: '/mockup-insights.png',   label: 'Track progress over time'     },
-              { src: '/mockup-grid.png',       label: 'Never miss a student'         },
+              { src: '/mockup-quicknote.png',  label: 'Voice-to-text, hands free'    },
             ].map((item, i) => (
               <div key={i} className={`showcase-phone showcase-phone--${i}`}>
                 <Image src={item.src} alt={item.label} width={260} height={530} className="showcase-img" />
