@@ -250,6 +250,9 @@ export default function Home() {
           <div className="hero-content hero-content--left">
             <div className="hero-eyebrow">No App Store &nbsp;·&nbsp; Works on Any Device</div>
             <h1>Stop behavior from spiraling.<br /><em>Keep parents in the loop.</em></h1>
+            <p style={{ position: 'absolute', width: '1px', height: '1px', padding: 0, margin: '-1px', overflow: 'hidden', clip: 'rect(0,0,0,0)', whiteSpace: 'nowrap', border: 0 }}>
+              ShortHand is a behavior tracking app that helps K-12 teachers generate AI progress reports, manage classroom data, and send parent communication in seconds — built by a teacher, for teachers.
+            </p>
             <p className="hero-sub">
               The moment a student starts acting up, parents need to know — not after detention, not in a report card, but right then. Tap a note. AI drafts a message. Parents know before small problems become big ones.
             </p>
@@ -580,6 +583,63 @@ export default function Home() {
               &ldquo;Good data shouldn&apos;t be a chore. It should be the bridge that connects a
               teacher&apos;s observation to a parent&apos;s understanding.&rdquo;
             </blockquote>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section style={{ padding: '80px 0' }}>
+        <div className="section-inner">
+          <div style={{ maxWidth: '720px', margin: '0 auto' }}>
+            <div className="section-label" style={{ marginBottom: '0.75rem' }}>Common Questions</div>
+            <h2 className="section-heading" style={{ marginBottom: '2.5rem' }}>Everything you <em>want to know.</em></h2>
+            {[
+              {
+                q: 'What is ShortHand?',
+                a: 'ShortHand is a behavior tracking app built for K-12 teachers. It lets you log student notes in under 5 seconds using voice or text, track behavior patterns over time, generate AI-written progress reports, and send parent messages instantly.',
+              },
+              {
+                q: 'Do I need to download anything?',
+                a: 'No. ShortHand is a Progressive Web App (PWA) — it works in your browser on any device. You can add it to your home screen for a native app feel, but there\'s nothing to download from an app store.',
+              },
+              {
+                q: 'How does ShortHand help with parent communication?',
+                a: 'After you log a behavior note, ShortHand\'s AI drafts a parent-ready message in seconds. You review it, make any tweaks, and send — no staring at a blank email. It also keeps a full communication log for IEP meetings.',
+              },
+              {
+                q: 'Can ShortHand help me spot behavior patterns?',
+                a: 'Yes. ShortHand tracks behavior over 4 to 52 weeks and shows visual trend charts for each student. Smart badges highlight who\'s improving and who needs attention — so you\'re not relying on memory.',
+              },
+              {
+                q: 'Does ShortHand alert me if I haven\'t checked in on a student?',
+                a: 'Yes. Color-coded status rings glow red when a student hasn\'t been logged in 8 or more days, amber at 5–7 days, and green if you\'ve logged recently. No student quietly slips through the cracks.',
+              },
+              {
+                q: 'Is ShortHand free to use?',
+                a: 'ShortHand is currently in beta and free to join. Sign up to get access and be notified when new features are ready.',
+              },
+            ].map(({ q, a }) => (
+              <details key={q} style={{
+                borderBottom: '1px solid rgba(255,255,255,0.08)',
+                padding: '1.25rem 0',
+              }}>
+                <summary style={{
+                  fontWeight: 700,
+                  fontSize: '1.05rem',
+                  cursor: 'pointer',
+                  color: 'var(--text)',
+                  listStyle: 'none',
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  gap: '1rem',
+                }}>
+                  {q}
+                  <span style={{ color: 'var(--accent, #a78bfa)', flexShrink: 0, fontSize: '1.2rem' }}>+</span>
+                </summary>
+                <p style={{ marginTop: '0.75rem', color: 'var(--text-dim)', lineHeight: 1.7, fontSize: '0.97rem' }}>{a}</p>
+              </details>
+            ))}
           </div>
         </div>
       </section>
