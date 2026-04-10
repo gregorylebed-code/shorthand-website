@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     description: 'Log every parent call, email, and meeting. One tap exports the full communication history for IEP meetings. AI drafts messages from your notes.',
     url: 'https://getshorthand.app/features/parent-emails',
     type: 'website',
+    images: [{ url: 'https://getshorthand.app/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
   },
 };
 

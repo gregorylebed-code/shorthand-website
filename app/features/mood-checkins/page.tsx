@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     description: 'A dedicated feed for celebrating student wins. Get an alert when any student goes 14+ days without recognition so no one gets overlooked.',
     url: 'https://getshorthand.app/features/mood-checkins',
     type: 'website',
+    images: [{ url: 'https://getshorthand.app/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
   },
 };
 

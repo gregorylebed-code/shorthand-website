@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     description: 'Track student attendance fast. See patterns over time and catch chronic absenteeism before it becomes a bigger problem.',
     url: 'https://getshorthandapp.com/features/attendance',
     type: 'website',
+    images: [{ url: 'https://getshorthand.app/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
   },
 };
 

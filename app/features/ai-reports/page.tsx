@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     description: 'Turn months of raw classroom notes into polished, parent-ready progress reports in seconds. Your voice, your observations — the hard part done for you.',
     url: 'https://getshorthand.app/features/ai-reports',
     type: 'website',
+    images: [{ url: 'https://getshorthand.app/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
   },
 };
 

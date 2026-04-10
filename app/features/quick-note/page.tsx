@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     description: 'Tap a student, speak or type a note, done in under 5 seconds. Voice-to-text, auto-tagging, and smart shortcuts built in.',
     url: 'https://getshorthand.app/features/quick-note',
     type: 'website',
+    images: [{ url: 'https://getshorthand.app/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
   },
 };
 
