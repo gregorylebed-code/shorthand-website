@@ -3,7 +3,7 @@ title: "How to Track Student Behavior Data (Without Falling Behind During the Sc
 subtitle: "A realistic system that actually survives contact with real students"
 date: "2026-04-09"
 author: "Greg"
-excerpt: "Tracking student behavior data sounds simple… until you try to do it during a real school day. Here's what actually works — and why most systems fail by October."
+excerpt: "Learn how to track student behavior data quickly and consistently. A simple system for teachers that works during real classroom instruction."
 ---
 
 Tracking student behavior data sounds simple… until you try to do it during a real school day.
@@ -118,7 +118,7 @@ That's a completely different conversation — with parents, support staff, or a
 
 ## A Simpler Way to Track Behavior Without the Extra Work
 
-After trying paper notes, spreadsheets, and a few apps, I realized something: if the system isn't built for speed, it won't last.
+After trying paper notes, spreadsheets, and a few apps (I wrote about [some ClassDojo alternatives I tested](/blog/classdojo-alternative)), I realized something: if the system isn't built for speed, it won't last.
 
 That's why I started building (and eventually using) a tool called ShortHand.
 
@@ -141,7 +141,7 @@ If you're:
 
 Then your system is costing you more time than it should.
 
-👉 [Try ShortHand here](https://getshorthandapp.com) — you'll know pretty quickly if it fits your workflow. If it doesn't, no harm done.
+👉 [Try ShortHand here](/) — you'll know pretty quickly if it fits your workflow. If it doesn't, no harm done.
 
 ## Final Thought
 
