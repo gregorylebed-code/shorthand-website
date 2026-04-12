@@ -7,12 +7,13 @@ import FeatureNav from '../../../components/FeatureNav';
 export const metadata: Metadata = {
   title: 'AI Reports — ShortHand',
   description: 'Turn months of raw classroom notes into polished, parent-ready progress reports in seconds. Your voice, your observations — the hard part done for you.',
+  alternates: { canonical: 'https://getshorthandapp.com/features/ai-reports' },
   openGraph: {
     title: 'AI Reports — ShortHand',
     description: 'Turn months of raw classroom notes into polished, parent-ready progress reports in seconds. Your voice, your observations — the hard part done for you.',
-    url: 'https://getshorthand.app/features/ai-reports',
+    url: 'https://getshorthandapp.com/features/ai-reports',
     type: 'website',
-    images: [{ url: 'https://getshorthand.app/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
+    images: [{ url: 'https://getshorthandapp.com/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
   },
 };
 

@@ -7,12 +7,13 @@ import FeatureNav from '../../../components/FeatureNav';
 export const metadata: Metadata = {
   title: 'Progress & Insights — ShortHand',
   description: 'View student behavior trends over 4 to 52 weeks. Smart trend badges show who\'s improving and who needs attention — at a glance.',
+  alternates: { canonical: 'https://getshorthandapp.com/features/class-insights' },
   openGraph: {
     title: 'Progress & Insights — ShortHand',
     description: 'View student behavior trends over 4 to 52 weeks. Smart trend badges show who\'s improving and who needs attention — at a glance.',
-    url: 'https://getshorthand.app/features/class-insights',
+    url: 'https://getshorthandapp.com/features/class-insights',
     type: 'website',
-    images: [{ url: 'https://getshorthand.app/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
+    images: [{ url: 'https://getshorthandapp.com/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
   },
 };
 

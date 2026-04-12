@@ -7,12 +7,13 @@ import FeatureNav from '../../../components/FeatureNav';
 export const metadata: Metadata = {
   title: 'Never Miss a Student — ShortHand',
   description: 'Color-coded status rings and automatic alerts so no student quietly slips through the cracks. Built for K-12 teachers.',
+  alternates: { canonical: 'https://getshorthandapp.com/features/behavior-tracking' },
   openGraph: {
     title: 'Never Miss a Student — ShortHand',
     description: 'Color-coded status rings and automatic alerts so no student quietly slips through the cracks. Built for K-12 teachers.',
-    url: 'https://getshorthand.app/features/behavior-tracking',
+    url: 'https://getshorthandapp.com/features/behavior-tracking',
     type: 'website',
-    images: [{ url: 'https://getshorthand.app/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
+    images: [{ url: 'https://getshorthandapp.com/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
   },
 };
 

@@ -19,9 +19,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     openGraph: {
       title: `${meta.title} — ShortHand Blog`,
       description: meta.excerpt,
-      url: `https://getshorthand.app/blog/${slug}`,
+      url: `https://getshorthandapp.com/blog/${slug}`,
       type: 'article',
     },
+    alternates: { canonical: `https://getshorthandapp.com/blog/${slug}` },
   };
 }
 

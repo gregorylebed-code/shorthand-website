@@ -9,9 +9,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Blog — ShortHand',
     description: 'Teaching tips, classroom management strategies, and honest stories from a K-12 teacher who built his own productivity app.',
-    url: 'https://getshorthand.app/blog',
+    url: 'https://getshorthandapp.com/blog',
     type: 'website',
   },
+  alternates: { canonical: 'https://getshorthandapp.com/blog' },
 };
 
 export default function BlogIndex() {

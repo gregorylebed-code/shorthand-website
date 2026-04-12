@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     description: 'Tap a student. Type a note. Done in 5 seconds. Built by a teacher, for teachers.',
     images: ['/og-image.png'],
   },
+  alternates: {
+    canonical: 'https://getshorthandapp.com',
+  },
   robots: {
     index: true,
     follow: true,
