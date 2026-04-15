@@ -27,7 +27,7 @@ I didn't build ShortHand to replace the diagnostic tests. I built it to replace 
 
 When I envisioned myself as a teacher, spending hours on paperwork every week was not top of mind. Spending about an hour per day writing behavior notes wasn't either.
 
-One of the core features I'm refining in ShortHand right now is a Reporting Engine that understands these specific cycles. Whether it's an SGO or a weekly progress update, the goal is "one-click clarity" — taking those hours of manual comparison and turning them into seconds of actual insight.
+One of the core features I'm refining in ShortHand right now is a Reporting Engine that understands these specific cycles. Whether it's an SGO or a weekly progress update, the goal is "one-click clarity" - taking those hours of manual comparison and turning them into seconds of actual insight.
 
 If you've spent your week cross-referencing spreadsheets instead of planning lessons, I'd love to hear your "SGO Horror Story." I'm currently looking for beta testers to help me make sure the ShortHand reporting tool hits the mark for next season.
 

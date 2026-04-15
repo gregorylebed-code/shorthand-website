@@ -3,7 +3,7 @@ title: "How to Write Behavior Emails to Parents (Without Overthinking Every Word
 subtitle: "A simple structure that makes parent communication faster and less stressful"
 date: "2026-03-22"
 author: "Greg"
-excerpt: "Writing behavior emails to parents can feel harder than it should be — not because you don't know what happened, but because you want to say it the right way. Here's a simple structure that helps."
+excerpt: "Writing behavior emails to parents can feel harder than it should be - not because you don't know what happened, but because you want to say it the right way. Here's a simple structure that helps."
 ---
 
 Writing behavior emails to parents can feel harder than it should be.
@@ -24,7 +24,7 @@ Instead of thinking, "I have to tell them what went wrong," think, "I want to sh
 
 One of the biggest mistakes is being too vague. Saying a student was "having a hard day" does not give parents much to work with. It also leaves room for confusion.
 
-Instead, describe what actually happened in simple terms — but keep your opinion to yourself. It's hard not to say why you think a student is behaving a certain way, but without actually knowing, we should just stick to the facts.
+Instead, describe what actually happened in simple terms - but keep your opinion to yourself. It's hard not to say why you think a student is behaving a certain way, but without actually knowing, we should just stick to the facts.
 
 For example:
 
@@ -88,7 +88,7 @@ It keeps your message clear and focused without taking a lot of time to write.
 
 Here is the honest part. Knowing what to say is not usually the problem. The time it takes to write it is.
 
-After a full day of teaching, even a short email can feel like a big task. That is why communication often gets delayed — even when you know it would help. I wrote more about this problem in [The Fastest Way to Turn Behavior Notes Into Parent Messages](/blog/turn-behavior-notes-into-parent-messages), but the short version is: the bottleneck is almost never the information. It is the follow-through.
+After a full day of teaching, even a short email can feel like a big task. That is why communication often gets delayed - even when you know it would help. I wrote more about this problem in [The Fastest Way to Turn Behavior Notes Into Parent Messages](/blog/turn-behavior-notes-into-parent-messages), but the short version is: the bottleneck is almost never the information. It is the follow-through.
 
 ## A Faster Way to Write Behavior Emails
 
@@ -104,13 +104,13 @@ It also takes pressure off at the end of the day, which matters more than most p
 
 ## If Writing Behavior Emails Slows You Down
 
-If you find yourself putting off emails, overthinking your wording, or running out of time to follow through — it is not a communication problem. It is a workflow problem.
+If you find yourself putting off emails, overthinking your wording, or running out of time to follow through - it is not a communication problem. It is a workflow problem.
 
 You are already doing the hard part by noticing and documenting behavior. The goal is to make the next step easier.
 
 [ShortHand](/) is built to take what you already have and turn it into something you can send in seconds.
 
-👉 [Try it here](/) — if it saves you even a few minutes a day, it adds up quickly. And more importantly, it helps you stay ahead of issues instead of reacting to them later.
+👉 [Try it here](/) - if it saves you even a few minutes a day, it adds up quickly. And more importantly, it helps you stay ahead of issues instead of reacting to them later.
 
 ## Final Thought
 

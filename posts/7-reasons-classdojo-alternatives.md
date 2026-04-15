@@ -3,14 +3,14 @@ title: "7 Reasons You're Googling \"ClassDojo Alternatives\" (From a 3rd Grade T
 subtitle: "If you've ever typed 'ClassDojo alternatives' at 7 PM on a Tuesday, you're not alone."
 date: "2026-04-08"
 author: "Greg"
-excerpt: "You're expected to track every behavior, mood, and academic win — but you don't actually have the time or the brain-space to do it. Here's what I figured out."
+excerpt: "You're expected to track every behavior, mood, and academic win - but you don't actually have the time or the brain-space to do it. Here's what I figured out."
 ---
 
 If you've ever found yourself staring at a search bar typing "ClassDojo alternatives" at 7:00 PM on a Tuesday, you aren't doing anything wrong. You're just dealing with the same reality I was:
 
 You're expected to track every behavior, mood, and academic win… but you don't actually have the time or the brain-space to do it.
 
-As a 3rd-grade teacher (and a dad/recovering "forgot-what-happened-at-9-AM" guy), I hit a wall where my system wasn't just failing — it was non-existent.
+As a 3rd-grade teacher (and a dad/recovering "forgot-what-happened-at-9-AM" guy), I hit a wall where my system wasn't just failing - it was non-existent.
 
 ## The Problem with "Perfect" Systems
 
@@ -68,7 +68,7 @@ It's not a point tracker. It's a bridge between the chaos of a 3rd-grade math bl
 
 If your current behavior tracking feels like a chore, it's not because you're a bad teacher. It's because the system wasn't built for the reality of a Jersey classroom.
 
-I just added a Demo Mode to ShortHand so you can play around with it — no signup, no login, no work. Just see if it fits your vibe.
+I just added a Demo Mode to ShortHand so you can play around with it - no signup, no login, no work. Just see if it fits your vibe.
 
 👉 Try ShortHand for free: [GetShortHandApp.com](https://GetShortHandApp.com)
 

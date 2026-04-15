@@ -8,7 +8,7 @@ excerpt: "Learn how to track student behavior data quickly and consistently. A s
 
 Tracking student behavior data sounds simple… until you try to do it during a real school day.
 
-As a third-grade teacher, I used to think I was doing a decent job keeping track of behavior. But when I actually needed that data — for parent meetings, interventions, or admin conversations — I realized I was relying way too much on memory.
+As a third-grade teacher, I used to think I was doing a decent job keeping track of behavior. But when I actually needed that data - for parent meetings, interventions, or admin conversations - I realized I was relying way too much on memory.
 
 And memory is not data.
 
@@ -56,7 +56,7 @@ You need something that:
 - Doesn't interrupt your teaching
 - Can be done in just a few taps or a quick voice note
 
-Because let's be honest — you're not stopping a lesson to fill out a form.
+Because let's be honest - you're not stopping a lesson to fill out a form.
 
 ## Step 3: Capture Context (Not Just the Behavior)
 
@@ -114,7 +114,7 @@ You can say:
 
 > "I've noticed over the past two weeks, most disruptions happen during independent math work."
 
-That's a completely different conversation — with parents, support staff, or admin. It's specific. It's objective. And it builds trust.
+That's a completely different conversation - with parents, support staff, or admin. It's specific. It's objective. And it builds trust.
 
 ## A Simpler Way to Track Behavior Without the Extra Work
 
@@ -141,7 +141,7 @@ If you're:
 
 Then your system is costing you more time than it should.
 
-👉 [Try ShortHand here](/) — you'll know pretty quickly if it fits your workflow. If it doesn't, no harm done.
+👉 [Try ShortHand here](/) - you'll know pretty quickly if it fits your workflow. If it doesn't, no harm done.
 
 ## Final Thought
 

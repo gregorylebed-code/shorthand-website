@@ -13,7 +13,7 @@ I need tools that work at the speed of a 9-year-old's meltdown and help me get o
 ## 1. Canva for Education
 **Best for: The "I'm not an artist" teacher.**
 
-I don't have time to spend three hours making a slide deck on the water cycle. Canva's Magic Design is a cheat code — give it a topic and it generates a professional, high-engagement presentation in seconds. My classroom looks like I have a design team.
+I don't have time to spend three hours making a slide deck on the water cycle. Canva's Magic Design is a cheat code - give it a topic and it generates a professional, high-engagement presentation in seconds. My classroom looks like I have a design team.
 
 **The win:** High-end visuals with almost zero effort.
 
@@ -27,7 +27,7 @@ This is my secret weapon for Social Studies and Science. I upload our textbook P
 ## 3. Curipod
 **Best for: High-energy engagement.**
 
-When the room is hitting a 10 and I need to reel them in, I pull up Curipod. Type in a topic and it creates an interactive lesson — polls, drawing prompts, word clouds — in about 30 seconds. A boring lecture becomes a game.
+When the room is hitting a 10 and I need to reel them in, I pull up Curipod. Type in a topic and it creates an interactive lesson - polls, drawing prompts, word clouds - in about 30 seconds. A boring lecture becomes a game.
 
 **The win:** Perfect for rainy day schedules or that 2:00 PM slump.
 
@@ -36,14 +36,14 @@ When the room is hitting a 10 and I need to reel them in, I pull up Curipod. Typ
 
 Full disclosure: I built this one. I spent my nights on it because I was tired of staring at a blank email draft at 4:30 PM on a Friday trying to remember what happened Tuesday morning at 10:20. By the time I sat down to write, it was just... gone.
 
-ShortHand is for teachers who are done with monster points. You log a behavior or a win in about 5 seconds — voice or text, while walking to the cafeteria — and the AI drafts a professional, data-backed report for you later. No more being a ghostwriter for 30 families at the end of the week.
+ShortHand is for teachers who are done with monster points. You log a behavior or a win in about 5 seconds - voice or text, while walking to the cafeteria - and the AI drafts a professional, data-backed report for you later. No more being a ghostwriter for 30 families at the end of the week.
 
 **The win:** It handles the administrative heavy lifting so you can actually go home.
 
 ## 5. Tally
 **Best for: Forms parents actually fill out.**
 
-Google Forms is fine but it can feel like a tax audit. Tally is mobile-first and shows one question at a time — parents can finish it in the school pickup line. My response rates went up noticeably after I switched.
+Google Forms is fine but it can feel like a tax audit. Tally is mobile-first and shows one question at a time - parents can finish it in the school pickup line. My response rates went up noticeably after I switched.
 
 **The win:** Less chasing, more answers.
 
@@ -51,7 +51,7 @@ Google Forms is fine but it can feel like a tax audit. Tally is mobile-first and
 
 Don't try to use everything. Find one tool for engagement (Curipod), one for visuals (Canva), and one for documentation (ShortHand). That's it.
 
-If you're curious what the documentation piece looks like, I just added a Demo Mode to ShortHand — fake student data, no login, no signup. Just a quick look at how it works.
+If you're curious what the documentation piece looks like, I just added a Demo Mode to ShortHand - fake student data, no login, no signup. Just a quick look at how it works.
 
 👉 Try it free: [GetShortHandApp.com](https://GetShortHandApp.com)
 

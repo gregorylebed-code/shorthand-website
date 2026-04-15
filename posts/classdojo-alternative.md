@@ -1,12 +1,12 @@
 ---
 title: "Tired of the Noise? Why I Built a ClassDojo Alternative for Data-Driven Teachers"
-subtitle: "ClassDojo is great — until it isn't. Here's what I switched to and why."
+subtitle: "ClassDojo is great - until it isn't. Here's what I switched to and why."
 date: "2026-04-06"
 author: "Greg"
 excerpt: "I used ClassDojo for years. I liked it for years. But adding a new haircut to your monster wasn't enough to keep my 3rd graders from misbehaving. I needed something more professional. So I built it."
 ---
 
-I have used ClassDojo for many years. And I liked it for many years. It still has its time and place. But I teach 3rd grade now. Adding a new haircut to your monster was not enough to keep my students from misbehaving. I needed something different — something a bit more professional and a bit more useful for my aging brain. I needed a way to track behavior, moods, and academic trends without the "fluff."
+I have used ClassDojo for many years. And I liked it for many years. It still has its time and place. But I teach 3rd grade now. Adding a new haircut to your monster was not enough to keep my students from misbehaving. I needed something different - something a bit more professional and a bit more useful for my aging brain. I needed a way to track behavior, moods, and academic trends without the "fluff."
 
 I tried a few other apps. Nothing fit. So I just built it myself.
 
@@ -28,10 +28,10 @@ ShortHand isn't just a "point tracker." It's a specialized PWA (Progressive Web 
 
 **Real-Time Tracking (Without the Distraction):** Use indicator tags and speech-to-text to log what's happening in the moment. It's built for your workflow, not just for "show."
 
-**AI-Powered Reporting:** My favorite part. ShortHand takes your logs and uses AI to generate comprehensive progress reports — from a single day to a full year — in seconds.
+**AI-Powered Reporting:** My favorite part. ShortHand takes your logs and uses AI to generate comprehensive progress reports - from a single day to a full year - in seconds.
 
 **Built by a Teacher:** I know what it's really like in the classroom. I know you can't please admin, students, *and* parents at the same time no matter what you do. I know what it's like to have the SmartBoard conk out in the middle of a lesson. To have the principal observe you at 3PM the day before a 5-day weekend. ShortHand was developed to solve the actual pain points we face in a 3rd-grade math or science block.
 
 ## Who Is ShortHand For?
 
-If you love the "social media" aspect of Dojo, stay there! But if you are looking for a ClassDojo alternative that prioritizes professional data, clean reporting, and teacher productivity — it's time to give ShortHand a look.
+If you love the "social media" aspect of Dojo, stay there! But if you are looking for a ClassDojo alternative that prioritizes professional data, clean reporting, and teacher productivity - it's time to give ShortHand a look.
