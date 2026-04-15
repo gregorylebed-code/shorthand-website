@@ -123,8 +123,8 @@ But for patterns, updates, and anything you want a paper trail on, a behavior em
 
 I got tired of the blank screen fatigue. I spent years tracking behavior on sticky notes and then wasting my prep period trying to turn those notes into professional emails.
 
-That is why I built [ShortHand](/). It takes the behavior data you are already logging during the day and instantly drafts a clear, objective parent communication template — ready to review and send.
+That is why I built [ShortHand](https://getshorthandapp.com). It takes the behavior data you are already logging during the day and instantly drafts a clear, objective parent communication template — ready to review and send.
 
-If you are ready to stop rewriting the same five emails every week, come check it out at [getshorthand.app](/).
+If you are ready to stop rewriting the same five emails every week, come check it out at [getshorthandapp.com](https://getshorthandapp.com).
 
 One less thing on your plate. One more win for your students.
