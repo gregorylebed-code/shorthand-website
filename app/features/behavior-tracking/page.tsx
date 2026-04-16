@@ -56,6 +56,15 @@ export default function NeverMissPage() {
           You don&apos;t have to remember who needs attention. The app tells you.
         </p>
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
+
+        <div className="video-frame-wrap" style={{ maxWidth: 360, marginBottom: 80 }}>
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/A7OSUL9TfLo?enablejsapi=1"
+            title="Never Miss a Student — ShortHand"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
       </div>
 
       <FeatureNav current="behavior-tracking" />
