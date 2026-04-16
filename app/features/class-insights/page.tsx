@@ -56,6 +56,15 @@ export default function ProgressInsightsPage() {
           or PDF in one tap — ready to paste into a report or share on the spot.
         </p>
         <Link href="/" className="detail-back" style={{ marginTop: '16px' }}>← Back to home</Link>
+
+        <div className="video-frame-wrap" style={{ maxWidth: 360, marginBottom: 80 }}>
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/LpHWRvwh31k?enablejsapi=1"
+            title="Progress & Insights — ShortHand"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
       </div>
 
       <FeatureNav current="class-insights" />
