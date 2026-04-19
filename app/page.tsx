@@ -212,6 +212,7 @@ export default function Home() {
             <a href="#features" className="nav-link">Features</a>
             <a href="/how-it-works" className="nav-link">How It Works</a>
             <a href="/blog" className="nav-link">Blog</a>
+            <a href="https://classroom-pulse-public.vercel.app/free-tool" className="nav-link" style={{ color: '#22c55e', fontWeight: 700 }}>Free Tool</a>
             <a href="/privacy" className="nav-link" style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>🔒 Privacy</a>
             <a href="/terms" className="nav-link">Terms</a>
           </div>
@@ -459,6 +460,52 @@ export default function Home() {
                 </Link>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FREE TOOL BANNER */}
+      <section style={{ padding: '0 0 60px' }}>
+        <div className="section-inner">
+          <div style={{
+            background: 'linear-gradient(135deg, rgba(13,148,136,0.15) 0%, rgba(8,145,178,0.15) 100%)',
+            border: '1px solid rgba(13,148,136,0.35)',
+            borderRadius: '20px',
+            padding: '40px 48px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: '2rem',
+            flexWrap: 'wrap',
+          }}>
+            <div>
+              <div style={{ fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#2dd4bf', marginBottom: '0.5rem' }}>Free · No sign-up · Works instantly</div>
+              <h2 style={{ fontSize: '1.6rem', fontWeight: 700, color: 'var(--text)', margin: '0 0 0.5rem', lineHeight: 1.25 }}>Report Card Comment Generator</h2>
+              <p style={{ color: 'var(--text-dim)', margin: 0, fontSize: '0.97rem', maxWidth: '480px', lineHeight: 1.6 }}>
+                Pick what&apos;s true for a student, hit generate, and get a polished comment in 10 seconds. Casual or academic tone. No account needed.
+              </p>
+            </div>
+            <motion.a
+              href="https://classroom-pulse-public.vercel.app/free-tool"
+              whileHover={btnHover}
+              whileTap={btnTap}
+              transition={{ type: 'spring', stiffness: 400, damping: 20 }}
+              style={{
+                display: 'inline-block',
+                background: 'linear-gradient(135deg, #0d9488, #0891b2)',
+                color: '#fff',
+                fontWeight: 700,
+                fontSize: '1rem',
+                padding: '14px 28px',
+                borderRadius: '12px',
+                textDecoration: 'none',
+                whiteSpace: 'nowrap',
+                boxShadow: '0 4px 20px rgba(13,148,136,0.4)',
+                flexShrink: 0,
+              }}
+            >
+              Try it free →
+            </motion.a>
           </div>
         </div>
       </section>
