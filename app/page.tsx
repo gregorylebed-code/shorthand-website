@@ -568,25 +568,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TESTIMONIAL VIDEO */}
-      <section style={{ padding: '80px 0' }}>
-        <div className="section-inner">
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem' }}>
-            <div className="video-card" style={{ maxWidth: '340px', width: '100%' }}>
-              <div className="video-frame-wrap">
-                <iframe
-                  src="https://www.youtube-nocookie.com/embed/9GuH8sl1Dkg?enablejsapi=1"
-                  title="ShortHand in action"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  loading="lazy"
-                />
-              </div>
-            </div>
-            <a href="#features" style={{ fontSize: '1.1rem', fontWeight: 700, color: '#f97316', letterSpacing: '0.08em', textTransform: 'uppercase', textDecoration: 'none' }}>See it in action →</a>
-          </div>
-        </div>
-      </section>
 
       {/* CREATOR */}
       <section className="creator-section">
