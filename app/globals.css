@@ -20,8 +20,9 @@
   --text: #f0ebe2;
   --text-dim: #a09b93;
   --text-faint: #5a5750;
-  --font-display: system-ui, sans-serif;
-  --font-body: system-ui, sans-serif;
+  --font-display: var(--font-sg, system-ui, sans-serif);
+  --font-body: var(--font-inter, system-ui, sans-serif);
+  --font-fredoka: var(--font-fk, system-ui, sans-serif);
   --radius: 16px;
 }
 

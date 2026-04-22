@@ -6,21 +6,21 @@ import './globals.css';
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-display',
+  variable: '--font-sg',
   display: 'swap',
 });
 
 const inter = Inter({
   subsets: ['latin'],
   weight: ['300', '400', '500'],
-  variable: '--font-body',
+  variable: '--font-inter',
   display: 'swap',
 });
 
 const fredoka = Fredoka({
   subsets: ['latin'],
   weight: ['600', '700'],
-  variable: '--font-fredoka',
+  variable: '--font-fk',
   display: 'swap',
 });
 
