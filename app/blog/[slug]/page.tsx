@@ -86,7 +86,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         </Link>
 
         <div style={{ fontSize: '0.8rem', color: 'var(--text-dim)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
-          {new Date(post.date + 'T12:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} · {post.author}
+          {new Date(post.date + 'T12:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} · <Link href="/about" style={{ color: 'var(--text-dim)', textDecoration: 'none' }}>{post.author}</Link>
         </div>
 
         <h1 style={{ fontSize: 'clamp(1.8rem, 5vw, 2.75rem)', fontWeight: 800, lineHeight: 1.1, marginBottom: '0.5rem' }}>
