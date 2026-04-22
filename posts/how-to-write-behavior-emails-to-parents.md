@@ -10,110 +10,123 @@ Writing behavior emails to parents can feel harder than it should be.
 
 Not because you do not know what happened, but because you want to say it the right way. You want to be clear without sounding negative. You want to be honest without creating tension. And you want the message to actually help, not make things worse.
 
-As a third-grade teacher, this was something I used to overthink all the time. I would sit there after school trying to find the right wording, second-guessing every sentence, and sometimes putting it off altogether because I just did not have the energy. Well, I guess that happened more than I would like to admit.
+As a third-grade teacher, this was something I used to overthink all the time. I would sit there after school trying to find the right wording, second-guessing every sentence, and sometimes putting it off altogether because I just did not have the energy. If that sounds familiar, you are not alone.
 
-If that sounds familiar, you are not alone. The good news is that there is a simple way to approach these emails that makes them faster and more effective.
+The good news is that there is a simple approach that makes these emails faster and more effective. Once you have the structure, the blank page stops being so intimidating.
+
+## Why Behavior Emails Feel So Hard
+
+The problem isn't really the writing. It's the stakes.
+
+When you write to a parent about their child's behavior, you're starting a conversation that could go in a lot of directions. The parent might be grateful and responsive. They might be defensive. They might already know and be exhausted by it. They might not believe you. You're trying to write something professional enough to hold up if things escalate, and warm enough not to put the parent on the defensive before they've even read the second sentence.
+
+That's a lot to balance at 4:00 PM when you've been on your feet since 7:45.
+
+The other thing that makes it hard is memory. The behavior happened hours ago. You know it happened, but the specific details -- what exactly was said, what triggered it, how it resolved -- get blurry fast. Writing an email from a blurry memory means vague language, and vague language is the enemy of a good behavior communication.
 
 ## Start With the Purpose of the Message
 
-Before you write anything, get clear on your goal. Most of the time, you are not trying to report a problem. You are trying to keep parents informed and work together to support the student. That shift matters.
+Before you write anything, get clear on your goal.
 
-Instead of thinking, "I have to tell them what went wrong," think, "I want to share what I am seeing and keep us on the same page." That mindset alone will change your tone.
+Most of the time, you are not trying to report a problem. You are trying to keep a parent informed and work together to support the student. That shift matters more than you might think.
 
-## Keep It Specific and Focused
+Instead of approaching it as "I have to tell them what went wrong," try "I want to share what I am seeing and keep us on the same page." That mindset alone will change your tone, and parents can feel the difference.
 
-One of the biggest mistakes is being too vague. Saying a student was "having a hard day" does not give parents much to work with. It also leaves room for confusion.
+## Keep It Specific and Objective
 
-Instead, describe what actually happened in simple terms - but keep your opinion to yourself. It's hard not to say why you think a student is behaving a certain way, but without actually knowing, we should just stick to the facts.
+One of the biggest mistakes is being too vague. Saying a student was "having a hard day" does not give parents much to work with. It also leaves room for confusion and defensiveness.
+
+Describe what actually happened in plain, observable terms. Leave out the interpretation -- you don't need to explain why you think it happened or what it means about the student. Just describe what you saw.
 
 For example:
 
-> "During independent reading, your child had difficulty staying on task and needed several reminders to begin their work."
+"During independent reading, your child had difficulty staying on task and needed several reminders to begin their work."
 
-That gives a clear picture without sounding harsh or emotional. You do not need a long explanation. You just need a clear one.
+That gives a clear picture without sounding harsh or emotional. You don't need a long explanation. You just need a clear one.
+
+Specific and objective also protects you. If a parent later disputes the communication, "needed several reminders to begin independent reading at 9:40 AM" is a lot harder to argue with than "was distracted."
 
 ## Add Context Without Making Excuses
 
-Parents benefit from knowing when and where the behavior is happening. This helps them see patterns and gives them a better understanding of the situation.
+Parents benefit from knowing when and where the behavior is happening. This helps them see patterns and gives them a better understanding of the situation without making it feel like you're letting the student off the hook.
 
-You might include details like:
+You might include:
 
 - The subject or activity
 - Time of day
-- Whether it was independent work or group work
+- Whether it was independent work, group work, or a transition
+- Whether it was a pattern or an unusual day
 
 For example:
 
-> "This happened during math centers, which can sometimes be a challenging time for focus."
+"This happened during math centers, which can sometimes be a challenging time for transitions."
 
-This adds helpful context without shifting responsibility away from the student.
+This adds helpful context without shifting responsibility away from the student. It's honest. It's professional. And it opens the door for the parent to share their own observations.
 
-## Keep the Tone Calm and Professional
+## Keep the Tone Calm and Steady
 
-Tone is everything in these messages. Even if you felt frustrated in the moment, the email should feel calm and steady. Think of it as a conversation starter, not a reaction.
+Tone is everything in these messages. Even if you felt frustrated in the moment, the email should read as calm and professional. Think of it as starting a conversation, not reacting to a situation.
 
-A simple way to check your tone: reread the message and ask, "Would I feel comfortable receiving this as a parent?" If the answer is yes, you are on the right track.
+A simple test: reread the message and ask yourself whether you would feel comfortable receiving it as a parent. If the answer is yes, you are on the right track. If you notice words or sentences that feel accusatory, defensive, or emotionally charged, rewrite those parts first.
 
-## Include What You Are Doing in the Classroom
+Calm doesn't mean distant. You can still be warm and human in these messages. The goal is not to sound like a form letter -- it's to sound like a professional who cares about the student and wants the parent's help.
 
-Parents want to know that their child is being supported. Even one sentence about what you are doing makes a big difference.
+## Include What You Are Already Doing
+
+Parents want to know that their child is being supported, not just reported on. Even one sentence about what you are doing in the classroom changes the entire feel of the message.
 
 For example:
 
-> "I worked with them to get started and will continue to check in during independent work time."
+"I worked with them during that time to get started and will continue to check in during independent work."
 
-This shows that you are not just reporting a problem. You are actively helping.
+This shows that you are not just documenting a problem and handing it off. You are actively helping. That one addition moves the parent from feeling like they need to do something about school, to feeling like the school is handling it and wants them in the loop.
 
-## Invite Collaboration
+## Invite Collaboration, Don't Just Report
 
-The most effective emails open the door for partnership. You do not need a long closing. Just a simple invitation is enough.
+The most effective behavior emails open the door for partnership. You don't need a long closing statement. A simple invitation is enough.
 
-> "Please let me know if you are seeing anything similar at home or if there is anything that helps in these situations."
+"Please let me know if you are seeing anything similar at home, or if there is anything that tends to help your child in these situations."
 
-This keeps the tone positive and makes it clear that you are on the same team.
+This keeps the tone collaborative. It signals that you value the parent's perspective. And it often surfaces useful information -- parents know things about their kids that never make it into the school file.
 
-## A Simple Structure You Can Use Every Time
+## A Structure You Can Use Every Time
 
-If you want something you can rely on, this structure works well:
+If you want something you can rely on, this order works well:
 
-1. Brief opening
-2. Specific behavior
-3. Context
-4. What you are doing
-5. Invitation to respond
+1. Brief, warm opening
+2. Specific description of the behavior (what, when, where)
+3. Context (what was happening, whether it's a pattern)
+4. What you are already doing to support the student
+5. Invitation for the parent to respond or share
 
-It keeps your message clear and focused without taking a lot of time to write.
+It keeps your message focused, professional, and actionable. Most emails written with this structure come in under 150 words, which means parents actually read them.
 
-## The Part That Takes the Most Time
+## The Real Problem: Finding the Time and Details
 
-Here is the honest part. Knowing what to say is not usually the problem. The time it takes to write it is.
+Here is the honest part. Knowing what to say is usually not the problem. The time it takes to write it -- and the fact that the details have already gotten fuzzy -- is.
 
-After a full day of teaching, even a short email can feel like a big task. That is why communication often gets delayed - even when you know it would help. I wrote more about this problem in [The Fastest Way to Turn Behavior Notes Into Parent Messages](/blog/turn-behavior-notes-into-parent-messages), but the short version is: the bottleneck is almost never the information. It is the follow-through.
+After a full day of teaching, even a short email can feel like a big task. That is why communication often gets delayed even when teachers know it would help. By the time they sit down to write, the specific details are gone and they're working from a general impression.
 
-## A Faster Way to Write Behavior Emails
+I wrote more about this in [The Fastest Way to Turn Behavior Notes Into Parent Messages](/blog/turn-behavior-notes-into-parent-messages), but the short version is this: the bottleneck is almost never the information. It is the gap between the moment it happened and the moment you sit down to write.
 
-This is exactly the problem I wanted to solve. Instead of starting from a blank screen every time, I started using a tool called [ShortHand](/) that takes the behavior notes I already log during the day and turns them into a complete, polished message.
+## How to Close That Gap
 
-So instead of thinking through every sentence, I am reviewing something that is already written. I can make a quick adjustment if I want to, but most of the time it is ready to send. That alone saves a surprising amount of time and mental energy.
+The system that actually works is one where the note gets captured in the moment, and the email gets drafted from that note rather than from memory hours later.
 
-## Why This Makes a Difference in the Classroom
+That's the problem I built [ShortHand](/install) to solve. You log a quick behavior note during the school day -- voice-to-text while walking, one tap to select the student, done in under five seconds. Later, ShortHand uses that log to draft a parent communication that's already clear, specific, and professional. You review it, adjust the tone if you want, and send.
 
-When writing emails becomes faster, communication becomes more consistent. You reach out sooner. You follow up more often. And small issues get addressed before they turn into bigger ones.
+Instead of staring at a blank screen trying to remember what happened, you're reviewing something that's already written. The hardest part is already done.
 
-It also takes pressure off at the end of the day, which matters more than most people realize.
+## Why This Matters Beyond Saving Time
 
-## If Writing Behavior Emails Slows You Down
+When writing behavior emails becomes faster and easier, the communication becomes more consistent. You reach out sooner. You follow up more often. Small issues get addressed before they grow into bigger conversations.
 
-If you find yourself putting off emails, overthinking your wording, or running out of time to follow through - it is not a communication problem. It is a workflow problem.
+It also takes pressure off at the end of the day. And honestly, that matters more than most people realize.
 
-You are already doing the hard part by noticing and documenting behavior. The goal is to make the next step easier.
+Clear and consistent communication with families is one of the most powerful tools a teacher has. It doesn't have to be perfect. It just has to happen.
 
-[ShortHand](/) is built to take what you already have and turn it into something you can send in seconds.
+The easier it is to do, the more often it will happen. And that is what makes the real difference.
 
-👉 [Try it here](/) - if it saves you even a few minutes a day, it adds up quickly. And more importantly, it helps you stay ahead of issues instead of reacting to them later.
+---
 
-## Final Thought
-
-Clear and consistent communication with families is one of the most powerful tools you have. It does not have to be perfect. It just has to happen.
-
-The easier it is to do, the more often it will happen. And that is what really makes the difference.
+*Gregory Lebed is a 3rd grade teacher with 20+ years of K-8 experience and a Registered Behavior Technician (RBT) certification.*

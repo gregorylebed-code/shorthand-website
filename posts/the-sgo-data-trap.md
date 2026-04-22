@@ -10,25 +10,61 @@ It's 4:30 PM on a Tuesday. The classroom is empty, the janitor is down the hall,
 
 If you're a teacher in New Jersey, you know exactly where I was: SGO Hell.
 
-This week was my SGO deadline. As a 3rd-grade math teacher, I had to:
+## What the SGO Process Actually Looks Like
 
-- Export the Fall i-Ready scores.
-- Export the Winter i-Ready scores.
-- Manually cross-reference names to ensure I was only counting "continuous" students.
-- Calculate the growth points for each individual kid.
-- Print the lists because I work better with paper.
-- Re-print the lists, but the first time didn't work for some unknown reason.
-- Use a calculator to find my percentages (Yes, I know I am a math teacher using a calculator!)
-- Stare at the screen so long I forgot if 8+7 was 15 or 16.
+For anyone outside New Jersey, SGO stands for Student Growth Objectives. Every teacher in the state has to set measurable goals for student growth at the start of the year and then prove, with data, whether those goals were met. It's tied to your evaluation. It matters.
 
-An experienced teacher told me they finished theirs in 20 minutes. Me? It took four hours. Why? because the data lives in silos, and teachers are the ones stuck building the bridges between them.
+The concept is reasonable. The execution is a nightmare.
 
-I didn't build ShortHand to replace the diagnostic tests. I built it to replace the copy-pasting. Teachers shouldn't have to be data scientists; we should be educators.
+This week was my SGO deadline. As a 3rd-grade math teacher, here is what the process actually required:
 
-When I envisioned myself as a teacher, spending hours on paperwork every week was not top of mind. Spending about an hour per day writing behavior notes wasn't either.
+- Export the Fall i-Ready diagnostic scores
+- Export the Winter i-Ready diagnostic scores
+- Manually cross-reference names to make sure I was only counting "continuous" students (kids who were enrolled for the full period)
+- Calculate the growth points for each individual student
+- Print the lists because I work better with paper
+- Re-print the lists because the first attempt didn't work
+- Use a calculator to find my percentages
+- Stare at the screen so long I started second-guessing whether 8 plus 7 was 15 or 16
 
-One of the core features I'm refining in ShortHand right now is a Reporting Engine that understands these specific cycles. Whether it's an SGO or a weekly progress update, the goal is "one-click clarity" - taking those hours of manual comparison and turning them into seconds of actual insight.
+An experienced teacher told me she finished hers in 20 minutes. Mine took four hours.
 
-If you've spent your week cross-referencing spreadsheets instead of planning lessons, I'd love to hear your "SGO Horror Story." I'm currently looking for beta testers to help me make sure the ShortHand reporting tool hits the mark for next season.
+## Why It Takes So Long
 
-[Try ShortHand for free](https://getshorthandapp.com/install)
+The reason it takes this long isn't that the math is hard. It's that the data lives in silos.
+
+Your diagnostic scores are in one system. Your attendance and enrollment data is somewhere else. The growth calculations have to be done manually. And you -- the teacher who has been in the classroom every day since September -- are the one stuck building the bridges between all of it.
+
+Nobody in the district has designed a system that does this automatically. So instead of analyzing student growth, you're doing data entry. Instead of thinking about what the numbers mean and what to do next year, you're cross-referencing spreadsheets and hoping you didn't accidentally include the kid who transferred in March.
+
+## The Bigger Problem This Points To
+
+The SGO process is an extreme example of a problem that shows up every week in a less dramatic form.
+
+Teachers are expected to produce professional-grade data documentation. The systems available to them don't make that easy. So the gap gets filled by teacher time. Friday afternoon. Tuesday evening. The extra hour before the deadline.
+
+This is the same problem that happens with parent communication, IEP documentation, behavior reports, and progress notes. The expectation exists. The tool to meet it efficiently does not.
+
+Most of the apps that are supposed to help are built for the data entry part -- getting information into a system. They fall short on the other side: getting useful output out of that system without spending hours on it.
+
+## What I'm Building to Fix This
+
+I didn't build ShortHand to replace the diagnostic tests. I'm not solving the i-Ready problem directly. But I am building something that addresses the core issue: teachers shouldn't have to be data scientists to do their jobs.
+
+One of the features I'm actively developing is a reporting engine that understands school cycles. SGOs, quarterly progress updates, IEP data points, weekly parent summaries. The goal is that your logged observations translate into formatted reports without a four-hour data entry session.
+
+The vision is simple: you log things as they happen throughout the year, in a few seconds each time, and when the deadline comes, the summary is already there. You review it, clean it up if needed, and submit it. Not four hours. Maybe twenty minutes.
+
+## If You're a New Jersey Teacher, I Want to Hear Your Story
+
+The SGO experience is specific to New Jersey, but the underlying frustration is universal. Teachers everywhere are being asked to produce documentation that requires more administrative time than anyone actually budgeted for when they designed the evaluation system.
+
+I'm currently looking for beta testers -- especially teachers who deal with data-heavy reporting requirements. If you've sat through your own version of SGO Hell and you want to help shape a tool that makes it better, I'd love to talk.
+
+[Try ShortHand for free](/install) and reach out if you want to be involved in the beta. The more real teacher problems I hear about, the better the tool gets.
+
+Teachers shouldn't have to be the bridge between broken data systems. That's what the software is supposed to do.
+
+---
+
+*Gregory Lebed is a 3rd grade teacher with 20+ years of K-8 experience and a Registered Behavior Technician (RBT) certification. He teaches 3rd grade math and science in New Jersey.*
