@@ -12,21 +12,21 @@ The blank screen fatigue is real. You want to be honest without being alarming, 
 
 After 20+ years in K-8 classrooms and a Registered Behavior Technician certification, I learned that the best parent behavior emails are short, objective, and collaborative. I stopped reinventing the wheel and started using scripts.
 
-Here are five copy-paste templates for sample emails to parents about student behavior — so you can clear your inbox and get home on time.
+Here are five copy-paste templates for sample emails to parents about student behavior - so you can clear your inbox and get home on time.
 
 ## Why Parent Behavior Emails Matter More Than You Think
 
-Before the templates — a quick word on why this communication is worth doing well.
+Before the templates - a quick word on why this communication is worth doing well.
 
-Parent emails about behavior aren't just administrative tasks. They're relationship investments. A teacher who reaches out proactively (before things escalate) builds the kind of trust that makes hard conversations much easier later. A parent who hears from you only when things are bad will be defensive. A parent who hears from you regularly — wins and losses — becomes a partner.
+Parent emails about behavior aren't just administrative tasks. They're relationship investments. A teacher who reaches out proactively (before things escalate) builds the kind of trust that makes hard conversations much easier later. A parent who hears from you only when things are bad will be defensive. A parent who hears from you regularly - wins and losses - becomes a partner.
 
-The other thing: written communication creates a record. If a behavior escalates, if there's ever a dispute about what was documented, if you're sitting in an IEP meeting six months from now — you want a paper trail. These emails are your documentation as much as they are communication.
+The other thing: written communication creates a record. If a behavior escalates, if there's ever a dispute about what was documented, if you're sitting in an IEP meeting six months from now - you want a paper trail. These emails are your documentation as much as they are communication.
 
 ## When to Email vs. Call
 
 Quick note before the templates.
 
-If it is something emotional, escalating, or likely to be misunderstood, call. Tone matters too much in those situations and email can make things worse. If a student had a significant outburst, made a threat, or was involved in something that could embarrass the family — call first, then follow up in writing.
+If it is something emotional, escalating, or likely to be misunderstood, call. Tone matters too much in those situations and email can make things worse. If a student had a significant outburst, made a threat, or was involved in something that could embarrass the family - call first, then follow up in writing.
 
 But for patterns, updates, and anything you want a paper trail on, a behavior email to parents works well. That is where having a solid template ready to go really saves time.
 
@@ -42,14 +42,14 @@ The best time to contact a parent about behavior is before there's a problem. Te
 
 > Hi [Parent/Guardian Name],
 >
-> I just wanted to share a quick highlight from today. [Student Name] was a rockstar during [Subject/Activity] — I specifically noticed how they [specific action, e.g., helped a peer without being asked / stayed focused for the full lesson].
+> I just wanted to share a quick highlight from today. [Student Name] was a rockstar during [Subject/Activity] - I specifically noticed how they [specific action, e.g., helped a peer without being asked / stayed focused for the full lesson].
 >
 > It was great to see that level of effort, and I wanted to make sure you heard about it too.
 >
 > Best,
 > [Your Name]
 
-**Why it works:** Short, specific, and positive. The specificity matters — "they were great today" lands differently than "they helped a classmate figure out a math problem without being asked." Specific praise is credible.
+**Why it works:** Short, specific, and positive. The specificity matters - "they were great today" lands differently than "they helped a classmate figure out a math problem without being asked." Specific praise is credible.
 
 ---
 
@@ -63,7 +63,7 @@ When something is happening repeatedly, vague language makes parents defensive. 
 
 > Hi [Parent/Guardian Name],
 >
-> I am reaching out to keep you in the loop on a pattern I have been seeing with [Student Name]. Lately, they have been struggling with [behavior] — specifically during [transition/subject].
+> I am reaching out to keep you in the loop on a pattern I have been seeing with [Student Name]. Lately, they have been struggling with [behavior] - specifically during [transition/subject].
 >
 > I have been supporting them by [briefly mention one strategy, e.g., providing a visual timer], but I wanted to see if you have any insight into what works best for them at home. I would love to make sure we are consistent so [Student Name] can get back to feeling successful in class.
 >
@@ -78,7 +78,7 @@ When something is happening repeatedly, vague language makes parents defensive. 
 
 **Use this when the behavior is too complex for an email chain.**
 
-Some conversations shouldn't happen over email. If a student's behavior involves emotional regulation, potential learning challenges, family stressors, or anything that requires nuance — get on the phone or meet in person. Don't let a complex situation drag out in a slow email thread.
+Some conversations shouldn't happen over email. If a student's behavior involves emotional regulation, potential learning challenges, family stressors, or anything that requires nuance - get on the phone or meet in person. Don't let a complex situation drag out in a slow email thread.
 
 **Subject:** Touching base regarding [Student Name]
 
@@ -124,7 +124,7 @@ This is the most underused template on the list. After any verbal conversation a
 
 **Use this for students on a behavior plan who need consistent communication.**
 
-For students with IEPs, 504s, or behavior intervention plans, consistent communication isn't optional — it's expected. A weekly pulse check keeps parents informed, keeps you accountable, and creates a documented timeline that's invaluable at review meetings.
+For students with IEPs, 504s, or behavior intervention plans, consistent communication isn't optional - it's expected. A weekly pulse check keeps parents informed, keeps you accountable, and creates a documented timeline that's invaluable at review meetings.
 
 **Subject:** Weekly Update: [Student Name]
 
@@ -138,12 +138,12 @@ For students with IEPs, 504s, or behavior intervention plans, consistent communi
 >
 > **Next Steps:** We will be focusing on [goal] starting Monday.
 >
-> Thanks for the partnership at home — it makes a huge difference.
+> Thanks for the partnership at home - it makes a huge difference.
 >
 > Best,
 > [Your Name]
 
-**Why it works:** Structured, fast to write, and balanced. Naming both wins and challenges in the same email is important — it builds credibility and prevents parents from feeling like updates only come when things are bad.
+**Why it works:** Structured, fast to write, and balanced. Naming both wins and challenges in the same email is important - it builds credibility and prevents parents from feeling like updates only come when things are bad.
 
 ---
 
@@ -151,13 +151,13 @@ For students with IEPs, 504s, or behavior intervention plans, consistent communi
 
 Templates solve the writing problem. They don't solve the memory problem.
 
-To write a good behavior email — even with a template — you need the details. The specific behavior. The time it happened. The context. What you tried. What worked.
+To write a good behavior email - even with a template - you need the details. The specific behavior. The time it happened. The context. What you tried. What worked.
 
-If you're relying on memory at 4 PM, you're going to write vague emails. "He was disruptive today" instead of "He had difficulty during the transition from reading to math at 10:20 — he refused to put his book away and raised his voice when redirected. I gave him a two-minute warning for transitions for the rest of the day and it helped."
+If you're relying on memory at 4 PM, you're going to write vague emails. "He was disruptive today" instead of "He had difficulty during the transition from reading to math at 10:20 - he refused to put his book away and raised his voice when redirected. I gave him a two-minute warning for transitions for the rest of the day and it helped."
 
 That second version is a professional document. It's useful in a parent meeting. It's useful in an IEP. The first version is noise.
 
-This is exactly the problem I built [ShortHand](/install) to solve. You log notes in under 5 seconds during the day — voice-to-text while walking, one tap to select the student. By the time 4 PM rolls around, ShortHand has already drafted a parent email from your notes. You review it, adjust the tone if needed, and send.
+This is exactly the problem I built [ShortHand](/install) to solve. You log notes in under 5 seconds during the day - voice-to-text while walking, one tap to select the student. By the time 4 PM rolls around, ShortHand has already drafted a parent email from your notes. You review it, adjust the tone if needed, and send.
 
 The templates above are useful. But the real unlock is having the documentation to fill them with something specific.
 
