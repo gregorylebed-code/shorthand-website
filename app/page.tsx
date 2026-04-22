@@ -318,11 +318,11 @@ export default function Home() {
           </div>
           <div className="showcase-stage" ref={showcaseRef}>
             {[
-              { src: '/mockup-quicknote.png',  label: 'Log a note in 5 seconds'      },
-              { src: '/mockup-report.png',     label: 'AI-written parent reports'    },
-              { src: '/mockup-grid.png',       label: 'Your whole class at a glance' },
-              { src: '/mockup-insights.png',   label: 'Track progress over time'     },
-              { src: '/mockup-parents.png',    label: 'Parent communication log'     },
+              { src: '/mockup-quicknote.webp',  label: 'Log a note in 5 seconds'      },
+              { src: '/mockup-report.webp',     label: 'AI-written parent reports'    },
+              { src: '/mockup-grid.webp',       label: 'Your whole class at a glance' },
+              { src: '/mockup-insights.webp',   label: 'Track progress over time'     },
+              { src: '/mockup-parents.webp',    label: 'Parent communication log'     },
             ].map((item, i) => (
               <div key={i} className={`showcase-phone showcase-phone--${i}`}>
                 <Image src={item.src} alt={item.label} width={320} height={650} className="showcase-img" />
