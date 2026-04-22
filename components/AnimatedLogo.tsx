@@ -1,3 +1,5 @@
+'use client';
+import { motion } from 'framer-motion';
 import Link from 'next/link';
 
 const LETTERS = ['S','h','o','r','t','H','a','n','d'];
@@ -5,18 +7,16 @@ const COLORS  = ['#e2725b','#34d399','#f59e0b','#60a5fa','#a78bfa','#e2725b','#3
 
 export default function AnimatedLogo() {
   return (
-    <Link href="/" className="nav-logo" style={{ display: 'flex', letterSpacing: '0.02em', fontFamily: "var(--font-fk, sans-serif)", fontWeight: 700 }}>
+    <Link href="/" className="nav-logo" style={{ display: 'flex', letterSpacing: '0.02em', fontFamily: "var(--font-fredoka, sans-serif)", fontWeight: 700 }}>
       {LETTERS.map((letter, i) => (
-        <span
+        <motion.span
           key={i}
-          style={{
-            color: COLORS[i],
-            display: 'inline-block',
-            animation: `logo-bounce 1.2s ease-in-out ${i * 0.1}s infinite`,
-          }}
+          style={{ color: COLORS[i], display: 'inline-block' }}
+          animate={{ y: [0, -5, 0] }}
+          transition={{ duration: 1.2, repeat: Infinity, ease: 'easeInOut', delay: i * 0.1 }}
         >
           {letter}
-        </span>
+        </motion.span>
       ))}
     </Link>
   );
