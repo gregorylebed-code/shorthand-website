@@ -35,8 +35,31 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     notFound();
   }
 
+  const blogPostingSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": post.excerpt,
+    "datePublished": post.date,
+    "dateModified": post.date,
+    "author": {
+      "@type": "Person",
+      "name": "Gregory Lebed",
+      "jobTitle": "3rd Grade Teacher",
+      "url": "https://getshorthandapp.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "ShortHand",
+      "logo": { "@type": "ImageObject", "url": "https://getshorthandapp.com/icon.png" }
+    },
+    "url": `https://getshorthandapp.com/blog/${slug}`,
+    "mainEntityOfPage": `https://getshorthandapp.com/blog/${slug}`
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }} />
       <div className="glow-field" aria-hidden>
         <span className="g1" /><span className="g2" /><span className="g3" />
         <span className="g4" /><span className="g5" />
