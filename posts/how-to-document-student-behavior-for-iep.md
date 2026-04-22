@@ -2,7 +2,7 @@
 title: "How to Document Student Behavior for IEP Meetings (Without Losing Your Mind)"
 subtitle: "A realistic system from someone who has collected data both ways"
 date: "2026-04-13"
-author: "Greg"
+author: "Gregory Lebed"
 excerpt: "General ed teachers are expected to show up to IEP meetings with real behavior data, but nobody teaches them how. Here's a simple system that actually works during a real school day."
 ---
 

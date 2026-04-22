@@ -2,7 +2,7 @@
 title: "How to Track Student Behavior Data (Without Falling Behind During the School Day)"
 subtitle: "A realistic system that actually survives contact with real students"
 date: "2026-04-09"
-author: "Greg"
+author: "Gregory Lebed"
 excerpt: "Learn how to track student behavior data quickly and consistently. A simple system for teachers that works during real classroom instruction."
 ---
 

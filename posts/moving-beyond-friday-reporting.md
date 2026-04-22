@@ -2,7 +2,7 @@
 title: "Moving Beyond the Friday Reporting Grind"
 subtitle: "Moving Beyond the Friday Reporting Grind"
 date: "2026-04-07"
-author: "Greg"
+author: "Gregory Lebed"
 excerpt: "It's 4:00 PM on a Friday. The building is mostly empty, and I'm staring at a blank email draft. I have four parent updates to write - and I can barely remember Tuesday."
 ---
 

@@ -2,7 +2,7 @@
 title: "5 Apps That Actually Save Me Time (From a 3rd Grade Teacher's Desk)"
 subtitle: "No fluff. No three-hour PD sessions. Just the tools I actually use."
 date: "2026-03-15"
-author: "Greg"
+author: "Gregory Lebed"
 excerpt: "Most 'teacher apps' are just extra chores. Here's the no-fluff stack I'm using in 2026 to stay organized and keep my sanity."
 ---
 

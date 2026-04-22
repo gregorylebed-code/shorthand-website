@@ -2,7 +2,7 @@
 title: "How to Write Behavior Emails to Parents (Without Overthinking Every Word)"
 subtitle: "A simple structure that makes parent communication faster and less stressful"
 date: "2026-03-22"
-author: "Greg"
+author: "Gregory Lebed"
 excerpt: "Writing behavior emails to parents can feel harder than it should be - not because you don't know what happened, but because you want to say it the right way. Here's a simple structure that helps."
 ---
 
