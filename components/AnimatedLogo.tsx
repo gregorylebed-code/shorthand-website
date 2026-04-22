@@ -7,7 +7,7 @@ const COLORS  = ['#e2725b','#34d399','#f59e0b','#60a5fa','#a78bfa','#e2725b','#3
 
 export default function AnimatedLogo() {
   return (
-    <Link href="/" className="nav-logo" style={{ display: 'flex', letterSpacing: '0.02em', fontFamily: "'Fredoka', sans-serif", fontWeight: 700 }}>
+    <Link href="/" className="nav-logo" style={{ display: 'flex', letterSpacing: '0.02em', fontFamily: "var(--font-fredoka, sans-serif)", fontWeight: 700 }}>
       {LETTERS.map((letter, i) => (
         <motion.span
           key={i}

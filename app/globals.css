@@ -15,8 +15,8 @@
   --text: #f0ebe2;
   --text-dim: #a09b93;
   --text-faint: #5a5750;
-  --font-display: 'Space Grotesk', system-ui, sans-serif;
-  --font-body: 'Inter', system-ui, sans-serif;
+  --font-display: system-ui, sans-serif;
+  --font-body: system-ui, sans-serif;
   --radius: 16px;
 }
 
