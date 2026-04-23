@@ -111,7 +111,7 @@ function buildPrompt(name: string, selected: Set<string>, extra: string, length:
     struggles.length ? `Areas for growth: ${struggles.join(', ')}.` : '',
     behavior.length ? `Social and behavior observations: ${behavior.join(', ')}.` : '',
     extra.trim() ? `Additional context from the teacher: ${extra.trim()}.` : '',
-    'Be specific and avoid hollow phrases like "a pleasure to have in class." Write as if the teacher genuinely knows this student. Never use em dashes (—) under any circumstances.',
+    'Only mention what is explicitly listed — do not invent or assume specific skills, behaviors, or details that were not provided. If math is listed as a strength, say the student does well in math — do not guess whether it is number sense, problem solving, or anything else. Never use em dashes (—) under any circumstances.',
   ];
   return parts.filter(Boolean).join(' ');
 }
