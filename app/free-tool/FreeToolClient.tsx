@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import Link from 'next/link';
 
 const SECTIONS = [
@@ -65,18 +65,18 @@ const SECTIONS = [
   },
 ];
 
-const CHIP_COLORS: Record<string, { active: string; inactive: string }> = {
+const CHIP_COLORS: Record<string, { active: React.CSSProperties; inactive: React.CSSProperties }> = {
   teal: {
-    active: 'bg-teal-600 text-white border-teal-600 shadow-sm',
-    inactive: 'bg-teal-50 text-teal-800 border-teal-200 hover:bg-teal-100 hover:border-teal-400',
+    active: { background: '#0d9488', color: '#fff', borderColor: '#0d9488' },
+    inactive: { background: '#f0fdfa', color: '#134e4a', borderColor: '#99f6e4' },
   },
   amber: {
-    active: 'bg-amber-500 text-white border-amber-500 shadow-sm',
-    inactive: 'bg-amber-50 text-amber-800 border-amber-200 hover:bg-amber-100 hover:border-amber-400',
+    active: { background: '#f59e0b', color: '#fff', borderColor: '#f59e0b' },
+    inactive: { background: '#fffbeb', color: '#78350f', borderColor: '#fde68a' },
   },
   violet: {
-    active: 'bg-violet-600 text-white border-violet-600 shadow-sm',
-    inactive: 'bg-violet-50 text-violet-800 border-violet-200 hover:bg-violet-100 hover:border-violet-400',
+    active: { background: '#7c3aed', color: '#fff', borderColor: '#7c3aed' },
+    inactive: { background: '#f5f3ff', color: '#4c1d95', borderColor: '#ddd6fe' },
   },
 };
 
@@ -254,8 +254,17 @@ export default function FreeToolClient() {
                   <button
                     key={item.id}
                     onClick={() => toggle(item.id)}
-                    className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${selected.has(item.id) ? colors.active : colors.inactive}`}
-                    style={{ fontFamily: 'inherit' }}
+                    style={{
+                      fontFamily: 'inherit',
+                      padding: '6px 12px',
+                      borderRadius: 999,
+                      fontSize: 12,
+                      fontWeight: 600,
+                      border: '1.5px solid',
+                      cursor: 'pointer',
+                      transition: 'all 0.15s',
+                      ...(selected.has(item.id) ? colors.active : colors.inactive),
+                    }}
                   >
                     {item.label}
                   </button>
