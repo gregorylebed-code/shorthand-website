@@ -1,83 +1,102 @@
 ---
-title: "Tired of the Noise? Why I Built a ClassDojo Alternative for Data-Driven Teachers"
-subtitle: "ClassDojo is great - until it isn't. Here's what I switched to and why."
+title: "ShortHand vs ClassDojo: An Honest Comparison From a Teacher Who Used Both"
+subtitle: "Not which one is better — which one is right for your classroom."
 date: "2026-04-06"
 author: "Gregory Lebed"
-excerpt: "I used ClassDojo for years. I liked it for years. But adding a new haircut to your monster wasn't enough to keep my 3rd graders from misbehaving. I needed something more professional. So I built it."
+excerpt: "I used ClassDojo for years. Then I built ShortHand. Here's the honest side-by-side — what each one actually does well, and which teachers should be using which."
 ---
 
-I have used ClassDojo for many years. And I liked it for many years. It still has its time and place. But I teach 3rd grade now. Adding a new haircut to your monster was not enough to keep my students from misbehaving. I needed something different - something a bit more professional and a bit more useful for my aging brain. I needed a way to track behavior, moods, and academic trends without the "fluff."
+I used ClassDojo for years. I'm not here to trash it.
 
-I tried a few other apps. Nothing fit. So I just built it myself.
+ClassDojo does what it was designed to do. If you're in K-2 and your students respond to avatar points and parent-facing updates, it works. I've seen it work. I used it myself and liked it — for a while.
 
-That's why I built ShortHand.
+But somewhere around 3rd grade, the gamification stopped landing. My most behaviorally complex students had mentally checked out of their monster avatars by November. And when I sat in an IEP meeting and someone asked me for documentation, I had a screen full of colored bubbles and nothing I could actually hand across the table.
 
-## Why Look for a ClassDojo Alternative?
+That's when I started looking. And when I couldn't find what I needed, I built it. That's ShortHand.
 
-Teachers usually start searching for an alternative when they hit one of these three walls:
+Here's the honest comparison.
 
-**The "Maturity" Gap:** By 3rd, 4th, and 5th grade, the cartoonish monster points stop working. The novelty wears off and you're left with a behavior system that your students have mentally checked out of. The app that worked beautifully in September becomes background noise by November.
+## What ClassDojo Is Actually Good At
 
-**Data Fatigue:** You have 1,000 "points" logged, but what does that actually tell you about a student's progress over the last month? When a parent emails asking why their child's behavior "suddenly" changed, or when you're sitting in an IEP meeting and someone asks for documentation - a point total doesn't help. You need notes. You need patterns. You need something that holds up.
+Before we get into the differences, let's be clear about where ClassDojo wins.
 
-**Reporting Speed:** Spending 20 minutes drafting a behavior email is 20 minutes you don't have. After a full day with 25 kids, your bandwidth for professional writing is exactly zero. You need a system that does the heavy lifting for you - not one that hands you a blank page and wishes you luck.
+**Student engagement in early grades.** The avatar system genuinely motivates younger students. In K-2, earning points for a cartoon character works. It's visual, immediate, and kids care about it.
 
-## The Problem No One Talks About: Documentation That Disappears
+**Parent communication feed.** ClassDojo's class story and messaging features are well-designed. Parents can follow along with photos and updates without needing to check email. It's a good low-friction way to keep families connected.
 
-Here's the thing about ClassDojo that nobody says out loud: when the school year ends, your data is basically gone. You can't easily pull a behavior report from October to show a middle school counselor in June. You can't export a clean timeline of a student's progress to share with a specialist. The data exists in a format that's useful for day-to-day engagement but not for the professional documentation teachers actually need.
+**Ease of setup.** You can have ClassDojo running in a classroom in under 10 minutes. The onboarding is smooth and most parents already have the app.
 
-I sat in an IEP meeting once where I had to say "I know it happened, I just can't show you the exact dates." That's not a good feeling. That's not a situation I wanted to be in again.
+If those are your priorities, ClassDojo is genuinely hard to beat.
 
-## How ShortHand Does It Differently
+## Where ClassDojo Falls Short
 
-ShortHand isn't a point tracker. It's built around the idea that the faster logging is, the more you'll actually do it - and the more you do it, the more useful your data becomes.
+The problems tend to show up around 3rd grade and above — and they compound the longer you rely on the system.
 
-**Real-Time Logging Without Stopping Your Lesson:** Use voice-to-text to log what's happening while you're walking between desks. No stopping, no interrupting the class, no forgetting by the time you get back to your desk. The note is timestamped and saved the second you say it.
+**The data doesn't hold up.** A point total tells you a student was present and got feedback. It doesn't tell you whether their behavior improved after a seat change, or what time of day they tend to struggle, or what happened in the three days before an IEP meeting. When documentation actually matters, points aren't documentation.
 
-**Smart Tagging:** ShortHand automatically categorizes your notes by theme - participation, behavior, academic, social-emotional. Over time you get a picture of each student that's richer than any point system can provide.
+**Logging takes you out of the lesson.** Navigating to a student and adding a note during a live class costs you 60-90 seconds minimum. That's enough time to lose the room. Most teachers stop logging mid-year because the friction is too high.
 
-**AI-Powered Reporting:** This is the part I'm most proud of. ShortHand takes your raw logged notes and uses AI to generate professional progress reports - from a single week to a full school year - in seconds. Not a template with blanks to fill in. An actual narrative, in your voice, based on your real observations.
+**The data doesn't travel.** At the end of the year, your ClassDojo data stays in ClassDojo. You can't easily hand a behavioral timeline to a next-year teacher, a counselor, or a specialist. The records exist in a format built for day-to-day engagement, not professional documentation.
 
-**Parent Communication in One Tap:** When you need to reach out to a parent, ShortHand drafts the email from your behavior logs. You review it, adjust if needed, and send. What used to take 15 minutes now takes 90 seconds.
-
-**Data That Goes Somewhere:** Every note is searchable, filterable, and exportable. When you need documentation for an IEP, a 504, or an admin conversation, it's ready.
-
-## ClassDojo vs. ShortHand: The Honest Comparison
+## ShortHand vs ClassDojo: Side by Side
 
 | Feature | ClassDojo | ShortHand |
-|---------|-----------|-----------|
-| Age-appropriate for older students | Not always | Yes - no avatars or gamification |
-| Speed of logging | Moderate | Under 5 seconds |
-| AI-generated reports | No | Yes |
+|--------|-----------|-----------|
+| Best age range | PreK–2nd grade | 3rd grade and up |
+| Student engagement (gamification) | Yes — avatars and points | No — built for teachers, not students |
+| Speed of logging | 60–90 seconds | Under 10 seconds |
+| Voice-to-text logging | No | Yes |
+| AI-generated behavior reports | No | Yes |
 | IEP-ready documentation | Limited | Built for it |
-| Parent communication drafting | Manual | AI-assisted |
-| Works on any device | Yes | Yes (PWA) |
+| Parent communication drafting | Manual | AI-assisted from your notes |
+| Data export | Limited | Searchable, filterable, exportable |
+| Works on any device | Yes | Yes (PWA — no app store) |
 | Free to use | Free tier available | Free during beta |
 
-## Who Is ShortHand For?
+## The Logging Speed Problem
 
-ShortHand is not for every teacher. If the social-media feel of ClassDojo energizes your classroom and your students respond to it - stay there. It works for what it's designed for.
+This is the one that doesn't get talked about enough.
 
-But if you are:
-- Teaching 3rd grade and up, where gamification is losing its grip
-- Being asked to document behavior for IEPs, 504s, or admin conversations
-- Spending too much time writing parent emails from scratch
-- Carrying the mental load of 25 students' behavioral patterns in your head
+If your documentation system takes more than 10 seconds per entry, you will gradually stop using it. Not because you're lazy — because you're teaching 25 kids at the same time and every second you spend on an app is a second you're not watching the room.
 
-Then ShortHand was built for exactly your situation. I know because it was built for my situation first.
+ShortHand is built around this constraint. Voice-to-text while you're walking between desks. One tap to select the student. The note is timestamped and saved before you've taken three steps. You don't have to stop. You don't have to navigate. You don't have to remember later.
 
-## What Teachers Are Saying
+The behavior you log at 10:23 AM is still accurate at 4:00 PM. The behavior you meant to log at 10:23 AM is a blur by lunch.
 
-I built ShortHand for myself, but other teachers have been in the beta and the response has been consistent: "I didn't know how much time I was wasting until I stopped wasting it."
+## The IEP Documentation Problem
 
-One teacher told me she used to spend her Sunday nights pre-writing emails for the week, just so she'd have something to work from. After two weeks with ShortHand, she said she stopped doing that entirely.
+If you serve students with IEPs, 504s, or behavior intervention plans, this one matters a lot.
 
-That's the goal. Get you out by 4:00. Get your evenings back.
+ClassDojo wasn't built for special education documentation. When someone asks for a pattern of behavior over the last 60 days — in writing, with dates, in a format that can be printed or shared — a screenshot of colored bubbles isn't going to hold up.
 
-## Try It Free
+ShortHand logs are timestamped, categorized by behavioral theme, and exportable. When you need to show that a student's aggressive behavior increased after a schedule change, or that their on-task rate improved after a seating adjustment, that data is there. You don't have to reconstruct it from memory.
 
-ShortHand is a Progressive Web App - there's nothing to download. You can install it on your phone, tablet, or laptop in about 30 seconds, and it's free during beta.
+I built this feature specifically because I was tired of being the least-prepared person in the room during IEP meetings — not because I hadn't been watching, but because I hadn't been documenting in a format that translated to the table.
 
-If you're ready to replace your behavior system with something built for the reality of a K-8 classroom, [try ShortHand here](/install).
+## Which One Is Right for You
 
-No credit card. No app store. No monster haircuts.
+**Stay with ClassDojo if:**
+- You teach K-2 and your students respond to the gamification
+- Parent engagement through the app feed is a priority
+- You don't have IEP documentation requirements
+- Your behavior tracking needs are light
+
+**Switch to ShortHand if:**
+- You teach 3rd grade and up and the avatar system has lost its effect
+- You need behavior records that hold up in IEP or admin conversations
+- You're spending too much time writing parent emails from scratch
+- You want logging that takes under 10 seconds during a live lesson
+
+There's no universal right answer. But there is a right answer for your specific situation.
+
+## Try ShortHand Free
+
+ShortHand is a Progressive Web App — nothing to download, works on your phone, tablet, or school laptop. It's free during beta and takes about 30 seconds to install.
+
+[Try it here](/install) — there's a live demo that requires no sign-up.
+
+No avatars. No monster haircuts. Just documentation that holds up when you need it.
+
+---
+
+*Gregory Lebed is a 3rd grade teacher with 20+ years of K-8 experience and a Registered Behavior Technician (RBT) certification. He built ShortHand to solve the documentation problems he faced in his own classroom.*
