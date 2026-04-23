@@ -94,7 +94,7 @@ const LENGTH_INSTRUCTIONS: Record<string, string> = {
 
 const TONE_INSTRUCTIONS: Record<string, string> = {
   casual:
-    'Write in a warm, conversational tone — like a teacher talking directly to a family. Friendly, personal, and approachable.',
+    'Write in a warm, conversational tone — like a teacher talking directly to a family. Friendly, personal, and approachable. Use everyday language a parent would naturally use. Avoid formal or academic vocabulary like "aptitude," "demonstrate," or "consistently exhibits."',
   academic:
     'Write in a formal, professional tone suitable for official school records. Precise, measured, and objective.',
 };
