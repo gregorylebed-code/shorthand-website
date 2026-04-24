@@ -57,7 +57,7 @@ export default function DpaPage() {
             <div className="privacy-desc">
               <strong style={{ color: 'var(--text)' }}>"School" or "District"</strong> means the educational institution entering into this agreement.<br /><br />
               <strong style={{ color: 'var(--text)' }}>"ShortHand"</strong> means GetShortHand LLC, the operator of the ShortHand application.<br /><br />
-              <strong style={{ color: 'var(--text)' }}>"Student Data"</strong> means any personally identifiable information (PII) related to students that is entered into ShortHand by school personnel, including but not limited to: student names, behavioral notes, mood check-ins, parent contact information, and class assignments.<br /><br />
+              <strong style={{ color: 'var(--text)' }}>"Student Data"</strong> means any personally identifiable information (PII) related to students that is entered into ShortHand by school personnel, including but not limited to: student names, behavioral notes, parent contact information, and class assignments.<br /><br />
               <strong style={{ color: 'var(--text)' }}>"Authorized Users"</strong> means teachers and school staff who have been granted access to ShortHand by the School.
             </div>
           </div>
