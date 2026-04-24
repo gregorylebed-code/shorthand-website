@@ -1,0 +1,27 @@
+'use client';
+import Link from 'next/link';
+
+export default function Footer() {
+  return (
+    <footer>
+      <div className="footer-logo">ShortHand</div>
+      <div className="footer-tagline">Built by a teacher, for teachers.</div>
+      <div className="footer-tagline" style={{ fontSize: '0.75rem', opacity: 0.5, marginTop: '0.25rem' }}>
+        ShortHand: An Education Technology Platform for K-12 Teachers
+      </div>
+      <a href="mailto:gregorylebed@gmail.com" className="footer-email">
+        gregorylebed@gmail.com
+      </a>
+      <div className="footer-copy">
+        © 2026 ShortHand. All rights reserved. ·{' '}
+        <Link href="/privacy" style={{ color: 'var(--text-dim)', textDecoration: 'none' }}>
+          Privacy Policy
+        </Link>{' '}
+        ·{' '}
+        <Link href="/terms" style={{ color: 'var(--text-dim)', textDecoration: 'none' }}>
+          Terms of Service
+        </Link>
+      </div>
+    </footer>
+  );
+}

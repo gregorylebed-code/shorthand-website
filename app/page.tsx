@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import AnimatedLogo from '../components/AnimatedLogo';
 import { Pencil, ClipboardList, Mail, School, BarChart2, CalendarDays, Brain, Timer, Menu, X } from 'lucide-react';
 import featuredPost from '../posts/featured.json';
+import Footer from '../components/Footer';
 
 const SplineHero = dynamic(() => import('../components/SplineHero'), { ssr: false });
 const GlobeCanvas = dynamic(() => import('../components/GlobeCanvas'), { ssr: false });
@@ -314,7 +315,7 @@ export default function Home() {
         <div className="section-inner">
           <div className="showcase-header">
             <div className="section-label">Everything in one place</div>
-            <h2 className="section-heading">Five seconds to log.<br /><em>Hours saved every week.</em></h2>
+            <h2 className="section-heading">How ShortHand saves<br /><em>teachers hours every week.</em></h2>
           </div>
           <div className="showcase-stage" ref={showcaseRef}>
             {[
@@ -338,7 +339,7 @@ export default function Home() {
         <div className="section-inner" ref={featuresRef}>
           <div className="features-header">
             <div className="section-label">What it does</div>
-            <h2 className="section-heading">Six tools to get you<br /><em>out by 4:00.</em></h2>
+            <h2 className="section-heading">The classroom management tools<br /><em>teachers actually need.</em></h2>
             <p className="section-sub">Built around the problems teachers actually face every day — not the ones app developers imagine.</p>
           </div>
           <div className="features-grid">
@@ -620,7 +621,7 @@ export default function Home() {
         <div className="section-inner">
           <div style={{ maxWidth: '720px', margin: '0 auto' }}>
             <div className="section-label" style={{ marginBottom: '0.75rem' }}>Common Questions</div>
-            <h2 className="section-heading" style={{ marginBottom: '2.5rem' }}>Everything you <em>want to know.</em></h2>
+            <h2 className="section-heading" style={{ marginBottom: '2.5rem' }}>ShortHand FAQ: <em>Everything you need to know.</em></h2>
             {[
               {
                 q: 'What is ShortHand?',
@@ -842,15 +843,8 @@ export default function Home() {
       <section style={{ display: 'none' }} aria-hidden="true">
         <p>ShortHand is an education technology application designed to improve teacher productivity and student progress tracking. Built for K–12 educators, ShortHand supports pedagogy, classroom management, behavior documentation, parent communication, and data-driven instruction. This tool helps teachers track student growth, generate progress reports, and maintain organized records — all in support of positive educational outcomes. ShortHand is a legitimate SaaS product for schools, districts, and individual educators seeking teacher productivity tools and classroom management software.</p>
       </section>
-
       {/* FOOTER */}
-      <footer>
-        <div className="footer-logo">ShortHand</div>
-        <div className="footer-tagline">Built by a teacher, for teachers.</div>
-        <div className="footer-tagline" style={{ fontSize: '0.75rem', opacity: 0.5, marginTop: '0.25rem' }}>ShortHand: An Education Technology Platform for K-12 Teachers</div>
-        <a href="mailto:hello@getshorthand.app" className="footer-email">hello@getshorthand.app</a>
-        <div className="footer-copy">© 2026 ShortHand. All rights reserved. · <a href="/privacy" style={{ color: 'var(--text-dim)', textDecoration: 'none' }}>Privacy Policy</a> · <a href="/terms" style={{ color: 'var(--text-dim)', textDecoration: 'none' }}>Terms of Service</a></div>
-      </footer>
+      <Footer />
     </>
   );
 }

@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import AnimatedLogo from '../../../components/AnimatedLogo';
 import TrackedLink from '../../../components/TrackedLink';
 import FeatureNav from '../../../components/FeatureNav';
+import Footer from '../../../components/Footer';
 
 export const metadata: Metadata = {
   title: 'Quick Note — ShortHand',
@@ -18,8 +19,19 @@ export const metadata: Metadata = {
 };
 
 export default function QuickNotePage() {
+  const videoSchema = {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "ShortHand Quick Note Walkthrough",
+    "description": "See how to log a student behavior note in under 5 seconds using ShortHand's Quick Note feature.",
+    "thumbnailUrl": "https://getshorthandapp.com/og-image.png",
+    "uploadDate": "2026-03-20",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/6-wrVnpMLiA"
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchema) }} />
       <div className="glow-field" aria-hidden>
         <span className="g1" /><span className="g2" /><span className="g3" />
         <span className="g4" />
@@ -80,12 +92,7 @@ export default function QuickNotePage() {
         <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_quick-note">Get Started Free →</TrackedLink>
       </div>
 
-      <footer>
-        <div className="footer-logo">ShortHand</div>
-        <div className="footer-tagline">Built by a teacher, for teachers.</div>
-        <a href="mailto:hello@getshorthand.app" className="footer-email">hello@getshorthand.app</a>
-        <div className="footer-copy">© 2026 ShortHand. All rights reserved.</div>
-      </footer>
+      <Footer />
     </>
   );
 }
