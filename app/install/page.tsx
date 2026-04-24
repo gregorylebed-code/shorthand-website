@@ -9,21 +9,21 @@ type Tab = typeof tabs[number];
 
 const steps: Record<Tab, { icon: string; text: string }[]> = {
   iPhone: [
-    { icon: '🌐', text: 'Open Safari and go to classroom-pulse-public.vercel.app' },
+    { icon: '🌐', text: 'Tap the "Open App" button at the top of this page to open ShortHand in Safari' },
     { icon: '📤', text: 'Tap the Share button at the bottom of the screen (the box with an arrow pointing up)' },
     { icon: '➕', text: 'Scroll down and tap "Add to Home Screen"' },
     { icon: '✏️', text: 'Name it "ShortHand" and tap Add' },
     { icon: '🎉', text: 'ShortHand now appears on your home screen like any other app — tap to open!' },
   ],
   Android: [
-    { icon: '🌐', text: 'Open Chrome and go to classroom-pulse-public.vercel.app' },
+    { icon: '🌐', text: 'Tap the "Open App" button at the top of this page to open ShortHand in Chrome' },
     { icon: '⋮', text: 'Tap the three-dot menu in the top-right corner' },
     { icon: '➕', text: 'Tap "Add to Home screen"' },
     { icon: '✏️', text: 'Name it "ShortHand" and tap Add' },
     { icon: '🎉', text: 'ShortHand now appears on your home screen like any other app — tap to open!' },
   ],
   Desktop: [
-    { icon: '🌐', text: 'Open Chrome (or Edge) and go to classroom-pulse-public.vercel.app' },
+    { icon: '🌐', text: 'Click the "Open App" button at the top of this page to open ShortHand in your browser' },
     { icon: '⬇️', text: 'Look for the install icon in the address bar (a computer with a down arrow), then click it' },
     { icon: '➕', text: 'Click "Install" in the prompt that appears' },
     { icon: '🎉', text: 'ShortHand opens as its own window and appears in your taskbar or dock — no browser needed!' },
