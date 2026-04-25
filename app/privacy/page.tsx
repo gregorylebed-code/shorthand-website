@@ -147,7 +147,7 @@ export default function PrivacyPage() {
             <div className="privacy-title">Contact</div>
             <div className="privacy-desc">
               Questions about this policy or your data? Reach out anytime:<br /><br />
-              <a href="mailto:hello@getshorthand.app" style={{ color: 'var(--accent)' }}>hello@getshorthand.app</a><br /><br />
+              <a href="mailto:gregorylebed@gmail.com" style={{ color: 'var(--accent)' }}>gregorylebed@gmail.com</a><br /><br />
               We're a small team and we'll respond personally.
             </div>
           </div>
@@ -158,7 +158,7 @@ export default function PrivacyPage() {
       <footer>
         <div className="footer-logo">ShortHand</div>
         <div className="footer-tagline">Built by a teacher, for teachers.</div>
-        <a href="mailto:hello@getshorthand.app" className="footer-email">hello@getshorthand.app</a>
+        <a href="mailto:gregorylebed@gmail.com" className="footer-email">gregorylebed@gmail.com</a>
         <div className="footer-copy">© 2026 ShortHand. All rights reserved.</div>
       </footer>
     </>

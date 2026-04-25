@@ -77,7 +77,7 @@ export default function NeverMissPage() {
       <footer>
         <div className="footer-logo">ShortHand</div>
         <div className="footer-tagline">Built by a teacher, for teachers.</div>
-        <a href="mailto:hello@getshorthand.app" className="footer-email">hello@getshorthand.app</a>
+        <a href="mailto:gregorylebed@gmail.com" className="footer-email">gregorylebed@gmail.com</a>
         <div className="footer-copy">© 2026 ShortHand. All rights reserved.</div>
       </footer>
     </>

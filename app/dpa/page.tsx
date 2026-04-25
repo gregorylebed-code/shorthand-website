@@ -46,7 +46,7 @@ export default function DpaPage() {
           <div style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '1rem', padding: '1.75rem 2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             <div style={{ fontSize: '1.05rem', fontWeight: 600, color: 'var(--text)' }}>Need a signed DPA?</div>
             <p style={{ color: 'var(--text-dim)', lineHeight: 1.6, margin: 0 }}>
-              Email us at <a href="mailto:hello@getshorthand.app" style={{ color: 'var(--accent)' }}>hello@getshorthand.app</a> with your district name and we'll
+              Email us at <a href="mailto:gregorylebed@gmail.com" style={{ color: 'var(--accent)' }}>gregorylebed@gmail.com</a> with your district name and we'll
               return a countersigned copy within 2 business days. The full agreement terms are below.
             </p>
           </div>
@@ -155,7 +155,7 @@ export default function DpaPage() {
             <div className="privacy-title">Contact</div>
             <div className="privacy-desc">
               To request a countersigned DPA, report a concern, or ask questions about this agreement:<br /><br />
-              <a href="mailto:hello@getshorthand.app" style={{ color: 'var(--accent)' }}>hello@getshorthand.app</a><br /><br />
+              <a href="mailto:gregorylebed@gmail.com" style={{ color: 'var(--accent)' }}>gregorylebed@gmail.com</a><br /><br />
               ShortHand / GetShortHand LLC
             </div>
           </div>
@@ -166,7 +166,7 @@ export default function DpaPage() {
       <footer>
         <div className="footer-logo">ShortHand</div>
         <div className="footer-tagline">Built by a teacher, for teachers.</div>
-        <a href="mailto:hello@getshorthand.app" className="footer-email">hello@getshorthand.app</a>
+        <a href="mailto:gregorylebed@gmail.com" className="footer-email">gregorylebed@gmail.com</a>
         <div className="footer-copy">© 2026 ShortHand. All rights reserved.</div>
       </footer>
     </>
