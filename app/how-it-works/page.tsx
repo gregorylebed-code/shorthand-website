@@ -38,10 +38,46 @@ export default function HowItWorksPage() {
         <div className="section-label">See It In Action</div>
         <h1 className="install-title">How ShortHand<br /><em>Works</em></h1>
         <p className="install-sub">
-          ShortHand has grown a lot. New walkthroughs are coming soon — but the best way
-          to see it is to try it yourself. It&apos;s free, installs in seconds, and works
-          on any device.
+          Watch these quick walkthroughs to see ShortHand in action — setup to first note in under 2 minutes.
         </p>
+      </div>
+
+      <div className="section-inner" style={{ maxWidth: 860, margin: '0 auto', padding: '0 1.5rem 4rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <div style={{ position: 'relative', width: '100%', paddingBottom: '177.78%', borderRadius: '1rem', overflow: 'hidden', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)' }}>
+              <iframe
+                src="https://www.youtube.com/embed/dRkj1wg2LT8"
+                title="Create an account, add students, and log behavior notes"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+              />
+            </div>
+            <div>
+              <div style={{ fontWeight: 600, color: 'var(--text)', fontSize: '1rem', marginBottom: '0.3rem' }}>Getting Started</div>
+              <p style={{ color: 'var(--text-dim)', fontSize: '0.9rem', lineHeight: 1.5, margin: 0 }}>Create your account, add your students, and start logging behavior notes — all in a couple of minutes.</p>
+            </div>
+          </div>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <div style={{ position: 'relative', width: '100%', paddingBottom: '177.78%', borderRadius: '1rem', overflow: 'hidden', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)' }}>
+              <iframe
+                src="https://www.youtube.com/embed/VsuP_59xxT0"
+                title="Create a quick note home and email it to the family"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+              />
+            </div>
+            <div>
+              <div style={{ fontWeight: 600, color: 'var(--text)', fontSize: '1rem', marginBottom: '0.3rem' }}>Sending a Note Home</div>
+              <p style={{ color: 'var(--text-dim)', fontSize: '0.9rem', lineHeight: 1.5, margin: 0 }}>Write a quick note to a family and send it as an email — directly from the app, in seconds.</p>
+            </div>
+          </div>
+
+        </div>
       </div>
 
       <div className="detail-cta-section" style={{ paddingTop: '1rem' }}>
