@@ -25,7 +25,7 @@ export default function QuickNotePage() {
     "name": "ShortHand Quick Note Walkthrough",
     "description": "See how to log a student behavior note in under 5 seconds using ShortHand's Quick Note feature.",
     "thumbnailUrl": "https://getshorthandapp.com/og-image.png",
-    "uploadDate": "2026-03-20",
+    "uploadDate": "2026-03-20T00:00:00+00:00",
     "embedUrl": "https://www.youtube-nocookie.com/embed/6-wrVnpMLiA"
   };
 
