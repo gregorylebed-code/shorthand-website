@@ -27,7 +27,7 @@ const fredoka = Fredoka({
 export const metadata: Metadata = {
   metadataBase: new URL('https://getshorthandapp.com'),
   title: 'ShortHand — K-12 Teacher Productivity App for Classroom Management',
-  description: 'ShortHand is an education technology platform for K-12 teachers. Classroom management, student progress tracking, behavior documentation, and AI-generated reports — built by a teacher, for teachers.',
+  description: 'ShortHand helps K-12 teachers log student behavior, generate AI progress reports, and send parent messages — built by a teacher, for teachers.',
   icons: {
     icon: '/icon.png',
     apple: '/apple-icon.png',
@@ -40,6 +40,7 @@ export const metadata: Metadata = {
     description: 'Tap a student. Type a note. Done in 5 seconds. Classroom management, behavior tracking, AI reports, and parent communication — built by a teacher, for teachers.',
     url: 'https://getshorthandapp.com',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'ShortHand — Built by a teacher, for teachers.' }],
+    locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
@@ -96,58 +97,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           "url": "https://getshorthandapp.com",
           "logo": "https://getshorthandapp.com/icon.png",
           "email": "gregorylebed@gmail.com",
+          "sameAs": [
+            "https://www.tiktok.com/@shorthandapp",
+            "https://www.instagram.com/shorthandapp"
+          ],
           "founder": {
             "@type": "Person",
             "name": "Gregory Lebed",
             "jobTitle": "3rd Grade Teacher"
           }
-        })}} />
-        {/* JSON-LD Schema — FAQ (AI Search / GEO Optimization) */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is ShortHand?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "ShortHand is a behavior tracking app built for K-12 teachers. It lets you log student notes in under 5 seconds using voice or text, track behavior patterns over time, generate AI-written progress reports, and send parent messages instantly."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Do I need to download ShortHand from an app store?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. ShortHand is a Progressive Web App (PWA) that works in your browser on any device (phone, tablet, or computer). You can add it to your home screen for an app-like experience without any download required."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does ShortHand help with parent communication?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "ShortHand uses AI to turn your raw behavior notes into professional, parent-ready messages in seconds. It also maintains a full communication log, making it easy to prepare for IEP meetings and parent-teacher conferences."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can ShortHand track behavior patterns over time?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. ShortHand provides visual trend charts showing progress over 4 to 52 weeks. Smart trend badges highlight students who are improving and those who might need more attention."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Does ShortHand alert me if I haven't logged notes for a student?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. ShortHand features color-coded status rings that glow red if a student hasn't been logged in 8+ days, ensuring that no student quietly slips through the cracks."
-              }
-            }
-          ]
         })}} />
         {/* Metricool */}
         <script defer dangerouslySetInnerHTML={{ __html: `function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"70e9d586aaa068ee70b5eb8c25ffa853"})});` }} />
