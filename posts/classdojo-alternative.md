@@ -1,14 +1,14 @@
 ---
 title: "ShortHand vs ClassDojo: An Honest Comparison From a Teacher Who Used Both"
-subtitle: "Not which one is better — which one is right for your classroom."
+subtitle: "Not which one is better. Which one is right for your classroom."
 date: "2026-04-06"
 author: "Gregory Lebed"
-excerpt: "I used ClassDojo for years. Then I built ShortHand. Here's the honest side-by-side — what each one actually does well, and which teachers should be using which."
+excerpt: "I used ClassDojo for years. Then I built ShortHand. Here's the honest side-by-side: what each one actually does well, and which teachers should be using which."
 ---
 
 I used ClassDojo for years. I'm not here to trash it.
 
-ClassDojo does what it was designed to do. If you're in K-2 and your students respond to avatar points and parent-facing updates, it works. I've seen it work. I used it myself and liked it — for a while.
+ClassDojo does what it was designed to do. If you're in K-2 and your students respond to avatar points and parent-facing updates, it works. I've seen it work. I used it myself and liked it. For a while.
 
 But somewhere around 3rd grade, the gamification stopped landing. My most behaviorally complex students had mentally checked out of their monster avatars by November. And when I sat in an IEP meeting and someone asked me for documentation, I had a screen full of colored bubbles and nothing I could actually hand across the table.
 
@@ -30,7 +30,7 @@ If those are your priorities, ClassDojo is genuinely hard to beat.
 
 ## Where ClassDojo Falls Short
 
-The problems tend to show up around 3rd grade and above — and they compound the longer you rely on the system.
+The problems tend to show up around 3rd grade and above, and they compound the longer you rely on the system.
 
 **The data doesn't hold up.** A point total tells you a student was present and got feedback. It doesn't tell you whether their behavior improved after a seat change, or what time of day they tend to struggle, or what happened in the three days before an IEP meeting. When documentation actually matters, points aren't documentation.
 
@@ -43,21 +43,21 @@ The problems tend to show up around 3rd grade and above — and they compound th
 | Feature | ClassDojo | ShortHand |
 |--------|-----------|-----------|
 | Best age range | PreK–2nd grade | 3rd grade and up |
-| Student engagement (gamification) | Yes — avatars and points | No — built for teachers, not students |
+| Student engagement (gamification) | Yes (avatars and points) | No - built for teachers, not students |
 | Speed of logging | 60–90 seconds | Under 10 seconds |
 | Voice-to-text logging | No | Yes |
 | AI-generated behavior reports | No | Yes |
 | IEP-ready documentation | Limited | Built for it |
 | Parent communication drafting | Manual | AI-assisted from your notes |
 | Data export | Limited | Searchable, filterable, exportable |
-| Works on any device | Yes | Yes (PWA — no app store) |
+| Works on any device | Yes | Yes (PWA, no app store) |
 | Free to use | Free tier available | Free during beta |
 
 ## The Logging Speed Problem
 
 This is the one that doesn't get talked about enough.
 
-If your documentation system takes more than 10 seconds per entry, you will gradually stop using it. Not because you're lazy — because you're teaching 25 kids at the same time and every second you spend on an app is a second you're not watching the room.
+If your documentation system takes more than 10 seconds per entry, you will gradually stop using it. Not because you're lazy. Because you're teaching 25 kids at the same time and every second you spend on an app is a second you're not watching the room.
 
 ShortHand is built around this constraint. Voice-to-text while you're walking between desks. One tap to select the student. The note is timestamped and saved before you've taken three steps. You don't have to stop. You don't have to navigate. You don't have to remember later.
 
@@ -67,11 +67,11 @@ The behavior you log at 10:23 AM is still accurate at 4:00 PM. The behavior you 
 
 If you serve students with IEPs, 504s, or behavior intervention plans, this one matters a lot.
 
-ClassDojo wasn't built for special education documentation. When someone asks for a pattern of behavior over the last 60 days — in writing, with dates, in a format that can be printed or shared — a screenshot of colored bubbles isn't going to hold up.
+ClassDojo wasn't built for special education documentation. When someone asks for a pattern of behavior over the last 60 days - in writing, with dates, in a format that can be printed or shared - a screenshot of colored bubbles isn't going to hold up.
 
 ShortHand logs are timestamped, categorized by behavioral theme, and exportable. When you need to show that a student's aggressive behavior increased after a schedule change, or that their on-task rate improved after a seating adjustment, that data is there. You don't have to reconstruct it from memory.
 
-I built this feature specifically because I was tired of being the least-prepared person in the room during IEP meetings — not because I hadn't been watching, but because I hadn't been documenting in a format that translated to the table.
+I built this feature specifically because I was tired of being the least-prepared person in the room during IEP meetings. Not because I hadn't been watching, but because I hadn't been documenting in a format that translated to the table.
 
 ## Which One Is Right for You
 
@@ -91,9 +91,9 @@ There's no universal right answer. But there is a right answer for your specific
 
 ## Try ShortHand Free
 
-ShortHand is a Progressive Web App — nothing to download, works on your phone, tablet, or school laptop. It's free during beta and takes about 30 seconds to install.
+ShortHand is a Progressive Web App. Nothing to download, works on your phone, tablet, or school laptop. It's free during beta and takes about 30 seconds to install.
 
-[Try it here](/install) — there's a live demo that requires no sign-up.
+[Try it here](/install). There's a live demo that requires no sign-up.
 
 No avatars. No monster haircuts. Just documentation that holds up when you need it.
 

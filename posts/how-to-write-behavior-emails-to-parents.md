@@ -126,7 +126,7 @@ Here are three real examples using that structure. Fill in the details for your 
 
 > Hi [Parent name],
 >
-> I'm reaching out because I've noticed a pattern over the past week that I wanted to share with you. During transitions — particularly from math to lunch — [Student] has been having difficulty managing frustration. On three occasions this week, they became upset and needed a few minutes to calm down before rejoining the class.
+> I'm reaching out because I've noticed a pattern over the past week that I wanted to share with you. During transitions (particularly from math to lunch), [Student] has been having difficulty managing frustration. On three occasions this week, they became upset and needed a few minutes to calm down before rejoining the class.
 >
 > I've been giving them a two-minute warning before transitions and that's been helping. I want to make sure we're working on this together, so I'd love to hear if you're seeing anything similar at home or if there are strategies that tend to work well for them.
 >
@@ -141,7 +141,7 @@ Here are three real examples using that structure. Fill in the details for your 
 
 > Hi [Parent name],
 >
-> I need to share an incident that happened today during recess. [Student] and another student had a disagreement that became physical — [Student] pushed the other student. No one was hurt, and both students were brought inside to talk through what happened. [Student] took responsibility and apologized.
+> I need to share an incident that happened today during recess. [Student] and another student had a disagreement that became physical. [Student] pushed the other student. No one was hurt, and both students were brought inside to talk through what happened. [Student] took responsibility and apologized.
 >
 > I've spoken with them about why that kind of response isn't okay and what to do instead. We're going to check in again tomorrow.
 >
@@ -152,7 +152,7 @@ Here are three real examples using that structure. Fill in the details for your 
 
 ---
 
-These are starting points, not scripts. The most effective emails are the ones that include the real details from your specific situation. The more specific you are, the more useful the message becomes — for the parent and for your own records.
+These are starting points, not scripts. The most effective emails are the ones that include the real details from your specific situation. The more specific you are, the more useful the message becomes, for the parent and for your own records.
 
 ## The Real Problem: Finding the Time and Details
 
