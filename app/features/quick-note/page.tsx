@@ -25,8 +25,8 @@ export default function QuickNotePage() {
     "name": "ShortHand Quick Note Walkthrough",
     "description": "See how to log a student behavior note in under 5 seconds using ShortHand's Quick Note feature.",
     "thumbnailUrl": "https://getshorthandapp.com/og-image.png",
-    "uploadDate": "2026-03-20T00:00:00+00:00",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/6-wrVnpMLiA"
+    "uploadDate": "2026-04-26T00:00:00+00:00",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/C2vBvjfRQ2U"
   };
 
   return (
@@ -75,7 +75,7 @@ export default function QuickNotePage() {
 
         <div className="video-frame-wrap" style={{ maxWidth: 360, marginBottom: 80 }}>
           <iframe
-            src="https://www.youtube-nocookie.com/embed/6-wrVnpMLiA?enablejsapi=1"
+            src="https://www.youtube-nocookie.com/embed/C2vBvjfRQ2U?enablejsapi=1"
             title="Quick Note walkthrough"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
