@@ -99,7 +99,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           "email": "gregorylebed@gmail.com",
           "sameAs": [
             "https://www.tiktok.com/@shorthandapp",
-            "https://www.instagram.com/shorthandapp"
+            "https://www.instagram.com/getshorthand_app/"
           ],
           "founder": {
             "@type": "Person",
