@@ -1,7 +1,7 @@
 ---
 title: "What to Say When You Call a Parent About Behavior (Scripts That Work)"
 subtitle: "The exact words to use from the opening line to the close."
-date: "2026-04-27"
+date: "2026-04-25"
 author: "Gregory Lebed"
 excerpt: "Parent calls about behavior don't have to be painful. Here are the scripts and strategies that actually work, for every situation from routine check-ins to defensive parents."
 ---
