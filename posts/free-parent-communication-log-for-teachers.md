@@ -44,7 +44,7 @@ One field most teachers skip but shouldn't: **follow-up**. If you told a parent 
 
 If you prefer paper, a simple table with those five columns is all you need. Print one sheet per student and keep them in a binder, or use one sheet per week for your whole class.
 
-[Download a free printable version here](#) — no email required, no sign-up. Just a clean, one-page PDF you can print and use today.
+[Open the free printable log →](https://getshorthandapp.com/tools/parent-communication-log) — fill it in online and print, or print blank and fill by hand. No email required, no sign-up.
 
 If you want a digital option, a spreadsheet works fine too. One row per contact, one tab per class.
 
