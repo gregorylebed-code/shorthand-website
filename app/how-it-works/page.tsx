@@ -92,6 +92,9 @@ export default function HowItWorksPage() {
         >
           Get ShortHand →
         </motion.a>
+        <div style={{ marginTop: '2rem', fontSize: '0.9rem', color: 'var(--text-dim)' }}>
+          Related: <Link href="/blog/why-teachers-are-switching-from-classdojo-to-shorthand" style={{ color: 'var(--accent, #a78bfa)' }}>Why teachers are switching from ClassDojo in 2026</Link> · <Link href="/blog/free-parent-email-templates-for-teachers" style={{ color: 'var(--accent, #a78bfa)' }}>Free parent email templates</Link>
+        </div>
       </div>
 
       <footer>

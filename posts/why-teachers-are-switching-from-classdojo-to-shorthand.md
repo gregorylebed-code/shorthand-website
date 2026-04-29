@@ -90,4 +90,8 @@ That's not a problem. That's just Tuesday.
 
 ---
 
+**Related reading:** [Free parent email templates for teachers](/blog/free-parent-email-templates-for-teachers) · [7 reasons you're Googling ClassDojo alternatives](/blog/7-reasons-classdojo-alternatives)
+
+---
+
 *Gregory Lebed is a 3rd grade teacher with 20+ years of K-8 experience and a Registered Behavior Technician (RBT) certification. He built ShortHand because nothing else fit what he actually needed in a real classroom.*
