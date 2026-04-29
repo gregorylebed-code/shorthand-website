@@ -26,7 +26,7 @@ const fredoka = Fredoka({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://getshorthandapp.com'),
-  title: 'ShortHand — K-12 Teacher Productivity App for Classroom Management',
+  title: 'ShortHand App — Behavior Tracking & Parent Communication for K-12 Teachers',
   description: 'ShortHand helps K-12 teachers log student behavior, generate AI progress reports, and send parent messages — built by a teacher, for teachers.',
   icons: {
     icon: '/icon.png',
