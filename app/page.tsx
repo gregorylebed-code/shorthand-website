@@ -845,6 +845,27 @@ export default function Home() {
       <section style={{ display: 'none' }} aria-hidden="true">
         <p>ShortHand is an education technology application designed to improve teacher productivity and student progress tracking. Built for K–12 educators, ShortHand supports pedagogy, classroom management, behavior documentation, parent communication, and data-driven instruction. This tool helps teachers track student growth, generate progress reports, and maintain organized records — all in support of positive educational outcomes. ShortHand is a legitimate SaaS product for schools, districts, and individual educators seeking teacher productivity tools and classroom management software.</p>
       </section>
+      {/* Blog links — internal linking for SEO */}
+      <section style={{ padding: '3rem 1.5rem', borderTop: '1px solid rgba(255,255,255,0.06)' }}>
+        <div style={{ maxWidth: '860px', margin: '0 auto' }}>
+          <div className="section-label" style={{ marginBottom: '1rem' }}>From the Blog</div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem' }}>
+            <Link href="/blog/why-teachers-are-switching-from-classdojo-to-shorthand" style={{ padding: '1.25rem', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.08)', textDecoration: 'none', display: 'block' }}>
+              <div style={{ fontSize: '0.95rem', fontWeight: 600, color: 'var(--text)', marginBottom: '0.35rem', lineHeight: 1.4 }}>Why Teachers Are Switching from ClassDojo in 2026</div>
+              <div style={{ fontSize: '0.85rem', color: 'var(--text-dim)' }}>Read more →</div>
+            </Link>
+            <Link href="/blog/free-parent-email-templates-for-teachers" style={{ padding: '1.25rem', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.08)', textDecoration: 'none', display: 'block' }}>
+              <div style={{ fontSize: '0.95rem', fontWeight: 600, color: 'var(--text)', marginBottom: '0.35rem', lineHeight: 1.4 }}>Free Parent Email Templates for Teachers</div>
+              <div style={{ fontSize: '0.85rem', color: 'var(--text-dim)' }}>Read more →</div>
+            </Link>
+            <Link href="/blog/7-reasons-classdojo-alternatives" style={{ padding: '1.25rem', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.08)', textDecoration: 'none', display: 'block' }}>
+              <div style={{ fontSize: '0.95rem', fontWeight: 600, color: 'var(--text)', marginBottom: '0.35rem', lineHeight: 1.4 }}>7 Reasons You're Googling "ClassDojo Alternatives"</div>
+              <div style={{ fontSize: '0.85rem', color: 'var(--text-dim)' }}>Read more →</div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* FOOTER */}
       <Footer />
     </>
