@@ -213,7 +213,7 @@ export default function Home() {
             <a href="#features" className="nav-link">Features</a>
             <a href="/how-it-works" className="nav-link">How It Works</a>
             <a href="/blog" className="nav-link">Blog</a>
-            <a href="https://classroom-pulse-public.vercel.app/free-tool" className="nav-link" style={{ color: '#22c55e', fontWeight: 700 }} rel="nofollow">Free Tool</a>
+            <a href="https://app.getshorthandapp.com/free-tool" className="nav-link" style={{ color: '#22c55e', fontWeight: 700 }} rel="nofollow">Free Tool</a>
             <a href="/privacy" className="nav-link" style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>🔒 Privacy</a>
             <a href="/terms" className="nav-link">Terms</a>
           </div>
@@ -283,7 +283,7 @@ export default function Home() {
             <p className="hero-demo-nudge">
               Curious?{' '}
               <a
-                href="https://classroom-pulse-public.vercel.app?demo=true"
+                href="https://app.getshorthandapp.com?demo=true"
                 rel="nofollow"
                 onClick={() => (window as Window & { gtag?: (...args: unknown[]) => void }).gtag?.('event', 'cta_click', { event_category: 'engagement', event_label: 'hero_try_demo' })}
               >
@@ -488,7 +488,7 @@ export default function Home() {
               </p>
             </div>
             <motion.a
-              href="https://classroom-pulse-public.vercel.app/free-tool"
+              href="https://app.getshorthandapp.com/free-tool"
               rel="nofollow"
               whileHover={btnHover}
               whileTap={btnTap}

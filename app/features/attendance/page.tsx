@@ -31,7 +31,7 @@ export default function AttendancePage() {
             <AnimatedLogo />
             <span className="nav-badge">Built by a Teacher</span>
           </div>
-          <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="nav_try_free_attendance">Get ShortHand</TrackedLink>
+          <TrackedLink href="https://app.getshorthandapp.com" className="btn-primary" label="nav_try_free_attendance">Get ShortHand</TrackedLink>
         </div>
       </nav>
 
@@ -70,7 +70,7 @@ export default function AttendancePage() {
       <div className="detail-cta-section">
         <h2 className="detail-cta-heading">Ready to try it?</h2>
         <p className="detail-cta-sub">Free to start. Works on any device.</p>
-        <TrackedLink href="https://classroom-pulse-public.vercel.app" className="btn-primary" label="cta_get_started_attendance">Get Started Free →</TrackedLink>
+        <TrackedLink href="https://app.getshorthandapp.com" className="btn-primary" label="cta_get_started_attendance">Get Started Free →</TrackedLink>
       </div>
 
       <footer>
